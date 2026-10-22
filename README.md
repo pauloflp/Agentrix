@@ -1,44 +1,51 @@
-# Paulo GPT | AI Skills Pack
+# AGENTRIX
 
-### 15 skills organizadas para produzir com IA de forma mais estruturada
+### AI Skills. Better Workflows.
 
-**Motion design · Interfaces · Dashboards · Pesquisa · Desenvolvimento · Marketing**
+**15 skills especializadas para agentes de inteligência artificial.** Organize tarefas de motion, front-end, dashboards, pesquisa, desenvolvimento e marketing usando instruções `SKILL.md` reutilizáveis.
 
-Uma biblioteca de instruções operacionais em formato `SKILL.md` criada para ajudar agentes compatíveis a planejar, executar e verificar trabalhos complexos. Não é um novo modelo de IA e não aumenta a janela de contexto do ChatGPT.
+**Oferta planejada: R$ 14,90 (compra única).** **Ainda não estamos recebendo pagamentos reais.** O Stripe disponível nesta conexão está em modo de teste, e a entrega pós-pagamento ainda não foi automatizada.
 
-> **Preço de lançamento planejado: R$ 14,90 (pagamento único).** Vendas ainda **não habilitadas**: não há checkout oficial nem entrega paga configurada. Este repositório já disponibiliza gratuitamente os 15 arquivos para leitura pública.
+## Explore a biblioteca
 
-## O que você encontra aqui
-
-| Área | Skills de destaque | Exemplo de aplicação |
-|---|---|---|
-| Audiovisual | motion-direction, ai-video-handoff, remotion-engineering | Planejar cenas, prompts e verificação de vídeo |
-| Design & front-end | brand-guardian, premium-frontend, react-code-quality | Criar interface com critérios de identidade e QA |
-| BI & pesquisa | dashboard-intelligence, data-provenance, research-verification | KPI rastreável e separação de dado observado e estimado |
-| Memória & organização | context-retrieval, memory-governance, workflow-orchestration | Organizar conhecimento e fluxo de tarefas |
-| Comercial & revisão | commercial-copy, creative-brief, qa-release-gate | Copy comercial e checklist de entrega |
-
-## Exemplo de uso
-
-1. Escolha uma tarefa, como "criar um motion comercial de 30 segundos".
-2. Consulte [SKILL_ROUTER.md](SKILL_ROUTER.md) para descobrir a skill principal.
-3. Leia [skills/motion-direction/SKILL.md](skills/motion-direction/SKILL.md) e as complementares sugeridas.
-4. Forneça essas instruções a um agente compatível ou configure um ambiente que carregue arquivos `SKILL.md`.
-5. Revise o resultado usando os critérios de qualidade. Apenas armazenar arquivos no GitHub **não ativa skills automaticamente em todas as conversas do ChatGPT**.
-
-## Comece por aqui
-
-- [Índice das 15 skills](skills/index.json)
-- [Roteador de tarefas](SKILL_ROUTER.md)
-- [Exemplo: direção de motion](skills/motion-direction/SKILL.md)
-- [Exemplo: dashboards](skills/dashboard-intelligence/SKILL.md)
+- [Índice completo com as 15 skills](skills/index.json)
+- [Roteador inteligente de tarefas](SKILL_ROUTER.md)
+- [Motion design](skills/motion-direction/SKILL.md)
+- [Dashboards e indicadores](skills/dashboard-intelligence/SKILL.md)
+- [Qualidade e revisão](skills/qa-release-gate/SKILL.md)
 - [Instruções para agentes compatíveis](AGENTS.md)
-- [Condições comerciais propostas](COMMERCIAL_LICENSE_DRAFT.md)
 
-## Transparência e direitos de uso
+## Como funciona
 
-Este projeto foi organizado para disponibilizar instruções especializadas. Não é afiliado oficialmente a OpenAI, GitHub, Remotion, Anthropic ou Vercel. As técnicas gerais descritas não são reivindicadas como exclusivas. O repositório está público e pode ser visualizado e bifurcado dentro do GitHub segundo seus termos. A oferta comercial proposta é de um pacote organizado e orientado; não de acesso exclusivo a arquivos ocultos.
+1. Escolha o projeto que quer realizar.
+2. Consulte o roteador para identificar quais skills se aplicam.
+3. Forneça as instruções ao agente ou configure um ambiente que carregue os arquivos `SKILL.md`.
+4. Revise a entrega pelos critérios de qualidade.
 
-**Quer acompanhar?** Use uma estrela no GitHub, sugira melhorias por issues e acompanhe novas versões. Não publique credenciais ou dados de clientes em contribuições.
+**Importante:** GitHub não ativa skills globalmente no ChatGPT, nem aumenta sua janela de contexto. Este repositório é público e os arquivos acima já podem ser lidos gratuitamente. O produto comercial futuro precisará agregar valor de empacotamento, instalação e documentação, sem prometer exclusividade sobre os arquivos públicos.
 
-*Status: documentação e vitrine pública disponíveis; checkout, pagamento e acesso pago ainda não implementados.*
+## Checkout de demonstração (sem cobrança real)
+
+[Experimentar fluxo de pagamento no Stripe, apenas modo de teste](https://buy.stripe.com/test_6oUaEY1hoe2P6vn5YidEs00)
+
+Este link é **sandbox/teste**. Não usar dinheiro real. A simulação não oferece entrega automática de arquivos. Nenhum pedido real será aceito neste estágio.
+
+## Situação do lançamento
+
+| Componente | Estado |
+|---|---|
+| Biblioteca de 15 skills | Publicada |
+| Roteamento por tipo de tarefa | Documentado |
+| Produto no Stripe | Criado em teste |
+| Preço único de R$ 14,90 | Criado em teste |
+| Checkout Stripe | Link de teste disponível |
+| Checkout de produção | Não disponível |
+| Entrega automática pós-pagamento | Pendente |
+
+[Minuta de condições comerciais](COMMERCIAL_LICENSE_DRAFT.md). Condições ainda dependem de revisão, especialmente a licença, suporte e eventual política de reembolso.
+
+### Contribuições
+
+Sugestões são bem-vindas por issues e forks. Não compartilhe segredos, senhas ou materiais privados de clientes.
+
+Agentrix é um projeto independente, sem afiliação oficial com GitHub, OpenAI, Stripe, Remotion, Vercel ou outras plataformas citadas.
