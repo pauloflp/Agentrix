@@ -24,11 +24,9 @@
 
 **Importante:** GitHub não ativa skills globalmente no ChatGPT, nem aumenta sua janela de contexto. Este repositório é público e os arquivos acima já podem ser lidos gratuitamente. O produto comercial futuro precisará agregar valor de empacotamento, instalação e documentação, sem prometer exclusividade sobre os arquivos públicos.
 
-## Checkout de demonstração (sem cobrança real)
+## Pagamento
 
-[Experimentar fluxo de pagamento no Stripe, apenas modo de teste](https://buy.stripe.com/test_6oUaEY1hoe2P6vn5YidEs00)
-
-Este link é **sandbox/teste**. Não usar dinheiro real. A simulação não oferece entrega automática de arquivos. Nenhum pedido real será aceito neste estágio.
+**Checkout de produção em configuração.** O link de compra será publicado aqui somente após a verificação da conta Stripe em modo real e a confirmação do fluxo de entrega digital. Não efetue pagamentos por links compartilhados fora deste repositório.
 
 ## Situação do lançamento
 
@@ -36,9 +34,9 @@ Este link é **sandbox/teste**. Não usar dinheiro real. A simulação não ofer
 |---|---|
 | Biblioteca de 15 skills | Publicada |
 | Roteamento por tipo de tarefa | Documentado |
-| Produto no Stripe | Criado em teste |
-| Preço único de R$ 14,90 | Criado em teste |
-| Checkout Stripe | Link de teste disponível |
+| Produto no Stripe | Necessário confirmar em modo real |
+| Preço único de R$ 14,90 | Necessário confirmar em modo real |
+| Checkout Stripe | Aguardando validação em modo real |
 | Checkout de produção | Não disponível |
 | Entrega automática pós-pagamento | Pendente |
 
