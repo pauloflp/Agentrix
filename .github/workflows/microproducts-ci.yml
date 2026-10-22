@@ -29,6 +29,7 @@ jobs:
           - agentrix-env-contract
           - agentrix-utm-audit
           - agentrix-csv-guard
+          - agentrix-json-diff
     steps:
       - name: Check out public source
         uses: actions/checkout@v4
