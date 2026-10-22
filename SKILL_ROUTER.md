@@ -1,4 +1,4 @@
-# Skill Router — Paulo GPT
+# Skill Router — Agentrix
 
 ## Purpose
 Select and load appropriate project skills before executing a task. This is a **repository instruction**, not an automatic ChatGPT account setting.
