@@ -44,17 +44,22 @@ A free, offline, zero-dependency Node.js CLI to check campaign URLs for missing,
 
 A free, offline CSV quality-check CLI that flags inconsistent columns, malformed quoting, duplicate or missing headers, and optional spreadsheet-formula risks. Includes tests and an MIT license.
 
+### [Agentrix JSON Diff](products/agentrix-json-diff/README.md)
+
+A free, offline, zero-dependency Node.js CLI comparing JSON files. Identifies added, removed and modified values at precise paths. Includes tests and an MIT license. Object property order is ignored; arrays are compared by index.
+
 ### Run the microproduct tests
 
-Both tools require Node.js 20 or newer. From the repository root:
+All four tools require Node.js 20 or newer. From the repository root:
 
 ```bash
 (cd products/agentrix-env-contract && npm test)
 (cd products/agentrix-utm-audit && npm test)
 (cd products/agentrix-csv-guard && npm test)
+(cd products/agentrix-json-diff && npm test)
 ```
 
-[GitHub Actions](https://github.com/pauloflp/Agentrix/actions/workflows/microproducts-ci.yml) runs both test suites on supported Node.js versions when product code changes. A passing check validates the included tests, not every possible use case.
+[GitHub Actions](https://github.com/pauloflp/Agentrix/actions/workflows/microproducts-ci.yml) runs microproduct test suites on supported Node.js versions when product code changes. A passing check validates the included tests, not every possible use case.
 
 ## Status
 
