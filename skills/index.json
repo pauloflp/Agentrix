@@ -1,0 +1,66 @@
+{
+  "version": "1.0",
+  "note": "Stored instructions only. Not automatic ChatGPT skill registration.",
+  "skills": [
+    {
+      "name": "creative-brief",
+      "path": "skills/creative-brief/SKILL.md"
+    },
+    {
+      "name": "motion-direction",
+      "path": "skills/motion-direction/SKILL.md"
+    },
+    {
+      "name": "remotion-engineering",
+      "path": "skills/remotion-engineering/SKILL.md"
+    },
+    {
+      "name": "ai-video-handoff",
+      "path": "skills/ai-video-handoff/SKILL.md"
+    },
+    {
+      "name": "brand-guardian",
+      "path": "skills/brand-guardian/SKILL.md"
+    },
+    {
+      "name": "premium-frontend",
+      "path": "skills/premium-frontend/SKILL.md"
+    },
+    {
+      "name": "react-code-quality",
+      "path": "skills/react-code-quality/SKILL.md"
+    },
+    {
+      "name": "dashboard-intelligence",
+      "path": "skills/dashboard-intelligence/SKILL.md"
+    },
+    {
+      "name": "data-provenance",
+      "path": "skills/data-provenance/SKILL.md"
+    },
+    {
+      "name": "research-verification",
+      "path": "skills/research-verification/SKILL.md"
+    },
+    {
+      "name": "context-retrieval",
+      "path": "skills/context-retrieval/SKILL.md"
+    },
+    {
+      "name": "memory-governance",
+      "path": "skills/memory-governance/SKILL.md"
+    },
+    {
+      "name": "workflow-orchestration",
+      "path": "skills/workflow-orchestration/SKILL.md"
+    },
+    {
+      "name": "qa-release-gate",
+      "path": "skills/qa-release-gate/SKILL.md"
+    },
+    {
+      "name": "commercial-copy",
+      "path": "skills/commercial-copy/SKILL.md"
+    }
+  ]
+}
