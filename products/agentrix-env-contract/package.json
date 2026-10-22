@@ -1,0 +1,15 @@
+{
+  "name": "agentrix-env-contract",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Zero-dependency env example drift checker",
+  "scripts": {
+    "test": "node --test",
+    "check:env": "node bin/env-contract.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
