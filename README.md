@@ -1,58 +1,50 @@
 # AGENTRIX
 
-### AI Skills. Better Workflows.
+**Tools for people who build.**
 
-**15 skills especializadas para agentes de inteligência artificial.** Organize tarefas de motion, front-end, dashboards, pesquisa, desenvolvimento e marketing usando instruções `SKILL.md` reutilizáveis.
+A growing collection of free tools and reusable AI agent skills for developers, designers, creative technologists, and marketers.
 
-**Oferta planejada: R$ 14,90 (compra única).** **Ainda não estamos recebendo pagamentos reais.** O Stripe disponível nesta conexão está em modo de teste, e a entrega pós-pagamento ainda não foi automatizada.
+## 15 free AI agent skills
 
-## Explore a biblioteca
+**All 15 skills are free to explore and use as reference instructions.** Browse the files directly, copy what you need, and adapt them within any applicable license and third-party terms.
 
-- [Índice completo com as 15 skills](skills/index.json)
-- [Roteador inteligente de tarefas](SKILL_ROUTER.md)
-- [Motion design](skills/motion-direction/SKILL.md)
-- [Dashboards e indicadores](skills/dashboard-intelligence/SKILL.md)
-- [Qualidade e revisão](skills/qa-release-gate/SKILL.md)
-- [Instruções para agentes compatíveis](AGENTS.md)
+- [Browse the 15 skills](skills/)
+- [Complete skills index](skills/index.json)
+- [Skill routing guide](SKILL_ROUTER.md)
+- [Creative brief](skills/creative-brief/SKILL.md)
+- [Motion direction](skills/motion-direction/SKILL.md)
+- [Premium frontend](skills/premium-frontend/SKILL.md)
+- [Dashboard intelligence](skills/dashboard-intelligence/SKILL.md)
+- [QA and release checks](skills/qa-release-gate/SKILL.md)
 
-## Como funciona
+### How to use
 
-1. Escolha o projeto que quer realizar.
-2. Consulte o roteador para identificar quais skills se aplicam.
-3. Forneça as instruções ao agente ou configure um ambiente que carregue os arquivos `SKILL.md`.
-4. Revise a entrega pelos critérios de qualidade.
+1. Identify your task and consult [the skill router](SKILL_ROUTER.md).
+2. Open the relevant `SKILL.md` files.
+3. Supply those instructions to your compatible agent or configure your own environment to load them.
+4. Review generated work, run tests, and verify claims before release.
 
-**Importante:** GitHub não ativa skills globalmente no ChatGPT, nem aumenta sua janela de contexto. Este repositório é público e os arquivos acima já podem ser lidos gratuitamente. O produto comercial futuro precisará agregar valor de empacotamento, instalação e documentação, sem prometer exclusividade sobre os arquivos públicos.
+These files are **instructions**, not built-in plugins. Browsing this repository does not automatically install tools, increase the model context window, or guarantee outputs.
 
-## Pagamento
-
-**Checkout de produção em configuração.** O link de compra será publicado aqui somente após a verificação da conta Stripe em modo real e a confirmação do fluxo de entrega digital. Não efetue pagamentos por links compartilhados fora deste repositório.
-
-## Situação do lançamento
-
-| Componente | Estado |
-|---|---|
-| Biblioteca de 15 skills | Publicada |
-| Roteamento por tipo de tarefa | Documentado |
-| Produto no Stripe | Necessário confirmar em modo real |
-| Preço único de R$ 14,90 | Necessário confirmar em modo real |
-| Checkout Stripe | Aguardando validação em modo real |
-| Checkout de produção | Não disponível |
-| Entrega automática pós-pagamento | Pendente |
-
-[Minuta de condições comerciais](COMMERCIAL_LICENSE_DRAFT.md). Condições ainda dependem de revisão, especialmente a licença, suporte e eventual política de reembolso.
-
-### Contribuições
-
-Sugestões são bem-vindas por issues e forks. Não compartilhe segredos, senhas ou materiais privados de clientes.
-
-Agentrix é um projeto independente, sem afiliação oficial com GitHub, OpenAI, Stripe, Remotion, Vercel ou outras plataformas citadas.
-
-
-## Free developer microtools
+## Free developer microproducts
 
 ### [Agentrix Env Contract](products/agentrix-env-contract/README.md)
 
-A zero-dependency Node.js CLI that checks for missing and undocumented environment variable names between `.env.example` and `.env`. Includes automated tests and an MIT license. **Free.**
+A zero-dependency Node.js CLI to detect missing and undocumented environment variable names between `.env.example` and `.env`. Includes tests, examples, and an MIT license.
 
-Search topics: dotenv validation, env example checker, missing environment variables, Node.js CI, Next.js configuration drift.
+**Discoverability:** dotenv validation, missing environment variables, Next.js environment checker, Node.js CI, JavaScript configuration drift.
+
+## Status
+
+The 15 agent skills and listed microproducts are currently **free to access on GitHub**. **No payment is required.** There is no purchase link for this collection, and no paid checkout is being promoted here.
+
+We may introduce optional paid bundles or services later, with a clear explanation of the added value. Existing public files should not be described as exclusive paid content.
+
+## Stay connected
+
+- [Instagram: @agentrix.tools](https://www.instagram.com/agentrix.tools/)
+- [Explore the repository](https://github.com/pauloflp/Agentrix)
+
+Issues and contributions are welcome. Keep personal information, private client data, credentials, and internal work notes out of this public repository.
+
+Agentrix is independent and is not officially affiliated with the third-party services and platforms mentioned in product documentation.
