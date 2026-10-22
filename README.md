@@ -47,3 +47,12 @@
 Sugestões são bem-vindas por issues e forks. Não compartilhe segredos, senhas ou materiais privados de clientes.
 
 Agentrix é um projeto independente, sem afiliação oficial com GitHub, OpenAI, Stripe, Remotion, Vercel ou outras plataformas citadas.
+
+
+## Free developer microtools
+
+### [Agentrix Env Contract](products/agentrix-env-contract/README.md)
+
+A zero-dependency Node.js CLI that checks for missing and undocumented environment variable names between `.env.example` and `.env`. Includes automated tests and an MIT license. **Free.**
+
+Search topics: dotenv validation, env example checker, missing environment variables, Node.js CI, Next.js configuration drift.
