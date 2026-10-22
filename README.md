@@ -40,6 +40,10 @@ A free, offline, zero-dependency Node.js CLI to check campaign URLs for missing,
 
 **Discoverability:** UTM checker, campaign tracking QA, Google Analytics UTM consistency, marketing link audit, newsletter UTM validation.
 
+### [Agentrix CSV Guard](products/agentrix-csv-guard/README.md)
+
+A free, offline CSV quality-check CLI that flags inconsistent columns, malformed quoting, duplicate or missing headers, and optional spreadsheet-formula risks. Includes tests and an MIT license.
+
 ### Run the microproduct tests
 
 Both tools require Node.js 20 or newer. From the repository root:
@@ -47,6 +51,7 @@ Both tools require Node.js 20 or newer. From the repository root:
 ```bash
 (cd products/agentrix-env-contract && npm test)
 (cd products/agentrix-utm-audit && npm test)
+(cd products/agentrix-csv-guard && npm test)
 ```
 
 [GitHub Actions](https://github.com/pauloflp/Agentrix/actions/workflows/microproducts-ci.yml) runs both test suites on supported Node.js versions when product code changes. A passing check validates the included tests, not every possible use case.
