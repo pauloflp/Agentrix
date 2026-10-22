@@ -34,6 +34,23 @@ A zero-dependency Node.js CLI to detect missing and undocumented environment var
 
 **Discoverability:** dotenv validation, missing environment variables, Next.js environment checker, Node.js CI, JavaScript configuration drift.
 
+### [Agentrix UTM Audit](products/agentrix-utm-audit/README.md)
+
+A free, offline, zero-dependency Node.js CLI to check campaign URLs for missing, duplicated, or inconsistently named UTM parameters. It reports issues without exposing complete URLs or parameter values. Includes tests and an MIT license.
+
+**Discoverability:** UTM checker, campaign tracking QA, Google Analytics UTM consistency, marketing link audit, newsletter UTM validation.
+
+### Run the microproduct tests
+
+Both tools require Node.js 20 or newer. From the repository root:
+
+```bash
+(cd products/agentrix-env-contract && npm test)
+(cd products/agentrix-utm-audit && npm test)
+```
+
+[GitHub Actions](../../actions/workflows/microproducts-ci.yml) runs both test suites on supported Node.js versions when product code changes. A passing check validates the included tests, not every possible use case.
+
 ## Status
 
 The 15 agent skills and listed microproducts are currently **free to access on GitHub**. **No payment is required.** There is no purchase link for this collection, and no paid checkout is being promoted here.
