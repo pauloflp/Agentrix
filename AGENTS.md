@@ -2,7 +2,7 @@
 
 This repository contains the Agentrix digital products and agent skills ecosystem. For any task involving this repository or a project explicitly using it:
 
-1. Read `AGENTRIX_CONTEXT.md` and `SKILL_ROUTER.md` and select the applicable skill(s).
+1. Read `SKILL_ROUTER.md` and select the applicable skill(s). Keep all private operational context and working notes in the private Notion workspace, not this public repository.
 2. Read the selected `skills/<slug>/SKILL.md` fully.
 3. Follow their procedures and quality gates while obeying system, developer, and user instructions.
 4. Never claim an operation or test completed without tool evidence.
