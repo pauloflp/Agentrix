@@ -49,7 +49,7 @@ Both tools require Node.js 20 or newer. From the repository root:
 (cd products/agentrix-utm-audit && npm test)
 ```
 
-[GitHub Actions](../../actions/workflows/microproducts-ci.yml) runs both test suites on supported Node.js versions when product code changes. A passing check validates the included tests, not every possible use case.
+[GitHub Actions](https://github.com/pauloflp/Agentrix/actions/workflows/microproducts-ci.yml) runs both test suites on supported Node.js versions when product code changes. A passing check validates the included tests, not every possible use case.
 
 ## Status
 
