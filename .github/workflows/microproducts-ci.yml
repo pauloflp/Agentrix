@@ -1,0 +1,43 @@
+name: Microproducts CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'products/**'
+      - '.github/workflows/microproducts-ci.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'products/**'
+      - '.github/workflows/microproducts-ci.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Node ${{ matrix.node }} / ${{ matrix.product }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ['20', '22', '24']
+        product:
+          - agentrix-env-contract
+          - agentrix-utm-audit
+    steps:
+      - name: Check out public source
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          package-manager-cache: false
+      - name: Run product tests
+        working-directory: products/${{ matrix.product }}
+        run: npm test
