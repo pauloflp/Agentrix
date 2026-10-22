@@ -46,7 +46,7 @@ Exit codes: `0` matching keys; `1` drift; `2` malformed input or missing file.
 
 ## License
 
-MIT. Free for personal and commercial use. A microtool by [Agentrix](https://github.com/pauloflp/Paulo-gpt).
+MIT. Free for personal and commercial use. A microtool by [Agentrix](https://github.com/pauloflp/Agentrix).
 
 ## Search terms
 
