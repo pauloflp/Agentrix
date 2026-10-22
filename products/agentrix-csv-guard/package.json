@@ -1,0 +1,17 @@
+{
+  "name": "agentrix-csv-guard",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Offline CSV structural audit CLI",
+  "bin": {
+    "csv-guard": "./bin/csv-guard.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
