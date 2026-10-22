@@ -1,0 +1,10 @@
+{
+  "name": "agentrix-utm-audit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline UTM campaign link consistency auditor",
+  "scripts": { "test": "node --test", "check": "node bin/utm-audit.mjs" },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
