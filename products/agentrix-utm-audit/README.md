@@ -2,6 +2,11 @@
 
 **Find inconsistent campaign links before publishing ads, newsletters, or social posts.** A free, offline, zero-dependency Node.js CLI for checking UTM tagging across a plain-text list of URLs.
 
+<div align="center">
+<img src="../../assets/agentrix-workflow.svg" alt="Agentrix workflow: discover, run locally, review and ship" width="900"/>
+<br/><sub>Agentrix workflow illustration. Commands and limitations below describe this specific tool.</sub>
+</div>
+
 ## Why
 
 Google Analytics recommends consistent `utm_source`, `utm_medium`, and `utm_campaign` parameters. Their **values are case-sensitive**, so inconsistent capitalization can fragment campaign reporting. This tool spots common tagging mistakes before links go live.
