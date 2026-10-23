@@ -6,7 +6,7 @@
 
 Practical developer utilities, reusable agent instructions, and focused workflows for code, data, design, and marketing.
 
-[**Explore free tools**](#free-developer-tools) · [**Browse 15 free skills**](#15-free-agent-skills) · [**Campaign QA Pro**](#campaign-qa-pro) · [**Instagram**](https://www.instagram.com/agentrix.tools/)
+[**Free tools**](#free-tools) · [**Free agent skills**](#free-agent-skills) · [**Premium templates**](#premium-templates) · [**Premium tools**](#premium-tools) · [**Instagram**](https://www.instagram.com/agentrix.tools/)
 
 ![Node.js 20+](https://img.shields.io/badge/Node.js-20%2B-153452?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Free tools](https://img.shields.io/badge/Free%20microtools-4-153452?style=flat-square)
@@ -23,7 +23,7 @@ Agentrix is a collection of deliberately focused tools. Start with a problem, ch
 
 ![From discovery to shipping](assets/agentrix-workflow.svg)
 
-## Free developer tools
+## FREE TOOLS
 
 All four microtools below are **free, MIT-licensed**, run locally with **Node.js 20+**, and require **no third-party runtime dependencies**.
 
@@ -87,7 +87,7 @@ The [CI workflow](.github/workflows/microproducts-ci.yml) also runs product test
 
 </details>
 
-## 15 free agent skills
+## FREE AGENT SKILLS
 
 A curated library of reusable instructions for common technical and creative tasks. **All 15 are free to read and adapt**, subject to applicable licenses and third-party terms.
 
@@ -103,7 +103,21 @@ A curated library of reusable instructions for common technical and creative tas
 
 > These are instruction files, not automatically installed plugins or a promise of increased model capabilities. Open the relevant `SKILL.md`, adapt it to your compatible agent, and review the output.
 
-## Campaign QA Pro
+## PREMIUM TEMPLATES
+
+No premium templates are publicly released yet. We will list templates here only when a real, tested deliverable is available. The existing free tools and skills are not part of a paid bundle.
+
+## PREMIUM TOOLS
+
+Premium products are separate, optional offers. Each product has its own scope, availability, and delivery details. **A product described as a preview is not available for purchase.**
+
+### Data Import Studio · private preview
+
+A local-first visual CSV mapping and validation workspace. An internal preview has been tested, but commercial licensing, customer delivery, and release are still pending. **No purchase link is offered.**
+
+[**Explore Data Import Studio's scope and limitations →**](premium/agentrix-data-import-studio/README.md)
+
+### Campaign QA Pro
 
 **A separate, optional paid tool for bulk campaign-link quality assurance.**
 
