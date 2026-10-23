@@ -1,56 +1,80 @@
-# AGENTRIX
+<div align="center">
+
+![Agentrix — Intelligence, put to work](assets/agentrix-hero.svg)
 
 **Tools for people who build.**
 
-A growing collection of free tools and reusable AI agent skills for developers, designers, creative technologists, and marketers.
+Practical developer utilities, reusable agent instructions, and focused workflows for code, data, design, and marketing.
 
-## 15 free AI agent skills
+[**Explore free tools**](#free-developer-tools) · [**Browse 15 free skills**](#15-free-agent-skills) · [**Campaign QA Pro**](#campaign-qa-pro) · [**Instagram**](https://www.instagram.com/agentrix.tools/)
 
-**All 15 skills are free to explore and use as reference instructions.** Browse the files directly, copy what you need, and adapt them within any applicable license and third-party terms.
+![Node.js 20+](https://img.shields.io/badge/Node.js-20%2B-153452?style=flat-square&logo=nodedotjs&logoColor=white)
+![Free tools](https://img.shields.io/badge/Free%20microtools-4-153452?style=flat-square)
+![Agent skills](https://img.shields.io/badge/Free%20agent%20skills-15-153452?style=flat-square)
+![License](https://img.shields.io/badge/Free%20tools-MIT-153452?style=flat-square)
 
-- [Browse the 15 skills](skills/)
-- [Complete skills index](skills/index.json)
-- [Skill routing guide](SKILL_ROUTER.md)
-- [Creative brief](skills/creative-brief/SKILL.md)
-- [Motion direction](skills/motion-direction/SKILL.md)
-- [Premium frontend](skills/premium-frontend/SKILL.md)
-- [Dashboard intelligence](skills/dashboard-intelligence/SKILL.md)
-- [QA and release checks](skills/qa-release-gate/SKILL.md)
+</div>
 
-### How to use
+---
 
-1. Identify your task and consult [the skill router](SKILL_ROUTER.md).
-2. Open the relevant `SKILL.md` files.
-3. Supply those instructions to your compatible agent or configure your own environment to load them.
-4. Review generated work, run tests, and verify claims before release.
+## Built to solve small, expensive problems
 
-These files are **instructions**, not built-in plugins. Browsing this repository does not automatically install tools, increase the model context window, or guarantee outputs.
+Agentrix is a collection of deliberately focused tools. Start with a problem, choose a tool, and inspect the result. No unnecessary dashboards or accounts for the free CLI utilities.
 
-## Free developer microproducts
+![From discovery to shipping](assets/agentrix-workflow.svg)
 
-### [Agentrix Env Contract](products/agentrix-env-contract/README.md)
+## Free developer tools
 
-A zero-dependency Node.js CLI to detect missing and undocumented environment variable names between `.env.example` and `.env`. Includes tests, examples, and an MIT license.
+All four microtools below are **free, MIT-licensed**, run locally with **Node.js 20+**, and require **no third-party runtime dependencies**.
 
-**Discoverability:** dotenv validation, missing environment variables, Next.js environment checker, Node.js CI, JavaScript configuration drift.
+| Tool | What it helps you catch | Start here |
+| :--- | :--- | :--- |
+| **[Env Contract](products/agentrix-env-contract/)** | Missing or undocumented `.env` key names before deployment | [Documentation →](products/agentrix-env-contract/README.md) |
+| **[UTM Audit](products/agentrix-utm-audit/)** | Inconsistent UTM naming, missing campaign tags, malformed links | [Documentation →](products/agentrix-utm-audit/README.md) |
+| **[CSV Guard](products/agentrix-csv-guard/)** | Broken CSV structure, irregular columns, risky spreadsheet formulas | [Documentation →](products/agentrix-csv-guard/README.md) |
+| **[JSON Diff](products/agentrix-json-diff/)** | Added, removed, and changed JSON values at precise paths | [Documentation →](products/agentrix-json-diff/README.md) |
 
-### [Agentrix UTM Audit](products/agentrix-utm-audit/README.md)
+### See the ideas behind the tools
 
-A free, offline, zero-dependency Node.js CLI to check campaign URLs for missing, duplicated, or inconsistently named UTM parameters. It reports issues without exposing complete URLs or parameter values. Includes tests and an MIT license.
+These are **original Agentrix campaign illustrations**, not screenshots of the running CLI. The actual commands and sample output are in each product's documentation.
 
-**Discoverability:** UTM checker, campaign tracking QA, Google Analytics UTM consistency, marketing link audit, newsletter UTM validation.
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="products/agentrix-env-contract/README.md"><img src="https://res.cloudinary.com/xqixzm02/image/upload/v1792708835/AGENTRIX_POST_02_ENV_CONTRACT_CARROSSEL_01_DE_06.jpg" alt="Agentrix Env Contract campaign illustration" width="230"/></a><br/>
+      <strong>Environment keys, aligned.</strong><br/>
+      <sub><a href="products/agentrix-env-contract/README.md">Explore Env Contract →</a></sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="products/agentrix-utm-audit/README.md"><img src="https://res.cloudinary.com/xqixzm02/image/upload/v1792708834/AGENTRIX_POST_04_BUILD_SMARTER_ENV_CONTRACT.jpg" alt="Agentrix build smarter campaign illustration" width="230"/></a><br/>
+      <strong>Check before you ship.</strong><br/>
+      <sub><a href="products/agentrix-utm-audit/README.md">Explore UTM Audit →</a></sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="skills/"><img src="https://res.cloudinary.com/xqixzm02/image/upload/v1792708834/AGENTRIX_POST_06_AI_WORKFLOWS.jpg" alt="Agentrix AI workflows campaign illustration" width="230"/></a><br/>
+      <strong>Reusable agent workflows.</strong><br/>
+      <sub><a href="skills/">Browse agent skills →</a></sub>
+    </td>
+  </tr>
+</table>
 
-### [Agentrix CSV Guard](products/agentrix-csv-guard/README.md)
+### Try a tool in seconds
 
-A free, offline CSV quality-check CLI that flags inconsistent columns, malformed quoting, duplicate or missing headers, and optional spreadsheet-formula risks. Includes tests and an MIT license.
+Clone the repository, enter a product directory, and run its tests. For example:
 
-### [Agentrix JSON Diff](products/agentrix-json-diff/README.md)
+```bash
+git clone https://github.com/pauloflp/Agentrix.git
+cd Agentrix/products/agentrix-env-contract
+npm test
+node bin/env-contract.mjs --example .env.example --env .env
+```
 
-A free, offline, zero-dependency Node.js CLI comparing JSON files. Identifies added, removed and modified values at precise paths. Includes tests and an MIT license. Object property order is ignored; arrays are compared by index.
+The last command requires the two named files to exist in the working directory. See the [Env Contract usage guide](products/agentrix-env-contract/README.md) for details and safe CI examples.
 
-### Run the microproduct tests
+<details>
+<summary><strong>Run all four test suites</strong></summary>
 
-All four tools require Node.js 20 or newer. From the repository root:
+From the repository root:
 
 ```bash
 (cd products/agentrix-env-contract && npm test)
@@ -59,30 +83,57 @@ All four tools require Node.js 20 or newer. From the repository root:
 (cd products/agentrix-json-diff && npm test)
 ```
 
-[GitHub Actions](https://github.com/pauloflp/Agentrix/actions/workflows/microproducts-ci.yml) runs microproduct test suites on supported Node.js versions when product code changes. A passing check validates the included tests, not every possible use case.
+The [CI workflow](.github/workflows/microproducts-ci.yml) also runs product tests on supported Node.js versions when relevant files change. Passing tests do not guarantee correctness for every possible input.
 
-## Paid offline tool: Agentrix Campaign QA Pro
+</details>
 
-**[Agentrix Campaign QA Pro — Bulk UTM Checker & Marketing Campaign URL Audit](premium/agentrix-campaign-qa/)** is a separate, paid browser-local tool for marketers who need bulk UTM naming checks, CSV imports, campaign URL quality reports, and custom allowed tag values.
+## 15 free agent skills
 
-- **One-time price:** US$29, no subscription
-- **[Buy now using Stripe Checkout](https://buy.stripe.com/9B69AT928eYX5264GfgjC01)**
-- [Read features, license, download and unlock instructions](premium/agentrix-campaign-qa/README.md)
-- [Download the encrypted offline edition](premium/agentrix-campaign-qa/AGENTRIX_CAMPAIGN_QA_PRO_LOCKED.html) (unlock key shown after successful card checkout)
+A curated library of reusable instructions for common technical and creative tasks. **All 15 are free to read and adapt**, subject to applicable licenses and third-party terms.
 
-The free UTM Audit CLI remains free and MIT-licensed. No existing free product or skill has been put behind the paid checkout.
+| Build and engineering | Design and content | Research and operations |
+| :--- | :--- | :--- |
+| [React code quality](skills/react-code-quality/SKILL.md) | [Creative brief](skills/creative-brief/SKILL.md) | [Research verification](skills/research-verification/SKILL.md) |
+| [Premium frontend](skills/premium-frontend/SKILL.md) | [Motion direction](skills/motion-direction/SKILL.md) | [Data provenance](skills/data-provenance/SKILL.md) |
+| [Remotion engineering](skills/remotion-engineering/SKILL.md) | [Brand guardian](skills/brand-guardian/SKILL.md) | [Context retrieval](skills/context-retrieval/SKILL.md) |
+| [QA release gate](skills/qa-release-gate/SKILL.md) | [Commercial copy](skills/commercial-copy/SKILL.md) | [Memory governance](skills/memory-governance/SKILL.md) |
+| [Dashboard intelligence](skills/dashboard-intelligence/SKILL.md) | [AI video handoff](skills/ai-video-handoff/SKILL.md) | [Workflow orchestration](skills/workflow-orchestration/SKILL.md) |
 
-## Status
+**[Explore the full index](skills/index.json)** · **[Choose a skill with the routing guide](SKILL_ROUTER.md)**
 
-The 15 agent skills and four listed free microproducts remain **free to access on GitHub**. **No payment is required for them.** The separately described Campaign QA Pro is an optional paid tool with additional offline, browser-based auditing capabilities.
+> These are instruction files, not automatically installed plugins or a promise of increased model capabilities. Open the relevant `SKILL.md`, adapt it to your compatible agent, and review the output.
 
-Free public files should never be described as exclusive paid content. Campaign QA Pro is a separate commercial offering and does not change the licenses or access to those free tools.
+## Campaign QA Pro
 
-## Stay connected
+**A separate, optional paid tool for bulk campaign-link quality assurance.**
 
-- [Instagram: @agentrix.tools](https://www.instagram.com/agentrix.tools/)
-- [Explore the repository](https://github.com/pauloflp/Agentrix)
+Campaign QA Pro adds a local browser interface, CSV imports, configurable UTM naming allowlists, and downloadable QA reports. It does **not** replace or restrict the free UTM Audit CLI.
 
-Issues and contributions are welcome. Keep personal information, private client data, credentials, and internal work notes out of this public repository.
+| | |
+| :--- | :--- |
+| **Format** | Offline browser-based HTML |
+| **Price** | **US$29 one-time**, no subscription |
+| **Designed for** | Marketers, agencies, performance teams |
+| **Privacy** | URL analysis runs locally in the browser |
+| **Delivery** | Encrypted file; unlock key displayed on Stripe's successful checkout confirmation page |
 
-Agentrix is independent and is not officially affiliated with the third-party services and platforms mentioned in product documentation.
+[**View Campaign QA Pro details →**](premium/agentrix-campaign-qa/README.md) · [**Buy securely with Stripe →**](https://buy.stripe.com/9B69AT928eYX5264GfgjC01)
+
+*Important: the live checkout and complete fulfillment flow have not yet been tested through a real purchase. Read the [product instructions and limitations](premium/agentrix-campaign-qa/README.md) before buying.*
+
+---
+
+## Principles
+
+- **Useful over complicated.** Each tool targets a specific workflow.
+- **Honest by design.** Read the limitations and inspect results before making decisions.
+- **Local first where practical.** The free CLIs do not upload your files.
+- **Free stays free.** The four MIT microtools and 15 agent skills are not locked behind the premium checkout.
+
+## Follow the build
+
+[Instagram @agentrix.tools](https://www.instagram.com/agentrix.tools/) · [GitHub repository](https://github.com/pauloflp/Agentrix) · [Issues](https://github.com/pauloflp/Agentrix/issues)
+
+Questions, bug reports, and thoughtful contributions are welcome. Please do not share credentials, private client data, or payment unlock keys in public issues.
+
+<sub>Agentrix is an independent project, not officially affiliated with the third-party platforms mentioned in its documentation. Campaign illustrations are promotional artwork, not software screenshots.</sub>
