@@ -1,5 +1,9 @@
 # Agentrix Campaign QA Pro — Bulk UTM Checker and Campaign URL Audit
 
+<div align="center">
+<img src="../../assets/agentrix-hero.svg" alt="Agentrix brand — Intelligence, put to work" width="900"/>
+</div>
+
 **Audit UTM campaign links in bulk, catch tracking inconsistencies before launch, and export actionable QA reports.** Agentrix Campaign QA Pro is an offline, browser-based tool for marketers, paid media teams, performance agencies, and analytics professionals.
 
 **Price: US$29 one-time. No subscription.**  
