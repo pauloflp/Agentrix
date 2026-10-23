@@ -2,7 +2,13 @@
 
 **Audit UTM campaign links in bulk, catch tracking inconsistencies before launch, and export actionable QA reports.** Agentrix Campaign QA Pro is an offline, browser-based tool for marketers, paid media teams, performance agencies, and analytics professionals.
 
-**Price:** **US$29 one-time**, no subscription. [Checkout link will appear after secure delivery verification.]
+**Price: US$29 one-time. No subscription.**  
+
+### [Buy Agentrix Campaign QA Pro — Secure Stripe Checkout →](https://buy.stripe.com/9B69AT928eYX5264GfgjC01)
+
+[Download the encrypted Pro edition](AGENTRIX_CAMPAIGN_QA_PRO_LOCKED.html) · [View a sample campaign CSV](sample-campaigns.csv) · [Read the commercial license](LICENSE.md)
+
+After successful card payment, the **Stripe confirmation page** displays your unlock key. Save the key and receipt. The software can be unlocked entirely offline. No Stripe account login is needed to use the tool.
 
 ## What Campaign QA Pro checks
 
@@ -25,7 +31,7 @@ The app runs **locally in your browser**. It does not upload your URLs to a serv
 
 ## Download and activation
 
-The Pro edition is distributed as a self-contained **encrypted HTML tool** (no Node.js installation, account, or runtime subscription needed). On completing checkout, the buyer receives an unlock key on the Stripe payment confirmation page. Download the encrypted file, open it with a modern browser, and enter the key.
+The Pro edition is distributed as a self-contained **encrypted HTML tool** (no Node.js installation, account, or runtime subscription needed). On completing card checkout, the buyer receives an unlock key on the **Stripe payment confirmation page**. Click **Download raw file** on [the encrypted Pro edition](AGENTRIX_CAMPAIGN_QA_PRO_LOCKED.html), open the downloaded `.html` file in a recent Chrome, Edge, Firefox, or Safari browser, and enter the unlock key shown after payment.
 
 **Important:** Save the unlock key and payment receipt. The offline key is transferable if shared, so it is not a per-user online activation system. The public GitHub repository contains only a locked distribution file and public marketing materials, **not** the unencrypted paid source.
 
@@ -52,12 +58,14 @@ Existing [15 free agent skills](../../skills/) and [free microproducts](../../RE
 
 **How private is my campaign data?** The offline file processes pasted/imported URLs in your browser and contains no network integration.
 
-**Can I refund or transfer the product?** Purchase, refund, and license terms will be shown in the final checkout documentation. Contact the merchant using the support information provided on the Stripe receipt.
+**Can I refund or transfer the product?** This is a proprietary [one-time-purchase offline license](LICENSE.md), not a subscription. Applicable statutory refund rights remain in force. For payment or key-recovery questions, contact the merchant via the details on the Stripe receipt. Do not post an order email or unlock key in a public GitHub issue.
 
-## Search terms & related topics
+## Use cases: paid media QA, GA4 UTM validation, and bulk campaign link checking
 
-UTM checker, bulk UTM audit, UTM parameter validator, GA4 campaign tagging, campaign URL checker, marketing link audit, Google Analytics UTM naming, tracking link quality assurance, paid media campaign QA, URL tracking consistency, advertising campaign reporting.
+Use this UTM parameter checker when reviewing tracking URLs for Google Ads, Meta Ads, email newsletters, social media, affiliate links, or GA4 reporting. Audit links before distribution, compare marketing campaign naming across channels, and export a practical campaign URL quality checklist for teammates.
 
-> **Launch status:** Product build and automated core tests completed. **Checkout is not yet linked here until the encrypted download and post-payment delivery have been verified.** Do not send money through unrelated Agentrix links.
+**[Purchase the offline Pro tool for US$29 →](https://buy.stripe.com/9B69AT928eYX5264GfgjC01)**
+
+*Testing and scope:* 20 automated engine tests passed locally on Node.js 22. The encrypted file was verified against the original generated build. Interactive browser compatibility and successful live payment fulfillment have not been tested through a real purchase. Card checkout is enabled; customers should save the unlock key on the Stripe confirmation page.
 
 **Agentrix** — tools for people who build.
