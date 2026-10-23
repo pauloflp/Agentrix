@@ -46,9 +46,9 @@ These are **original Agentrix campaign illustrations**, not screenshots of the r
       <sub><a href="products/agentrix-env-contract/README.md">Explore Env Contract →</a></sub>
     </td>
     <td align="center" width="33%">
-      <a href="products/agentrix-utm-audit/README.md"><img src="https://res.cloudinary.com/xqixzm02/image/upload/v1792708834/AGENTRIX_POST_04_BUILD_SMARTER_ENV_CONTRACT.jpg" alt="Agentrix build smarter campaign illustration" width="230"/></a><br/>
-      <strong>Check before you ship.</strong><br/>
-      <sub><a href="products/agentrix-utm-audit/README.md">Explore UTM Audit →</a></sub>
+      <a href="products/agentrix-env-contract/README.md"><img src="https://res.cloudinary.com/xqixzm02/image/upload/v1792708834/AGENTRIX_POST_04_BUILD_SMARTER_ENV_CONTRACT.jpg" alt="Agentrix Build Smarter Env Contract campaign illustration" width="230"/></a><br/>
+      <strong>Build smarter with Env Contract.</strong><br/>
+      <sub><a href="products/agentrix-env-contract/README.md">See the workflow →</a></sub>
     </td>
     <td align="center" width="33%">
       <a href="skills/"><img src="https://res.cloudinary.com/xqixzm02/image/upload/v1792708834/AGENTRIX_POST_06_AI_WORKFLOWS.jpg" alt="Agentrix AI workflows campaign illustration" width="230"/></a><br/>
