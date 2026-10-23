@@ -4,6 +4,25 @@
 
 If your Next.js deployment works locally but fails in CI because a required environment variable is missing, this tool helps check that your documented `.env.example` and the actual environment file have the **same key names**. It never prints secret values.
 
+<div align="center">
+<img src="https://res.cloudinary.com/xqixzm02/image/upload/v1792708835/AGENTRIX_POST_02_ENV_CONTRACT_CARROSSEL_01_DE_06.jpg" width="360" alt="Env Contract promotional illustration: your env files aligned"/>
+<br/><sub>Original Agentrix campaign illustration. The example CLI output below shows the actual tool format.</sub>
+</div>
+
+<details>
+<summary><strong>See the six-slide Env Contract introduction</strong></summary>
+
+<div align="center">
+<img src="https://res.cloudinary.com/xqixzm02/image/upload/v1792708835/AGENTRIX_POST_02_ENV_CONTRACT_CARROSSEL_01_DE_06.jpg" alt="Env Contract promotional slide 01 of 6" width="260"/>
+<img src="https://res.cloudinary.com/xqixzm02/image/upload/v1792708836/AGENTRIX_POST_02_ENV_CONTRACT_CARROSSEL_02_DE_06.jpg" alt="Env Contract promotional slide 02 of 6" width="260"/>
+<img src="https://res.cloudinary.com/xqixzm02/image/upload/v1792708837/AGENTRIX_POST_02_ENV_CONTRACT_CARROSSEL_03_DE_06.jpg" alt="Env Contract promotional slide 03 of 6" width="260"/>
+<img src="https://res.cloudinary.com/xqixzm02/image/upload/v1792708837/AGENTRIX_POST_02_ENV_CONTRACT_CARROSSEL_04_DE_06.jpg" alt="Env Contract promotional slide 04 of 6" width="260"/>
+<img src="https://res.cloudinary.com/xqixzm02/image/upload/v1792708837/AGENTRIX_POST_02_ENV_CONTRACT_CARROSSEL_05_DE_06.jpg" alt="Env Contract promotional slide 05 of 6" width="260"/>
+<img src="https://res.cloudinary.com/xqixzm02/image/upload/v1792708837/AGENTRIX_POST_02_ENV_CONTRACT_CARROSSEL_06_DE_06.jpg" alt="Env Contract promotional slide 06 of 6" width="260"/>
+</div>
+
+</details>
+
 ## Features
 
 - Checks missing variables and undocumented keys
