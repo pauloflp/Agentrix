@@ -61,11 +61,22 @@ All four tools require Node.js 20 or newer. From the repository root:
 
 [GitHub Actions](https://github.com/pauloflp/Agentrix/actions/workflows/microproducts-ci.yml) runs microproduct test suites on supported Node.js versions when product code changes. A passing check validates the included tests, not every possible use case.
 
+## Paid offline tool: Agentrix Campaign QA Pro
+
+**[Agentrix Campaign QA Pro — Bulk UTM Checker & Marketing Campaign URL Audit](premium/agentrix-campaign-qa/)** is a separate, paid browser-local tool for marketers who need bulk UTM naming checks, CSV imports, campaign URL quality reports, and custom allowed tag values.
+
+- **One-time price:** US$29, no subscription
+- **[Buy now using Stripe Checkout](https://buy.stripe.com/9B69AT928eYX5264GfgjC01)**
+- [Read features, license, download and unlock instructions](premium/agentrix-campaign-qa/README.md)
+- [Download the encrypted offline edition](premium/agentrix-campaign-qa/AGENTRIX_CAMPAIGN_QA_PRO_LOCKED.html) (unlock key shown after successful card checkout)
+
+The free UTM Audit CLI remains free and MIT-licensed. No existing free product or skill has been put behind the paid checkout.
+
 ## Status
 
-The 15 agent skills and listed microproducts are currently **free to access on GitHub**. **No payment is required.** There is no purchase link for this collection, and no paid checkout is being promoted here.
+The 15 agent skills and four listed free microproducts remain **free to access on GitHub**. **No payment is required for them.** The separately described Campaign QA Pro is an optional paid tool with additional offline, browser-based auditing capabilities.
 
-We may introduce optional paid bundles or services later, with a clear explanation of the added value. Existing public files should not be described as exclusive paid content.
+Free public files should never be described as exclusive paid content. Campaign QA Pro is a separate commercial offering and does not change the licenses or access to those free tools.
 
 ## Stay connected
 
