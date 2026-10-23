@@ -2,6 +2,11 @@
 
 Free, offline, zero-dependency CSV structural audit CLI for Node.js 20+.
 
+<div align="center">
+<img src="../../assets/agentrix-workflow.svg" alt="Agentrix workflow: discover, run locally, review and ship" width="900"/>
+<br/><sub>Agentrix workflow illustration. Commands and limitations below describe this specific tool.</sub>
+</div>
+
 ## Usage
 
 ```bash
