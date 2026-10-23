@@ -1,0 +1,5 @@
+Destination URL,Campaign Name,Channel
+https://example.com/sale?utm_source=google&utm_medium=cpc&utm_campaign=fall_launch,Fall launch,Paid Search
+https://example.com/sale?utm_source=Google&utm_medium=CPC&utm_campaign=fall_launch,Fall launch,Paid Search
+https://example.com/news?utm_source=newsletter&utm_medium=email,Newsletter,Email
+https://example.com/offer?utm_source=meta&utm_medium=paid_social&utm_campaign=fall_launch&utm_source=facebook,Fall launch,Paid Social
