@@ -2,6 +2,11 @@
 
 Free, offline, zero-dependency Node.js 20+ CLI comparing JSON documents. Reports added, removed, and changed values with precise paths. Object property order is ignored; array elements are compared by index.
 
+<div align="center">
+<img src="../../assets/agentrix-workflow.svg" alt="Agentrix workflow: discover, run locally, review and ship" width="900"/>
+<br/><sub>Agentrix workflow illustration. Commands and limitations below describe this specific tool.</sub>
+</div>
+
 ## Usage
 
 ```bash
