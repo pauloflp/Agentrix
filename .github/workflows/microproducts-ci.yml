@@ -30,6 +30,7 @@ jobs:
           - agentrix-utm-audit
           - agentrix-csv-guard
           - agentrix-json-diff
+          - agentrix-jsonl-guard
           - agentrix-data-import-studio
     steps:
       - name: Check out public source
