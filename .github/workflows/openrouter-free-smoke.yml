@@ -1,0 +1,53 @@
+name: Agentrix OpenRouter Free Smoke Test
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/openrouter-free-smoke.yml"
+      - "tools/openrouter-smoke-test.mjs"
+      - "docs/openrouter-free-smoke.md"
+  workflow_dispatch:
+    inputs:
+      call_free_api:
+        description: "Make exactly one OpenRouter free-router API call (no paid models)"
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: openrouter-free-smoke-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Validate integration (no secrets or network)
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Syntax check
+        run: node --check tools/openrouter-smoke-test.mjs
+      - name: Offline dry-run
+        run: node tools/openrouter-smoke-test.mjs --dry-run
+
+  manual-free-request:
+    name: One free request, explicitly opted in
+    if: github.event_name == 'workflow_dispatch' && inputs.call_free_api == true
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Authenticate and call free router
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: node tools/openrouter-smoke-test.mjs --live
