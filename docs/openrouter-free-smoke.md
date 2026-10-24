@@ -29,3 +29,7 @@ Purpose: verify that a repository secret named `OPENROUTER_API_KEY` can authenti
 This is a credential and free-inference smoke test, **not yet** a multi-agent executor or a reliable measure of ChatGPT quota savings. It does not publish products, invoke GitHub Copilot, touch Instagram, Make, Stripe, or any production automation.
 
 Before further delegation: build a separate reviewed job queue and fixed allowlist of free model IDs, log provider/model/usage safely, cap request count, handle rate limits, and require human approval for any code merge or external publication.
+
+## Troubleshooting HTTP 200 with empty text
+
+The first manual live run on 24/10/2026 returned HTTP 200 but an empty assistant text field. The previous 40-token completion budget could be exhausted by a reasoning-capable free model before it emits visible content. The test now uses up to **512 completion tokens** and recognizes string or text-part-array responses. On further empty responses, it prints only safe metadata (finish reason, generated token count, whether reasoning exists), **never the generated content or key**. This is still one manually authorized request to `openrouter/free`; do not automatically retry or switch to paid models.

@@ -39,7 +39,8 @@ if (unexpectedArgs.length || (live && process.argv.includes("--dry-run"))) {
             { role: "system", content: "This is a connectivity check. Respond briefly." },
             { role: "user", content: "Reply with the exact text AGENTRIX_OK." },
           ],
-          max_tokens: 40,
+          // Some free-router models spend tokens reasoning before producing visible text.
+          max_tokens: 512,
           temperature: 0,
           stream: false,
         }),
@@ -52,10 +53,22 @@ if (unexpectedArgs.length || (live && process.argv.includes("--dry-run"))) {
         process.exitCode = 1;
       } else {
         const result = await response.json();
-        const choice = result?.choices?.[0]?.message?.content;
-        const usable = typeof choice === "string" && choice.trim().length > 0;
-        if (!usable) {
-          console.error("FAIL: response did not contain a nonempty text completion.");
+        const completion = result?.choices?.[0];
+        const content = completion?.message?.content;
+        const text = typeof content === "string"
+          ? content
+          : Array.isArray(content)
+            ? content.filter((part) => part?.type === "text" && typeof part.text === "string")
+                .map((part) => part.text).join("")
+            : "";
+        if (!text.trim()) {
+          const safeFinishReasons = new Set(["stop", "length", "content_filter", "tool_calls"]);
+          const reason = safeFinishReasons.has(completion?.finish_reason)
+            ? completion.finish_reason : "unknown";
+          const tokens = result?.usage?.completion_tokens;
+          const safeTokens = Number.isSafeInteger(tokens) && tokens >= 0 ? tokens : "unknown";
+          const reasoningPresent = Boolean(completion?.message?.reasoning);
+          console.error(`FAIL: HTTP 200 but no visible text (finish_reason=${reason}, completion_tokens=${safeTokens}, reasoning_present=${reasoningPresent}, choices=${Array.isArray(result?.choices) ? result.choices.length : "unknown"}).`);
           process.exitCode = 1;
         } else {
           console.log("PASS: authenticated free-model request returned a text completion.");
