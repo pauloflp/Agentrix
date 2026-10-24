@@ -1,6 +1,6 @@
 <div align="center">
 
-![Agentrix — Intelligence, put to work](assets/agentrix-hero.svg)
+![Agentrix — Intelligence, put to work](assets/agentrix-hero.svg?v=d695dcaa)
 
 **Tools for people who build.**
 
