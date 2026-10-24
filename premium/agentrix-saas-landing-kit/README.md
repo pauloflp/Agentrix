@@ -1,59 +1,48 @@
-# Agentrix SaaS Landing Kit · Private preview
+# Agentrix SaaS Landing Kit | FREE v1.0
 
-**Two distinct landing-page templates for SaaS product launches: Atlas Analytics and Fieldnote CRM.**
+**Two responsive, editable SaaS landing-page templates. Free download for personal and commercial use. No password, checkout, subscription or account required.**
 
-**Planned launch price: US$4.90 (one-time). Not available for purchase yet.** This is a private technical preview. No checkout is active, and no paid source or customer license is publicly distributed. The planned price is a proposal, not a current offer.
+[**Download the complete free ZIP →**](AGENTRIX_SaaS_Landing_Kit_FREE_v1.0.zip) · [Read license →](LICENSE.txt) · [Verify checksums →](SHA256SUMS.txt)
 
-## Real design previews
+## Actual design previews
 
-The following is an **actual screenshot of the two working sample templates**, not a stock image, AI-generated mockup or a generic style reference. Both shown layouts are shipped in the internal MVP. The demo labels, data, brands and sample plan amounts are fictional.
+The following image shows **real screenshots** of the templates, not a generated example of a fictitious deliverable.
 
-[![Real preview showing the dark Atlas Analytics SaaS landing page and the light Fieldnote CRM SaaS landing page side by side](preview.webp)](preview.webp)
+[![Atlas Analytics dark theme and Fieldnote CRM light theme](preview.webp)](preview.webp)
 
-**Left: Atlas Analytics** · Dark analytics-focused visual identity with lime highlights and a sample dashboard interface.
+| Atlas Analytics | Fieldnote CRM |
+| :-- | :-- |
+| Dark graphite with vivid green highlights, sample analytics panels, features and pricing. | Light editorial CRM layout with soft purple accents, sample pipeline, features and pricing. |
+| [**Open editable HTML source →**](templates/atlas/index.html) | [**Open editable HTML source →**](templates/fieldnote/index.html) |
 
-**Right: Fieldnote CRM** · Bright editorial layout with purple accents and a sample CRM pipeline interface.
+## What's included
 
-This image is a design preview, **not** evidence of a hosted live product. The downloadable source remains private until commercial release verification is complete.
+- Two **complete, standalone HTML files** containing their own CSS and JavaScript: no Node.js, build tools, external fonts or runtime libraries.
+- Responsive desktop/mobile layout, sample product sections, keyboard-operable FAQ, mobile navigation, illustrative pricing toggle, and a downloadable sample brief.
+- `README.md`, `LICENSE.txt`, `docs/launch-checklist.md` and `SHA256SUMS.txt` inside the ZIP.
+- Source files available individually in the repository and bundled as a password-free ZIP.
 
-## What was implemented in the private MVP
+## Use it
 
-- **Atlas Analytics:** dark graphite and green analytics landing page with a decorative synthetic dashboard UI, feature storytelling, workflows and sample plans.
-- **Fieldnote CRM:** light editorial landing page with a synthetic relationship pipeline, responsive content sections and sample plans.
-- Both are self-contained HTML pages using inline CSS and JavaScript with no third-party runtime libraries, API calls, tracking or external font downloads.
-- Working sample interactions: keyboard-operable FAQ, mobile navigation, monthly/annual sample-pricing toggle, and a downloadable plain-text starter brief.
-- Built-in accessibility-conscious focus indicators, semantic page regions and reduced-motion styling.
+1. [Download the ZIP](AGENTRIX_SaaS_Landing_Kit_FREE_v1.0.zip) and extract it. **No password.**
+2. Open `Agentrix_SaaS_Landing_Kit/templates/atlas/index.html` or `Agentrix_SaaS_Landing_Kit/templates/fieldnote/index.html` in a browser.
+3. Edit the HTML in a code editor. All CSS and JavaScript are embedded.
+4. Replace **all** example product names, synthetic dashboards, sample statistics, pricing, links and CTA destinations.
+5. Deploy to your own HTTPS website. Test accessibility, cross-browser behavior, responsive layout and any integrations that you add.
 
-**All sample brand names, dashboard figures, plan details and prices are illustrative, not actual product claims, offers or customer results.** The pages do not capture leads, create accounts, process payments or deliver SaaS subscriptions. They are templates, not a working SaaS backend.
+## License and limitations
 
-## Quality checks and limitations
+The **[Agentrix Free Use License v1.0](LICENSE.txt)** allows perpetual, royalty-free **personal and commercial use**, modification, deployment, and delivery of customized client websites. Reselling or redistributing this raw pack as a competing template kit is not permitted. This is *source-available*, **not MIT** or an OSI-approved open-source license. Other Agentrix free CLI tools remain MIT licensed.
 
-Private QA recorded two passing static-structure suites and four passing Chromium UI smoke scenarios (both templates at desktop and mobile sizes). Browser checks exercised pricing, FAQ keyboard behavior, mobile menu, download, horizontal overflow and no external requests.
+These are **frontend demonstrations, not real SaaS applications**. They do not include real payment processing, subscriber accounts, lead forms, CRM integration, analytics, databases, backend, web hosting, live subscription plans, or business results. All example brand names, figures and plan amounts are fictional; replace them before production.
 
-**Not tested or approved:** direct local `file://` or loopback browser navigation (blocked by the managed testing environment), Safari/Firefox, real web deployment, independent security/accessibility audit, buyer installation, protected delivery, a Stripe transaction or customer support obligations. Therefore this product is **not available to purchase**.
+## Test status
 
-## Public password-protected ZIP (staged for launch)
+- The original templates passed prior Chromium UI checks, plus this free release's package integrity, encryption-free extraction, source equivalence and checksum verification.
+- This release's HTML was also rendered without JavaScript errors or horizontal overflow in **Chromium injection-based desktop (1440px), tablet (768px) and mobile (390px)** checks for both designs, six cases total.
+- **Limitations:** direct navigation to `file://`/localhost is blocked by the managed test environment, not verified there. Safari/Firefox and deployed HTTPS experiences have not been validated in this release. Test on your own devices before using it in production.
+- This release **does not require or use Stripe**. There is no commercial checkout associated with obtaining the free package.
 
-[**Download the encrypted ZIP →**](AGENTRIX_SaaS_Landing_Kit_ENCRYPTED_v0.1.1.zip)
+[**Explore other Agentrix products →**](../../README.md#free-tools)
 
-This archive contains both editable designs, documentation and a commercial-use license. The ZIP uses standard password-protected archive extraction for compatibility; **it cannot be opened without the password**. The password is not stored in GitHub or this README and will be supplied only after a completed authorized purchase once the sales checkout is released.
-
-**Current status: checkout NOT LIVE; no purchase possible.** The price shown here remains a planned launch price. The previously published HTML/AES-256 unlock method remains as a technical alternative; the password-protected ZIP is the simpler buyer package.
-
-Caution: the ZIP's legacy compatible encryption is not equivalent to modern AES-256 file encryption; its purpose is a low-friction access gate for a low-volume launch, not DRM or strong protection from determined extraction attacks. Redistribution of the source is prohibited by the license.
-
-## Buyer delivery guide and QA
-
-[**Read the customer download / password / extraction guide →**](BUYER_GUIDE.md)
-
-The password-protected ZIP is already staged and reproducibly tested: encrypted files decrypt to the byte-identical source package; wrong passwords are rejected; Atlas and Fieldnote have undergone Chromium interaction tests. The automated retest on 24 October 2026 passed **68/68 assertions** across archive, cryptography and frontend UI. **This is not proof of a completed Stripe purchase.**
-
-**Release blocker:** A complete Stripe TEST-MODE hosted checkout must be finished in a normal browser, with the password visibly received on the hosted confirmation, the GitHub ZIP downloaded and extracted, and both files opened on the buyer's device. No live purchase link is enabled, and no production checkout is published pending owner release approval. Modern Safari/Firefox and deployed HTTPS testing are also not fully verified.
-
-## Availability
-
-The source, sample assets, screenshots and tests remain in the private Agentrix workspace while release criteria are completed. Do not mistake this preview for a published or purchasable template.
-
-[**Browse free Agentrix tools →**](../../README.md#free-tools)
-
-*Agentrix is not affiliated with the example brands or third-party SaaS providers used as inspiration.*
+*Agentrix is an independent project. Mention of third-party tools or illustrative demo brands does not imply affiliation.*
