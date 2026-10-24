@@ -50,7 +50,7 @@ The Pro edition is distributed as a self-contained **encrypted HTML tool** (no N
 | Installation | Node.js | Open one HTML file |
 | License | MIT | Proprietary, one-time purchase |
 
-Existing [15 free agent skills](../../skills/) and [free microproducts](../../README.md#free-developer-microproducts) remain free.
+Existing [15 free agent skills](../../skills/) and [free microproducts](../../README.md#free-tools) remain free.
 
 ## Frequently asked questions
 
