@@ -2,7 +2,19 @@
 
 **Two distinct landing-page templates for SaaS product launches: Atlas Analytics and Fieldnote CRM.**
 
-**Status: private technical preview. Not for sale, and the paid source is not publicly available. There is no price, checkout, release date, customer license, or access to a paid download.**
+**Planned launch price: US$4.90 (one-time). Not available for purchase yet.** This is a private technical preview. No checkout is active, and no paid source or customer license is publicly distributed. The planned price is a proposal, not a current offer.
+
+## Real design previews
+
+The following is an **actual screenshot of the two working sample templates**, not a stock image, AI-generated mockup or a generic style reference. Both shown layouts are shipped in the internal MVP. The demo labels, data, brands and sample plan amounts are fictional.
+
+[![Real preview showing the dark Atlas Analytics SaaS landing page and the light Fieldnote CRM SaaS landing page side by side](preview.webp)](preview.webp)
+
+**Left: Atlas Analytics** · Dark analytics-focused visual identity with lime highlights and a sample dashboard interface.
+
+**Right: Fieldnote CRM** · Bright editorial layout with purple accents and a sample CRM pipeline interface.
+
+This image is a design preview, **not** evidence of a hosted live product. The downloadable source remains private until commercial release verification is complete.
 
 ## What was implemented in the private MVP
 
