@@ -32,6 +32,16 @@ Private QA recorded two passing static-structure suites and four passing Chromiu
 
 **Not tested or approved:** direct local `file://` or loopback browser navigation (blocked by the managed testing environment), Safari/Firefox, real web deployment, independent security/accessibility audit, buyer installation, protected delivery, a Stripe transaction or customer support obligations. Therefore this product is **not available to purchase**.
 
+## Public password-protected ZIP (staged for launch)
+
+[**Download the encrypted ZIP →**](AGENTRIX_SaaS_Landing_Kit_ENCRYPTED_v0.1.1.zip)
+
+This archive contains both editable designs, documentation and a commercial-use license. The ZIP uses standard password-protected archive extraction for compatibility; **it cannot be opened without the password**. The password is not stored in GitHub or this README and will be supplied only after a completed authorized purchase once the sales checkout is released.
+
+**Current status: checkout NOT LIVE; no purchase possible.** The price shown here remains a planned launch price. The previously published HTML/AES-256 unlock method remains as a technical alternative; the password-protected ZIP is the simpler buyer package.
+
+Caution: the ZIP's legacy compatible encryption is not equivalent to modern AES-256 file encryption; its purpose is a low-friction access gate for a low-volume launch, not DRM or strong protection from determined extraction attacks. Redistribution of the source is prohibited by the license.
+
 ## Availability
 
 The source, sample assets, screenshots and tests remain in the private Agentrix workspace while release criteria are completed. Do not mistake this preview for a published or purchasable template.
