@@ -142,6 +142,17 @@ Campaign QA Pro is a local browser-based tool for bulk campaign-link checks, CSV
 - **Local first where practical.** The free CLIs do not upload your files.
 - **Free stays free.** The five MIT microtools and 15 agent skills are not locked behind the premium checkout.
 
+## Community & Roadmap
+
+Agentrix is built around practical problems, reproducible examples, and useful feedback, not follower farming.
+
+- **[Help choose the next developer tool →](https://github.com/pauloflp/Agentrix/issues/12)** — a public roadmap issue asking for concrete workflows and product suggestions.
+- **[Report a reproducible bug →](https://github.com/pauloflp/Agentrix/issues/new/choose)** — include the affected tool, expected result and sanitized steps.
+- **[Suggest a feature →](https://github.com/pauloflp/Agentrix/issues/new/choose)** — explain your specific task and why existing solutions are insufficient.
+- **[Read the contribution guidelines →](CONTRIBUTING.md)** — scope, code quality, licensing, and respectful participation.
+
+Feedback is welcome even if you don't write code. Product release notes live in the repository, and public discussion should stay relevant to the people using these tools.
+
 ## Follow the build
 
 [Instagram @agentrix.tools](https://www.instagram.com/agentrix.tools/) · [GitHub repository](https://github.com/pauloflp/Agentrix) · [Issues](https://github.com/pauloflp/Agentrix/issues)
