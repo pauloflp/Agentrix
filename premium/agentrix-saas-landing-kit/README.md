@@ -42,6 +42,14 @@ This archive contains both editable designs, documentation and a commercial-use 
 
 Caution: the ZIP's legacy compatible encryption is not equivalent to modern AES-256 file encryption; its purpose is a low-friction access gate for a low-volume launch, not DRM or strong protection from determined extraction attacks. Redistribution of the source is prohibited by the license.
 
+## Buyer delivery guide and QA
+
+[**Read the customer download / password / extraction guide →**](BUYER_GUIDE.md)
+
+The password-protected ZIP is already staged and reproducibly tested: encrypted files decrypt to the byte-identical source package; wrong passwords are rejected; Atlas and Fieldnote have undergone Chromium interaction tests. The automated retest on 24 October 2026 passed **68/68 assertions** across archive, cryptography and frontend UI. **This is not proof of a completed Stripe purchase.**
+
+**Release blocker:** A complete Stripe TEST-MODE hosted checkout must be finished in a normal browser, with the password visibly received on the hosted confirmation, the GitHub ZIP downloaded and extracted, and both files opened on the buyer's device. No live purchase link is enabled, and no production checkout is published pending owner release approval. Modern Safari/Firefox and deployed HTTPS testing are also not fully verified.
+
 ## Availability
 
 The source, sample assets, screenshots and tests remain in the private Agentrix workspace while release criteria are completed. Do not mistake this preview for a published or purchasable template.
