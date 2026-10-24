@@ -117,23 +117,13 @@ A local-first visual CSV mapping and validation workspace. An internal preview h
 
 [**Explore Data Import Studio's scope and limitations →**](premium/agentrix-data-import-studio/README.md)
 
-### Campaign QA Pro
+### Campaign QA Pro · release on hold
 
-**A separate, optional paid tool for bulk campaign-link quality assurance.**
+Campaign QA Pro is a local browser-based tool for bulk campaign-link checks, CSV imports, configurable UTM naming allowlists, and downloadable QA reports. It does **not** replace or restrict the free UTM Audit CLI.
 
-Campaign QA Pro adds a local browser interface, CSV imports, configurable UTM naming allowlists, and downloadable QA reports. It does **not** replace or restrict the free UTM Audit CLI.
+**Not available to purchase.** The checkout is disabled while the full customer activation and delivery experience is validated. No purchase link is offered until the product passes its release checks.
 
-| | |
-| :--- | :--- |
-| **Format** | Offline browser-based HTML |
-| **Price** | **US$29 one-time**, no subscription |
-| **Designed for** | Marketers, agencies, performance teams |
-| **Privacy** | URL analysis runs locally in the browser |
-| **Delivery** | Encrypted file; unlock key displayed on Stripe's successful checkout confirmation page |
-
-[**View Campaign QA Pro details →**](premium/agentrix-campaign-qa/README.md) · [**Buy securely with Stripe →**](https://buy.stripe.com/9B69AT928eYX5264GfgjC01)
-
-*Important: the live checkout and complete fulfillment flow have not yet been tested through a real purchase. Read the [product instructions and limitations](premium/agentrix-campaign-qa/README.md) before buying.*
+[**View Campaign QA Pro scope and limitations →**](premium/agentrix-campaign-qa/README.md)
 
 ---
 
