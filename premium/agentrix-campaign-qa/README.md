@@ -6,13 +6,11 @@
 
 **Audit UTM campaign links in bulk, catch tracking inconsistencies before launch, and export actionable QA reports.** Agentrix Campaign QA Pro is an offline, browser-based tool for marketers, paid media teams, performance agencies, and analytics professionals.
 
-**Price: US$29 one-time. No subscription.**  
+**Status: release on hold. Not available to purchase.** The checkout is disabled until product functionality, activation, and customer delivery are verified.
 
-### [Buy Agentrix Campaign QA Pro — Secure Stripe Checkout →](https://buy.stripe.com/9B69AT928eYX5264GfgjC01)
+[View a sample campaign CSV](sample-campaigns.csv) · [Read the proposed commercial license](LICENSE.md)
 
-[Download the encrypted Pro edition](AGENTRIX_CAMPAIGN_QA_PRO_LOCKED.html) · [View a sample campaign CSV](sample-campaigns.csv) · [Read the commercial license](LICENSE.md)
-
-After successful card payment, the **Stripe confirmation page** displays your unlock key. Save the key and receipt. The software can be unlocked entirely offline. No Stripe account login is needed to use the tool.
+The intended distribution uses an encrypted offline HTML file with an unlock key presented on the Stripe confirmation page. This checkout and fulfillment journey has not passed end-to-end release verification, so purchases are disabled.
 
 ## What Campaign QA Pro checks
 
@@ -35,9 +33,9 @@ The app runs **locally in your browser**. It does not upload your URLs to a serv
 
 ## Download and activation
 
-The Pro edition is distributed as a self-contained **encrypted HTML tool** (no Node.js installation, account, or runtime subscription needed). On completing card checkout, the buyer receives an unlock key on the **Stripe payment confirmation page**. Click **Download raw file** on [the encrypted Pro edition](AGENTRIX_CAMPAIGN_QA_PRO_LOCKED.html), open the downloaded `.html` file in a recent Chrome, Edge, Firefox, or Safari browser, and enter the unlock key shown after payment.
+The planned Pro edition is a self-contained **encrypted HTML tool** (no Node.js installation, account, or runtime subscription needed). Product use, offline unlocking, compatible browsers, and the complete payment-to-delivery experience must pass customer-style tests before the checkout will be re-enabled.
 
-**Important:** Save the unlock key and payment receipt. The offline key is transferable if shared, so it is not a per-user online activation system. The public GitHub repository contains only a locked distribution file and public marketing materials, **not** the unencrypted paid source.
+**Important:** The future offline unlock key may be transferable if shared, so it is not a per-user online activation system. The public GitHub repository contains only a locked distribution file and public marketing materials, **not** the unencrypted paid source. Do not attempt purchases using a previously saved payment link while this release is on hold.
 
 ## Free UTM Audit vs. paid Campaign QA Pro
 
@@ -68,8 +66,8 @@ Existing [15 free agent skills](../../skills/) and [free microproducts](../../RE
 
 Use this UTM parameter checker when reviewing tracking URLs for Google Ads, Meta Ads, email newsletters, social media, affiliate links, or GA4 reporting. Audit links before distribution, compare marketing campaign naming across channels, and export a practical campaign URL quality checklist for teammates.
 
-**[Purchase the offline Pro tool for US$29 →](https://buy.stripe.com/9B69AT928eYX5264GfgjC01)**
+**Purchases are currently disabled while release verification is completed.**
 
-*Testing and scope:* 20 automated engine tests passed locally on Node.js 22. The encrypted file was verified against the original generated build. Interactive browser compatibility and successful live payment fulfillment have not been tested through a real purchase. Card checkout is enabled; customers should save the unlock key on the Stripe confirmation page.
+*Testing and scope:* 20 automated engine tests passed locally on Node.js 22. The encrypted file was verified against the original generated build. A full customer-style activation and successful live payment fulfillment have not been validated, and checkout remains disabled. No sale is offered.
 
 **Agentrix** — tools for people who build.
