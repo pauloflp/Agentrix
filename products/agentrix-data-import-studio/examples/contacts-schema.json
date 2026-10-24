@@ -1,0 +1,10 @@
+{
+  "name": "CRM contacts",
+  "fields": [
+    {"name":"full_name","label":"Full name","type":"string","required":true},
+    {"name":"email","label":"Email","type":"email","required":true},
+    {"name":"company","label":"Company","type":"string","required":false},
+    {"name":"deal_value","label":"Deal value","type":"number","required":false},
+    {"name":"joined_on","label":"Joined on","type":"date","required":false}
+  ]
+}

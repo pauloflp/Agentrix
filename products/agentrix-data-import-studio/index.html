@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="color-scheme" content="dark"/>
+<title>Agentrix Data Import Studio | CSV mapping & validation</title>
+<style>:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#eaf1ee;background:#080c0b;font-synthesis:none}*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse 55% 30% at 45% 0%,#17332855,transparent),#080c0b}button,input,select{font:inherit}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.42}.topbar{height:78px;border-bottom:1px solid #ffffff15;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(22px,5vw,78px);background:#0b110fd9}.brand{font-size:15px;letter-spacing:.16em;font-weight:850;display:flex;align-items:center;gap:16px}.brand small{font-size:10px;color:#80938a;letter-spacing:.12em;font-weight:600}.brandmark{width:38px;height:38px;border-radius:12px;background:#b4fa67;color:#14210f;display:grid;place-items:center;font-size:22px;font-weight:900;position:relative;letter-spacing:0}.spark{position:absolute;font-size:11px;top:2px;right:4px}.topright{display:flex;align-items:center;gap:25px}.pill{font-size:10px;font-weight:750;letter-spacing:.1em;color:#b8e1b5;border:1px solid #5caa734d;padding:10px 13px;border-radius:100px;background:#1c3e2b66}.dot{display:inline-block;width:6px;height:6px;background:#adf978;border-radius:100%;margin-right:8px;box-shadow:0 0 12px #b3fa67}.version{font-size:10px;color:#6e8177;letter-spacing:.1em}.layout{max-width:1520px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:28px;padding:0 clamp(22px,5vw,78px) 50px}.workspace{min-width:0}.hero{padding:67px 0 39px}.eyebrow,.side-eyebrow{font-size:10px;font-weight:800;letter-spacing:.21em;color:#b5f678}.eyebrow{display:flex;align-items:center;gap:12px}.line{width:24px;height:1px;background:#b5f678}.hero h1{font-size:clamp(44px,5vw,74px);letter-spacing:-.065em;line-height:1.04;margin:18px 0 22px;font-weight:750}.hero h1 em{font-style:normal;color:#b5f678}.hero p{max-width:630px;color:#9baca3;line-height:1.8;font-size:15px;margin:0}.hero-meta{display:flex;gap:29px;margin-top:32px;font-size:10px;letter-spacing:.1em;font-weight:750;color:#788b80}.card{border:1px solid #25322a;background:linear-gradient(155deg,#121b16,#0e1511 72%);border-radius:18px;margin-bottom:18px;padding:25px 27px;box-shadow:0 10px 35px #00000025}.section-head{display:flex;gap:17px;align-items:flex-start;margin-bottom:23px}.section-head h2{font-size:20px;letter-spacing:-.03em;margin:0 0 6px}.section-head p{font-size:12px;color:#91a196;line-height:1.6;margin:0}.step{display:grid;place-items:center;width:36px;height:36px;border-radius:10px;background:#223b29;color:#b7f579;font-size:12px;font-weight:850;flex-shrink:0}.status{margin-left:auto;white-space:nowrap;font-size:9px;font-weight:800;letter-spacing:.08em;border-radius:20px;padding:9px 11px}.muted{color:#71867a;background:#1c2a21}.status.good{background:#1f3b28;color:#a9f87b}.status.bad{background:#4a2b25;color:#ffb39d}.dropzone{border:1px dashed #42614b;border-radius:14px;background:radial-gradient(circle at 50% 0%,#274a2b3d,transparent 65%),#121e16;min-height:240px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:22px;transition:border-color .2s,background .2s;outline-offset:4px}.dropzone.drag{border-color:#b4fa67;background:#1e3724}.upload-symbol{display:grid;place-items:center;width:52px;height:52px;border-radius:15px;background:#29442d;color:#c3f98a;font-size:28px;margin-bottom:14px}.dropzone strong{font-size:15px}.dropzone>span{font-size:11px;color:#7f9385;margin-top:7px}.drop-actions{display:flex;gap:9px;margin-top:20px;flex-wrap:wrap;justify-content:center}.btn{border:1px solid #35483b;background:#17241b;color:#e9f5e8;border-radius:9px;padding:11px 17px;font-size:12px;font-weight:750;transition:transform .16s,background .16s}.btn:hover:not(:disabled){transform:translateY(-1px);background:#28392a}.btn-primary{background:#b4f875;border-color:#b4f875;color:#15200f}.btn-primary:hover:not(:disabled){background:#cdfda2}.btn-ghost{background:#19271c}.btn span{margin-left:18px}.btn-mini{font-size:10px;padding:10px 13px;margin-left:auto}.wide{width:100%;display:flex;justify-content:space-between;margin-top:20px}.controls{display:flex;align-items:center;gap:25px;margin-top:17px;flex-wrap:wrap}.controls label{font-size:11px;color:#8fa395}.controls select{margin-left:12px;background:#1a281e;color:#f0f8ed;border:1px solid #344c38;border-radius:7px;padding:9px}.toggle{display:flex;align-items:center;gap:9px}.toggle input{accent-color:#b4f875;width:15px;height:15px}.file-meta{margin-top:14px;font-size:11px;color:#b4f875}.schema-row{display:flex;align-items:center;gap:13px;background:#1a271e;border:1px solid #2b3d30;border-radius:12px;padding:14px 16px}.schema-icon{display:grid;place-items:center;width:35px;height:35px;border-radius:9px;background:#314934;color:#c6fa99;font-size:13px;font-weight:800}.schema-row strong,.schema-row small{display:block}.schema-row strong{font-size:12px}.schema-row small{font-size:10px;color:#809789;margin-top:5px}.mapping-table{margin-top:18px}.mapping-head,.mapping-item{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:center}.mapping-head{font-size:10px;font-weight:800;color:#6d8576;letter-spacing:.1em;padding:10px}.mapping-item{border-top:1px solid #2a3a2d;padding:11px 10px}.mapping-item strong{font-size:12px}.mapping-item small{font-size:10px;color:#8ba08e;margin-left:8px}.required{color:#c0f98c;font-size:9px;font-weight:800}.mapping-item select{width:100%;min-width:0;background:#19291e;border:1px solid #344b39;color:#e9f4e7;padding:10px;border-radius:7px;font-size:11px}.empty,.report-empty{font-size:12px;color:#758a7d}.report-empty{text-align:center;padding:32px 10px}.report-empty span{display:block;color:#8caf85;font-size:35px}.report-empty strong{display:block;color:#d7e5d8;margin-top:6px}.report-empty p{margin:7px 0 0}.report-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.metric{background:#1b2a20;border:1px solid #2d3e32;border-radius:12px;padding:17px}.metric b{font-size:26px;display:block;letter-spacing:-.04em}.metric small{font-size:10px;color:#8b9e8f;text-transform:uppercase;letter-spacing:.07em}.metric.error b{color:#ffb398}.metric.ok b{color:#b4f875}.result-message{font-size:12px;color:#b0c1b3;line-height:1.7;margin:18px 0}.table-wrap{max-width:100%;overflow:auto;border:1px solid #2c3d30;border-radius:9px;margin-top:15px}.table-wrap table{border-collapse:collapse;width:100%;min-width:450px;font-size:11px}.table-wrap th,.table-wrap td{text-align:left;padding:11px 12px;border-bottom:1px solid #26382b;max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.table-wrap th{color:#a3bbab;background:#1b2b20;font-weight:750}.table-wrap td{color:#d2ded5}.error-list{max-height:240px;overflow:auto}.error-row{border-top:1px solid #344236;padding:10px 0;font-size:11px;color:#e2b9a7}.error-row b{color:#ff9f84}.export-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.footnote{display:flex;justify-content:space-between;color:#53685b;font-size:9px;letter-spacing:.13em;padding:20px 0}.sidebar{padding-top:60px}.side-card{border:1px solid #26392b;border-radius:17px;padding:27px;margin-bottom:16px;background:#101a14}.side-card.glow{background:radial-gradient(circle at 100% 0%,#376c3544,transparent 75%),#15221a}.side-card h3{font-size:27px;letter-spacing:-.05em;line-height:1.2;margin:23px 0 25px}.rail{border-left:1px solid #4a624c;margin-left:13px;padding:2px 0 2px 22px}.rail>div{display:flex;align-items:center;gap:12px;margin:0 0 23px;position:relative}.rail>div:last-child{margin-bottom:0}.rail b{font-size:10px;color:#b4f875}.rail span{font-size:11px;color:#a1b5a5}.rail>div:before{content:'';position:absolute;width:6px;height:6px;background:#b4f875;left:-26px;border-radius:50%}.privacy-icon{font-size:29px;color:#b4f875;margin-top:23px}.side-card p{color:#9aafa0;font-size:12px;line-height:1.85}.side-card.compact p{margin:15px 0}.side-card.compact small{font-size:10px;color:#718c77;line-height:1.6;display:block}.toast{position:fixed;bottom:25px;right:25px;padding:15px 19px;background:#253c2a;color:#e9fbe4;border:1px solid #87b97d;border-radius:12px;font-size:12px;max-width:360px;box-shadow:0 12px 40px #0008}.toast.error{background:#432d27;border-color:#bd7866}.table-wrap[hidden],.file-meta[hidden],.toast[hidden]{display:none!important}@media(max-width:1100px){.layout{grid-template-columns:minmax(0,1fr) 255px;gap:16px}.sidebar{padding-top:75px}.side-card{padding:20px}}@media(max-width:850px){.layout{display:block}.sidebar{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding-top:10px}.side-card{margin:0}.side-card.compact{grid-column:1/-1}.hero{padding-top:48px}}@media(max-width:600px){.topbar{height:68px;padding:0 18px}.brand{font-size:12px;gap:8px}.brand small,.version{display:none}.pill{font-size:8px;padding:8px}.layout{padding:0 15px 30px}.hero{padding:42px 0 30px}.hero h1{font-size:45px}.hero-meta{gap:12px;flex-wrap:wrap;font-size:9px}.card{padding:18px 15px}.section-head{gap:10px}.section-head h2{font-size:17px}.status{font-size:8px;padding:7px;margin-left:auto}.schema-row{flex-wrap:wrap}.btn-mini{margin-left:0}.report-stats{gap:6px}.metric{padding:11px}.metric b{font-size:22px}.sidebar{grid-template-columns:1fr}.side-card.compact{grid-column:auto}.footnote{font-size:8px;gap:10px}.mapping-item{grid-template-columns:1fr}.mapping-head{display:none}}
+</style></head>
+<body>
+<header class="topbar"><div class="brand"><span class="brandmark">A<span class="spark">✦</span></span><span>AGENTRIX <small>/ DATA IMPORT STUDIO</small></span></div><div class="topright"><span class="pill"><span class="dot"></span> LOCAL-FIRST · OFFLINE</span><span class="version">FREE · MIT 1.0</span></div></header>
+<main class="layout"><div class="workspace"><div class="hero"><div class="eyebrow"><span class="line"></span> THE CLEAN DATA WORKFLOW</div><h1>Import with intent.<br/><em>Not guesswork.</em></h1><p>Map messy CSV columns to a clean schema. Catch errors before they travel. Export files you can trust, all inside your browser.</p><div class="hero-meta"><span>01 / LOAD</span><span>02 / MAP</span><span>03 / VALIDATE</span><span>04 / EXPORT</span></div></div>
+<section class="card" aria-labelledby="loadTitle"><div class="section-head"><span class="step">01</span><div><h2 id="loadTitle">Source file</h2><p>Drop a CSV, choose one from your computer, or try synthetic sample data.</p></div><span id="sourceBadge" class="status muted">WAITING FOR DATA</span></div>
+<div id="dropzone" class="dropzone" role="button" tabindex="0" aria-label="Choose or drop a CSV file"><div class="upload-symbol">↥</div><strong>Drop your CSV file here</strong><span>or select one from your device · up to 5 MiB / 20,000 rows</span><div class="drop-actions"><button id="chooseBtn" class="btn btn-primary" type="button">Choose CSV <span>↗</span></button><button id="demoBtn" class="btn btn-ghost" type="button">Load sample dataset</button></div></div><input id="fileInput" type="file" accept=".csv,text/csv,text/plain" hidden/>
+<div id="fileMeta" class="file-meta" hidden></div><div class="controls"><label>Delimiter<select id="delimiter"><option value="auto">Auto detect</option><option value=",">Comma (,)</option><option value=";">Semicolon (;)</option><option value="tab">Tab (↹)</option></select></label><label class="toggle"><input id="hasHeader" type="checkbox" checked/><span>First row contains headers</span></label></div><div id="sourcePreview" class="table-wrap" hidden></div></section>
+<section class="card" aria-labelledby="mapTitle"><div class="section-head"><span class="step">02</span><div><h2 id="mapTitle">Column mapping</h2><p>Connect source columns to destination fields. Unmapped required fields will fail validation.</p></div><span id="mapBadge" class="status muted">NO SOURCE</span></div><div class="schema-row"><span class="schema-icon">{ }</span><div><strong id="schemaName">CRM contacts</strong><small>5 typed fields · editable via JSON schema</small></div><label class="btn btn-mini" for="schemaInput">Import schema JSON</label><input id="schemaInput" type="file" accept=".json,application/json" hidden/></div><div id="mappingTable" class="mapping-table"><p class="empty">Load a CSV to configure mappings.</p></div><button id="validateBtn" class="btn btn-primary wide" disabled>Validate rows <span>→</span></button></section>
+<section class="card" aria-labelledby="resultTitle"><div class="section-head"><span class="step">03</span><div><h2 id="resultTitle">Validation report</h2><p>Inspect passing records and exact errors before exporting.</p></div><span id="resultBadge" class="status muted">NOT RUN</span></div><div id="report" class="report-empty"><span>◎</span><strong>No report yet</strong><p>Map your columns and run validation to see the results.</p></div><div class="export-actions"><button id="exportClean" class="btn btn-primary" disabled>↓ Export clean CSV</button><button id="exportErrors" class="btn btn-ghost" disabled>↓ Export error report</button></div></section>
+<footer class="footnote">AGENTRIX / BUILT FOR PEOPLE WHO BUILD <span>DATA STAYS ON YOUR DEVICE</span></footer></div>
+<aside class="sidebar"><div class="side-card glow"><div class="side-eyebrow">YOUR WORKFLOW</div><h3>Clean inputs.<br/>Better outcomes.</h3><div class="rail"><div><b>01</b><span>Upload your data</span></div><div><b>02</b><span>Match your fields</span></div><div><b>03</b><span>Resolve invalid rows</span></div><div><b>04</b><span>Export normalized CSV</span></div></div></div><div class="side-card"><div class="side-eyebrow">PRIVACY BY DESIGN</div><div class="privacy-icon">◈</div><h3>No upload.<br/>No account.</h3><p>Your CSV is parsed locally. No remote API, telemetry, analytics, or third-party runtime dependency.</p></div><div class="side-card compact"><div class="side-eyebrow">SUPPORTED FEATURES</div><p>Quoted CSV · multiline fields · UTF-8 BOM · comma / semicolon / tab · required fields · email / number / ISO date validation.</p><small>Not a CRM connector. No XLSX, database writes, or cloud sync.</small></div></aside></main>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<script>/** Agentrix Data Import Studio - local-only CSV processing core. No dependencies. */
+const LIMITS = Object.freeze({ bytes: 5 * 1024 * 1024, rows: 20000, columns: 80 });
+const DELIMITERS = [',',';','\t'];
+function parseCSV(text, delimiter=',', {maxRows=LIMITS.rows,maxColumns=LIMITS.columns}={}) {
+  if (typeof text !== 'string') throw new TypeError('CSV content must be text');
+  if (!DELIMITERS.includes(delimiter)) throw new Error('Unsupported delimiter');
+  if (new TextEncoder().encode(text).byteLength > LIMITS.bytes) throw new Error('CSV exceeds 5 MiB limit');
+  const rows=[];let row=[],field='',quoted=false,afterQuote=false,atStart=true;
+  let line=1, rowStart=1;
+  text=text.replace(/^\uFEFF/,'');
+  for(let i=0;i<text.length;i++){
+    const c=text[i], next=text[i+1];
+    if(quoted){
+      if(c==='"' && next==='"'){field+='"';i++;}
+      else if(c==='"'){quoted=false;afterQuote=true;}
+      else {field+=c;if(c==='\n')line++;else if(c==='\r'&&next!=='\n')line++;}
+      continue;
+    }
+    if(afterQuote){
+      if(c===delimiter){pushField();afterQuote=false;continue;}
+      if(c==='\n'||c==='\r'){pushField();pushRow();if(c==='\r'&&next==='\n')i++;line++;rowStart=line;afterQuote=false;continue;}
+      throw new Error(`Unexpected character after closing quote at line ${line}`);
+    }
+    if(c==='"'){
+      if(field!=='')throw new Error(`Unexpected quote at line ${line}`);
+      quoted=true;atStart=false;continue;
+    }
+    if(c===delimiter){pushField();continue;}
+    if(c==='\n'||c==='\r'){
+      pushField();pushRow();if(c==='\r'&&next==='\n')i++;line++;rowStart=line;continue;
+    }
+    field+=c;atStart=false;
+  }
+  if(quoted)throw new Error(`Unclosed quoted field at line ${line}`);
+  if(field!==''||row.length>0||afterQuote){pushField();pushRow();}
+  return rows;
+  function pushField(){row.push(field);field='';atStart=true;if(row.length>maxColumns)throw new Error(`More than ${maxColumns} columns at line ${rowStart}`);}
+  function pushRow(){if(rows.length>=maxRows+1)throw new Error(`More than ${maxRows} data rows`);rows.push({values:row,line:rowStart});row=[];}
+}
+function detectDelimiter(text){
+  const sample=text.slice(0,20000);
+  const results=DELIMITERS.map(delimiter=>{
+    try{
+      const rows=parseCSV(sample,delimiter,{maxRows:200,maxColumns:LIMITS.columns}).slice(0,12).filter(r=>r.values.some(x=>x.trim()));
+      const counts=rows.map(r=>r.values.length);
+      const freq=new Map();for(const n of counts)freq.set(n,(freq.get(n)||0)+1);
+      const [modal,occ]=[...freq].sort((a,b)=>b[1]-a[1])[0]||[1,0];
+      return {delimiter,score:modal>1?occ*10+modal-(counts.length-occ)*8:0};
+    }catch{return {delimiter,score:-1};}
+  });
+  return results.sort((a,b)=>b.score-a.score)[0].delimiter;
+}
+function normalizeSchema(schema){
+  if(!schema||!Array.isArray(schema.fields)||!schema.fields.length||schema.fields.length>LIMITS.columns)throw new Error('Schema needs 1–80 fields');
+  const names=new Set();return schema.fields.map(f=>{
+    if(!f||typeof f.name!=='string'||!/^[A-Za-z_][\w-]{0,63}$/.test(f.name))throw new Error('Invalid schema field name');
+    if(names.has(f.name))throw new Error(`Duplicate schema field: ${f.name}`);
+    names.add(f.name);
+    if(!['string','email','number','date'].includes(f.type))throw new Error(`Unsupported type for ${f.name}`);
+    if(f.required!==undefined&&typeof f.required!=='boolean')throw new Error(`Invalid required flag for ${f.name}`);
+    return {name:f.name,type:f.type,required:!!f.required,label:typeof f.label==='string'?f.label.slice(0,100):f.name};
+  });
+}
+function sourceColumns(parsed,header=true){
+  const first=parsed[0]?.values||[];
+  const width=header?first.length:Math.max(0,...parsed.map(row=>row.values.length));
+  const names=header?first.map((s,i)=>s.trim()||`Unnamed ${i+1}`):Array.from({length:width},(_,i)=>`Column ${i+1}`);
+  return names.map((label,index)=>({label,index}));
+}
+function autoMap(columns,fields){
+  const clean=s=>s.toLowerCase().replace(/[^a-z0-9]/g,'');
+  return Object.fromEntries(fields.map(f=>{
+    const match=columns.find(c=>clean(c.label)===clean(f.name)||clean(c.label)===clean(f.label));
+    return [f.name,match?match.index:null];
+  }));
+}
+function checkType(value,type){
+  if(type==='email')return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)&&!/[\r\n]/.test(value)?null:'Invalid email';
+  if(type==='number')return /^[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?$/.test(value)&&Number.isFinite(Number(value))?null:'Invalid number (use dot decimal)';
+  if(type==='date'){
+    if(!/^\d{4}-\d{2}-\d{2}$/.test(value))return 'Invalid date (expected YYYY-MM-DD)';
+    const [y,m,d]=value.split('-').map(Number);const dt=new Date(0);dt.setUTCHours(0,0,0,0);dt.setUTCFullYear(y,m-1,d);
+    return dt.getUTCFullYear()===y&&dt.getUTCMonth()===m-1&&dt.getUTCDate()===d?null:'Invalid calendar date';
+  }
+  return null;
+}
+function transform(parsed,fields,mapping,{header=true,trim=true}={}){
+  const data=header?parsed.slice(1):parsed;
+  const ok=[],errors=[];
+  for(const row of data){
+    if(row.values.every(v=>!v.trim()))continue;
+    const output={},issues=[];
+    for(const f of fields){
+      const index=mapping[f.name];const raw=Number.isInteger(index)&&index>=0?row.values[index]:undefined;
+      const value=raw===undefined?'':trim?raw.trim():raw;
+      output[f.name]=value;
+      if(raw===undefined){if(f.required)issues.push(`${f.name}: unmapped or missing column`);continue;}
+      if(!value){if(f.required)issues.push(`${f.name}: required`);continue;}
+      const issue=checkType(value,f.type);if(issue)issues.push(`${f.name}: ${issue}`);
+    }
+    if(issues.length)errors.push({line:row.line,values:row.values,issues});
+    else ok.push(output);
+  }
+  return {ok,errors,total:ok.length+errors.length};
+}
+function formulaRisk(value){return /^[\s\uFEFF\u200B\u200C\u200D]*[=+@\-\t\r]/u.test(String(value));}
+function protect(value,protectFormulas){const v=String(value??'');return protectFormulas&&formulaRisk(v)?`'${v}`:v;}
+function serializeCSV(rows,headers,{delimiter=',',protectFormulas=true}={}){
+  if(!DELIMITERS.includes(delimiter))throw new Error('Unsupported delimiter');
+  const quote=v=>{v=protect(v,protectFormulas);return /["\r\n]/.test(v)||v.includes(delimiter)?`"${v.replaceAll('"','""')}"`:v;};
+  return [headers.map(quote).join(delimiter),...rows.map(row=>headers.map(h=>quote(row[h])).join(delimiter))].join('\r\n')+'\r\n';
+}
+function errorsCSV(errors){
+  return serializeCSV(errors.map(e=>({line:e.line,issues:e.issues.join(' | '),source:JSON.stringify(e.values)})),['line','issues','source']);
+}
+</script><script>// UI controller. All user-provided values are rendered with textContent, never innerHTML.
+(()=>{
+'use strict';
+const $=id=>document.getElementById(id);
+const DEMO='Full name,Email,Company,Deal value,Joined on\r\n"Alex Rivera",alex@example.com,"Northwind, Inc.",2500.00,2026-10-10\r\n"Jordan Kim",jordan@example.com,Atlas Studio,750,2026-10-11\r\n"Taylor Moss",invalid-email,Evergreen Labs,320,2026-10-12\r\n"Morgan Lee",morgan@example.com,Field Works,not-a-number,2026-10-13\r\n"Riley Stone",riley@example.com,Beacon Agency,1100,2026-02-30\r\n';
+let schema={name:'CRM contacts',fields:[{name:'full_name',label:'Full name',type:'string',required:true},{name:'email',label:'Email',type:'email',required:true},{name:'company',label:'Company',type:'string',required:false},{name:'deal_value',label:'Deal value',type:'number',required:false},{name:'joined_on',label:'Joined on',type:'date',required:false}]};
+let text='',parsed=[],fields=normalizeSchema(schema),columns=[],mapping={},result=null,filename='';
+function toast(message,error=false){const el=$('toast');el.textContent=message;el.classList.toggle('error',error);el.hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>el.hidden=true,6000);}
+function setBadge(id,value,state='muted'){const el=$(id);el.textContent=value;el.className=`status ${state}`;}
+function element(tag,content,cls){const el=document.createElement(tag);if(content!==undefined)el.textContent=content;if(cls)el.className=cls;return el;}
+function showTable(container,headers,rows){container.replaceChildren();const table=element('table');const thead=element('thead'),tr=element('tr');for(const h of headers)tr.append(element('th',h));thead.append(tr);table.append(thead);const body=element('tbody');for(const row of rows){const r=element('tr');for(const v of row)r.append(element('td',String(v??'')));body.append(r);}table.append(body);container.append(table);container.hidden=false;}
+function updateSource(){
+ if(!text){return;}
+ try{
+  const mode=$('delimiter').value;const delimiter=mode==='auto'?detectDelimiter(text):mode==='tab'?'\t':mode;
+  parsed=parseCSV(text,delimiter);const header=$('hasHeader').checked;
+  if(parsed.length-(header?1:0)>LIMITS.rows)throw new Error('More than 20,000 data rows');
+  if(!parsed.length)throw new Error('CSV is empty');
+  columns=sourceColumns(parsed,header);
+  if(!columns.length)throw new Error('No columns detected');
+  mapping=autoMap(columns,fields);result=null;
+  $('fileMeta').hidden=false;$('fileMeta').textContent=`${filename}  ·  ${parsed.length-(header?1:0)} data rows  ·  ${columns.length} columns  ·  ${delimiter==='\t'?'tab':delimiter} delimiter`;
+  setBadge('sourceBadge','FILE LOADED','good');setBadge('mapBadge',`${fields.length} FIELDS`,'good');setBadge('resultBadge','NOT RUN');
+  const previews=parsed.slice(header?1:0,(header?1:0)+4).map(row=>columns.map(c=>row.values[c.index]??''));
+  showTable($('sourcePreview'),columns.map(c=>c.label),previews);
+  drawMapping();resetReport();$('validateBtn').disabled=false;
+ }catch(err){parsed=[];columns=[];result=null;setBadge('sourceBadge','INVALID CSV','bad');setBadge('mapBadge','NO SOURCE');$('fileMeta').hidden=true;$('sourcePreview').hidden=true;$('mappingTable').replaceChildren(element('p','Unable to parse this CSV. Try a different delimiter or check quotes.','empty'));$('validateBtn').disabled=true;resetReport();toast(err.message,true);}
+}
+function drawMapping(){const root=$('mappingTable');root.replaceChildren();const header=element('div',undefined,'mapping-head');header.append(element('span','DESTINATION FIELD'),element('span','SOURCE COLUMN'));root.append(header);
+ for(const f of fields){const item=element('div',undefined,'mapping-item'),label=element('div');label.append(element('strong',f.label));label.append(element('small',f.type));if(f.required)label.append(element('small','REQUIRED','required'));
+ const select=element('select');select.setAttribute('aria-label',`Source column for ${f.label}`);const empty=element('option','— Not mapped —');empty.value='';select.append(empty);
+ for(const c of columns){const opt=element('option',`${c.label} · column ${c.index+1}`);opt.value=String(c.index);select.append(opt);}
+ select.value=mapping[f.name]===null||mapping[f.name]===undefined?'':String(mapping[f.name]);select.addEventListener('change',()=>{mapping[f.name]=select.value===''?null:Number(select.value);resetReport();});item.append(label,select);root.append(item);
+ }}
+function resetReport(){result=null;setBadge('resultBadge','NOT RUN');const report=$('report');report.className='report-empty';report.replaceChildren(element('span','◎'),element('strong','No report yet'),element('p','Map your columns and run validation to see the results.'));$('exportClean').disabled=true;$('exportErrors').disabled=true;}
+function validate(){if(!parsed.length)return;result=transform(parsed,fields,mapping,{header:$('hasHeader').checked});const root=$('report');root.className='';root.replaceChildren();const stats=element('div',undefined,'report-stats');for(const [name,count,cls] of [['TOTAL ROWS',result.total,''],['VALID ROWS',result.ok.length,'ok'],['ISSUES',result.errors.length,'error']]){const metric=element('div',undefined,`metric ${cls}`);metric.append(element('b',String(count)),element('small',name));stats.append(metric);}root.append(stats);
+ root.append(element('p',result.errors.length?'Review the first issues below. Invalid rows are excluded from the clean export.':'All processed rows passed the selected schema rules.','result-message'));
+ if(result.errors.length){const list=element('div',undefined,'error-list');for(const error of result.errors.slice(0,30)){const r=element('div',undefined,'error-row');r.append(element('b',`CSV line ${error.line} · `),document.createTextNode(error.issues.join(' | ')));list.append(r);}root.append(list);if(result.errors.length>30)root.append(element('p',`Showing first 30 of ${result.errors.length} errors. Download full report.`,'result-message'));}
+ if(result.ok.length){const container=element('div',undefined,'table-wrap');showTable(container,fields.map(f=>f.label),result.ok.slice(0,5).map(r=>fields.map(f=>r[f.name])));root.append(container);}
+ setBadge('resultBadge',result.errors.length?'REVIEW ISSUES':'ALL VALID',result.errors.length?'bad':'good');$('exportClean').disabled=!result.ok.length;$('exportErrors').disabled=!result.errors.length;toast(`Validated ${result.total} rows locally.`);
+}
+function download(name,csv){const blob=new Blob(['\uFEFF',csv],{type:'text/csv;charset=utf-8'});const url=URL.createObjectURL(blob);const link=element('a');link.href=url;link.download=name;document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+// Never leave a previous file's validation/export visible after a rejected replacement.
+function clearLoadedSource(){
+ text='';filename='';parsed=[];columns=[];mapping={};result=null;
+ $('fileMeta').hidden=true;$('fileMeta').textContent='';
+ $('sourcePreview').hidden=true;$('sourcePreview').replaceChildren();
+ $('mappingTable').replaceChildren(element('p','Load a CSV to map columns.','empty'));
+ $('validateBtn').disabled=true;
+ setBadge('sourceBadge','NO FILE');setBadge('mapBadge','NO SOURCE');
+ resetReport();
+}
+async function readFile(file){
+ if(!file)return;
+ clearLoadedSource();
+ if(file.size>LIMITS.bytes){toast('File exceeds 5 MiB. Please split the CSV.',true);return;}
+ if(!/\.(csv|txt)$/i.test(file.name)&&!['text/csv','text/plain','application/vnd.ms-excel'].includes(file.type)){toast('Choose a CSV or plain text file.',true);return;}
+ try{text=await file.text();filename=file.name;updateSource();}
+ catch(err){clearLoadedSource();toast(`Could not read file: ${err.message}`,true);}
+}
+$('fileInput').addEventListener('change',e=>readFile(e.target.files[0]));$('chooseBtn').addEventListener('click',e=>{e.stopPropagation();$('fileInput').click();});$('dropzone').addEventListener('click',e=>{if(e.target.closest('button'))return;$('fileInput').click();});$('dropzone').addEventListener('keydown',e=>{if(e.target===$('dropzone')&&(e.key==='Enter'||e.key===' ')){e.preventDefault();$('fileInput').click();}});
+$('demoBtn').addEventListener('click',e=>{e.stopPropagation();text=DEMO;filename='contacts-demo.csv (synthetic)';$('delimiter').value='auto';$('hasHeader').checked=true;updateSource();});
+for(const event of ['dragenter','dragover'])$('dropzone').addEventListener(event,e=>{e.preventDefault();$('dropzone').classList.add('drag');});
+for(const event of ['dragleave','drop'])$('dropzone').addEventListener(event,e=>{e.preventDefault();$('dropzone').classList.remove('drag');});
+$('dropzone').addEventListener('drop',e=>readFile(e.dataTransfer.files[0]));$('delimiter').addEventListener('change',updateSource);$('hasHeader').addEventListener('change',updateSource);
+$('schemaInput').addEventListener('change',async e=>{const file=e.target.files[0];if(!file)return;if(file.size>100*1024){toast('Schema exceeds 100 KiB.',true);return;}try{const s=JSON.parse(await file.text());const f=normalizeSchema(s);schema=s;fields=f;$('schemaName').textContent=s.name||file.name;const small=$('schemaName').nextElementSibling;small.textContent=`${fields.length} typed fields · custom JSON schema`;if(parsed.length){mapping=autoMap(columns,fields);drawMapping();resetReport();setBadge('mapBadge',`${fields.length} FIELDS`,'good');}toast('Custom schema loaded.');}catch(err){toast(`Invalid schema: ${err.message}`,true);}});
+$('validateBtn').addEventListener('click',validate);$('exportClean').addEventListener('click',()=>{if(result?.ok.length)download('agentrix-clean.csv',serializeCSV(result.ok,fields.map(f=>f.name)));});$('exportErrors').addEventListener('click',()=>{if(result?.errors.length)download('agentrix-errors.csv',errorsCSV(result.errors));});
+})();
+</script></body></html>

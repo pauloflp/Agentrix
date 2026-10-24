@@ -9,7 +9,7 @@ Practical developer utilities, reusable agent instructions, and focused workflow
 [**Free tools**](#free-tools) · [**Free agent skills**](#free-agent-skills) · [**Premium templates**](#premium-templates) · [**Premium tools**](#premium-tools) · [**Instagram**](https://www.instagram.com/agentrix.tools/)
 
 ![Node.js 20+](https://img.shields.io/badge/Node.js-20%2B-153452?style=flat-square&logo=nodedotjs&logoColor=white)
-![Free tools](https://img.shields.io/badge/Free%20microtools-4-153452?style=flat-square)
+![Free tools](https://img.shields.io/badge/Free%20microtools-5-153452?style=flat-square)
 ![Agent skills](https://img.shields.io/badge/Free%20agent%20skills-15-153452?style=flat-square)
 ![License](https://img.shields.io/badge/Free%20tools-MIT-153452?style=flat-square)
 
@@ -25,7 +25,7 @@ Agentrix is a collection of deliberately focused tools. Start with a problem, ch
 
 ## FREE TOOLS
 
-All four microtools below are **free, MIT-licensed**, run locally with **Node.js 20+**, and require **no third-party runtime dependencies**.
+All five microtools below are **free, MIT-licensed**, run locally with **Node.js 20+**, and require **no third-party runtime dependencies**.
 
 | Tool | What it helps you catch | Start here |
 | :--- | :--- | :--- |
@@ -33,6 +33,7 @@ All four microtools below are **free, MIT-licensed**, run locally with **Node.js
 | **[UTM Audit](products/agentrix-utm-audit/)** | Inconsistent UTM naming, missing campaign tags, malformed links | [Documentation →](products/agentrix-utm-audit/README.md) |
 | **[CSV Guard](products/agentrix-csv-guard/)** | Broken CSV structure, irregular columns, risky spreadsheet formulas | [Documentation →](products/agentrix-csv-guard/README.md) |
 | **[JSON Diff](products/agentrix-json-diff/)** | Added, removed, and changed JSON values at precise paths | [Documentation →](products/agentrix-json-diff/README.md) |
+| **[Data Import Studio](products/agentrix-data-import-studio/)** | Visual CSV column mapping, typed validation, clean/error exports | [Documentation →](products/agentrix-data-import-studio/README.md) |
 
 ### See the ideas behind the tools
 
@@ -72,7 +73,7 @@ node bin/env-contract.mjs --example .env.example --env .env
 The last command requires the two named files to exist in the working directory. See the [Env Contract usage guide](products/agentrix-env-contract/README.md) for details and safe CI examples.
 
 <details>
-<summary><strong>Run all four test suites</strong></summary>
+<summary><strong>Run all five test suites</strong></summary>
 
 From the repository root:
 
@@ -81,6 +82,7 @@ From the repository root:
 (cd products/agentrix-utm-audit && npm test)
 (cd products/agentrix-csv-guard && npm test)
 (cd products/agentrix-json-diff && npm test)
+(cd products/agentrix-data-import-studio && npm test)
 ```
 
 The [CI workflow](.github/workflows/microproducts-ci.yml) also runs product tests on supported Node.js versions when relevant files change. Passing tests do not guarantee correctness for every possible input.
@@ -111,12 +113,6 @@ No premium templates are publicly released yet. We will list templates here only
 
 Premium products are separate, optional offers. Each product has its own scope, availability, and delivery details. **A product described as a preview is not available for purchase.**
 
-### Data Import Studio · private preview
-
-A local-first visual CSV mapping and validation workspace. An internal preview has been tested, but commercial licensing, customer delivery, and release are still pending. **No purchase link is offered.**
-
-[**Explore Data Import Studio's scope and limitations →**](premium/agentrix-data-import-studio/README.md)
-
 ### Campaign QA Pro · release on hold
 
 Campaign QA Pro is a local browser-based tool for bulk campaign-link checks, CSV imports, configurable UTM naming allowlists, and downloadable QA reports. It does **not** replace or restrict the free UTM Audit CLI.
@@ -132,7 +128,7 @@ Campaign QA Pro is a local browser-based tool for bulk campaign-link checks, CSV
 - **Useful over complicated.** Each tool targets a specific workflow.
 - **Honest by design.** Read the limitations and inspect results before making decisions.
 - **Local first where practical.** The free CLIs do not upload your files.
-- **Free stays free.** The four MIT microtools and 15 agent skills are not locked behind the premium checkout.
+- **Free stays free.** The five MIT microtools and 15 agent skills are not locked behind the premium checkout.
 
 ## Follow the build
 

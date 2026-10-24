@@ -1,0 +1,16 @@
+{
+  "name": "agentrix-data-import-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Free local-first visual CSV mapping and validation tool (MIT)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build": "node build.mjs",
+    "start": "node serve.mjs"
+  }
+}

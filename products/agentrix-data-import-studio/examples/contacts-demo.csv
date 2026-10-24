@@ -1,0 +1,8 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: contacts-demo.csv>
+index,Full name,Email,Company,Deal value,Joined on
+0,Alex Rivera,alex@example.com,"Northwind, Inc.",2500.00,2026-10-10
+1,Jordan Kim,jordan@example.com,Atlas Studio,750,2026-10-11
+2,Taylor Moss,invalid-email,Evergreen Labs,320,2026-10-12
+3,Morgan Lee,morgan@example.com,Field Works,not-a-number,2026-10-13
+4,Riley Stone,riley@example.com,Beacon Agency,1100,2026-02-30
