@@ -1,0 +1,11 @@
+{
+  "name": "agentrix-jsonl-guard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local-first JSONL / NDJSON validation without exposing record values",
+  "bin": { "jsonl-guard": "./bin/jsonl-guard.mjs" },
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
