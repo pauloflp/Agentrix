@@ -1,0 +1,7 @@
+SHA-256 of files in the extracted Agentrix_SaaS_Landing_Kit directory (relative paths)
+
+c82c1a82488398a00dc33b82d8454800e63eef5b0a7d812a6c87f03ea79f43b2  LICENSE.txt
+693b390c362599cec40c764bc2bad2b9bdbea9928f012bcf3f0bc5a22c317cad  README.md
+85cc86409f159d1698ceb2686395ea0fb0c14b3a065a1541b1515df7032e5dfa  docs/launch-checklist.md
+e9d8f0c3d30d1b61fe3ed6d5f6cda85f7ce4e0833cb3d5d97fdddbde9dc14160  templates/atlas/index.html
+b8bedbd917ac4890173aab7059a305b9efa934a27c6ae8bb2d9cb6f53143a0e9  templates/fieldnote/index.html

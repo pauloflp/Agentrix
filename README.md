@@ -6,7 +6,7 @@
 
 Practical developer utilities, reusable agent instructions, and focused workflows for code, data, design, and marketing.
 
-[**Free tools**](#free-tools) · [**Free agent skills**](#free-agent-skills) · [**Premium templates**](#premium-templates) · [**Premium tools**](#premium-tools) · [**Instagram**](https://www.instagram.com/agentrix.tools/)
+[**Free tools**](#free-tools) · [**Free templates**](#free-templates) · [**Free agent skills**](#free-agent-skills) · [**Premium templates**](#premium-templates) · [**Premium tools**](#premium-tools) · [**Instagram**](https://www.instagram.com/agentrix.tools/)
 
 ![Node.js 20+](https://img.shields.io/badge/Node.js-20%2B-153452?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Free tools](https://img.shields.io/badge/Free%20microtools-5-153452?style=flat-square)
@@ -105,19 +105,21 @@ A curated library of reusable instructions for common technical and creative tas
 
 > These are instruction files, not automatically installed plugins or a promise of increased model capabilities. Open the relevant `SKILL.md`, adapt it to your compatible agent, and review the output.
 
+## FREE TEMPLATES
+
+### Agentrix SaaS Landing Kit · FREE DOWNLOAD
+
+**Two complete editable SaaS landing pages: Atlas Analytics and Fieldnote CRM.** Download and customize the HTML/CSS/JavaScript for personal or commercial websites with no checkout, login, password, or payment. These are **frontend templates**, not a working SaaS backend.
+
+[![Actual Atlas Analytics and Fieldnote CRM template screenshots](premium/agentrix-saas-landing-kit/preview.webp)](premium/agentrix-saas-landing-kit/README.md)
+
+**[Download the ZIP (no password) →](premium/agentrix-saas-landing-kit/AGENTRIX_SaaS_Landing_Kit_FREE_v1.0.zip)** · [Explore the templates →](premium/agentrix-saas-landing-kit/README.md) · [Free-use license →](premium/agentrix-saas-landing-kit/LICENSE.txt)
+
+The kit is free to use for your own and client projects. Redistributing the unmodified pack as a competing template product is not permitted. This **source-available** license is separate from the MIT licenses of the five free microtools.
+
 ## PREMIUM TEMPLATES
 
-No premium templates are available for purchase yet. We list prototypes honestly and do not provide a checkout until customer-style tests and delivery verification pass. The five free tools and 15 free agent skills remain free.
-
-### Agentrix SaaS Landing Kit · visual preview
-
-**Planned launch price: US$4.90 one-time · NOT FOR SALE YET.** Two complete, responsive landing-page designs for analytics SaaS and CRM products, delivered as editable HTML/CSS/JS. No SaaS backend is included.
-
-[![Real screenshot showing the Atlas Analytics and Fieldnote CRM landing-page designs](premium/agentrix-saas-landing-kit/preview.webp)](premium/agentrix-saas-landing-kit/README.md)
-
-[**See real design previews, features and test status →**](premium/agentrix-saas-landing-kit/README.md)
-
-The kit is a private technical MVP. Purchase and delivery remain disabled until the customer-style release checklist is completed; no checkout link is offered.
+No premium template is currently available to purchase. The SaaS Landing Kit has been released as a **free product** rather than a paid preview. This does not change the status of any other Agentrix product.
 
 ## PREMIUM TOOLS
 

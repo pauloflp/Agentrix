@@ -1,0 +1,40 @@
+AGENTRIX SAAS LANDING KIT - FREE USE LICENSE v1.0
+Copyright (c) 2026 Agentrix. All rights reserved.
+
+This license applies to the Atlas Analytics and Fieldnote CRM frontend templates
+included in the official free Agentrix SaaS Landing Kit v1.0 distribution.
+
+PRICE AND GRANT
+Agentrix grants every person who lawfully downloads this free release a
+non-exclusive, perpetual, worldwide, royalty-free license to use, modify,
+and deploy the included templates for personal or commercial projects,
+including client websites. No purchase, activation, account, subscription,
+password, or payment is required to use the files.
+
+PERMITTED USE
+- Modify text, colors, styles, assets, HTML, CSS, and JavaScript.
+- Publish the modified frontend to your own website or a client's website.
+- Deliver a customized website to a direct client as part of an implementation.
+- Use the templates for an unlimited number of your own or client projects.
+
+RESTRICTIONS
+- Do not resell, sublicense, or distribute the original or minimally
+  modified templates as a competing template pack or standalone source kit.
+- Do not claim to be the author of the original Agentrix template designs.
+- Do not use Agentrix trademarks or branding to suggest Agentrix endorses
+  your projects. Replace the example/demo branding when deploying.
+- Do not distribute this pack with false claims about included functionality.
+
+DISCLAIMERS AND RIGHTS
+The templates are frontend demonstrations, not a functioning SaaS product.
+No hosted service, backend, lead collection, authentication, billing,
+integration, support subscription, or guaranteed business outcome is included.
+The software is provided AS IS to the extent applicable law permits. Nothing
+in this license excludes mandatory legal rights or remedies. Example company
+names, statistics, dashboards, and plans are fictional. Third-party rights
+and trademarks, if any, remain with their respective owners. You must comply
+with applicable laws and third-party licenses for assets you add.
+
+This is a free-to-use source-available license, not an MIT or OSI-approved
+open-source license. The five separate Agentrix microtools retain their own
+MIT licenses; this license applies only to this SaaS Landing Kit release.
