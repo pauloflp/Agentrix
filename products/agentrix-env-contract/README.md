@@ -1,8 +1,36 @@
-# Agentrix Env Contract
+# Agentrix Env Contract: dotenv key checker
 
 **Find missing or undocumented environment variables before deployment.** A tiny, zero-dependency `.env.example` drift checker for Node.js, JavaScript and TypeScript projects.
 
 If your Next.js deployment works locally but fails in CI because a required environment variable is missing, this tool helps check that your documented `.env.example` and the actual environment file have the **same key names**. It never prints secret values.
+
+## Quick start
+
+Requires **Git and Node.js 20+**. Clone the source; no `npm install` or global package is needed:
+
+```bash
+git clone --depth 1 https://github.com/pauloflp/Agentrix.git
+cd Agentrix/products/agentrix-env-contract
+node bin/env-contract.mjs --example examples/expected.env --env examples/matching.env
+```
+
+```text
+PASS: environment keys match
+```
+
+The [expected key contract](examples/expected.env) and [matching file](examples/matching.env) contain the same three names with different placeholder values. To see drift, use the [deliberately incomplete file](examples/drift.env):
+
+```bash
+node bin/env-contract.mjs --example examples/expected.env --env examples/drift.env
+```
+
+```text
+FAIL: environment key mismatch
+Missing: API_BASE_URL
+Undocumented: LOCAL_DEBUG
+```
+
+The second command intentionally exits `1`. To get a JSON report, append `--json`. `--allow-extra` permits undocumented keys, but missing expected keys still fail. From the repository root, `node scripts/demo.mjs env-contract` runs both cases and checks their expected exit codes.
 
 <div align="center">
 <img src="https://res.cloudinary.com/xqixzm02/image/upload/v1792708835/AGENTRIX_POST_02_ENV_CONTRACT_CARROSSEL_01_DE_06.jpg" width="360" alt="Env Contract promotional illustration: your env files aligned"/>
@@ -40,21 +68,15 @@ node bin/env-contract.mjs --example .env.example --env .env --allow-extra
 npm test
 ```
 
-Example output:
-
-```text
-FAIL: environment key mismatch
-Missing: DATABASE_URL, STRIPE_SECRET_KEY
-Undocumented: LOCAL_DEBUG
-```
+These commands use **your own files**, which must exist in the current directory. Run `node bin/env-contract.mjs --help` for usage. The bundled examples above do not require creating a real `.env` file.
 
 ## CI integration
 
-Don't upload production secrets as CI artifacts. Use a CI-specific env file without secrets, or inject real variables through your CI secret store.
+From the Agentrix repository root, this step checks the bundled placeholder files. Replace the paths with your own sanitized key-contract and environment files after adapting the source location to your project. See the [complete CI tutorial](../../docs/local-validation.md#use-the-checks-in-github-actions) for a two-repository checkout example. The tool reads a file, not `process.env` or the CI secret store.
 
 ```yaml
 - name: Check .env keys
-  run: node tools/agentrix-env-contract/bin/env-contract.mjs --example .env.example --env .env.ci
+  run: node products/agentrix-env-contract/bin/env-contract.mjs --example products/agentrix-env-contract/examples/expected.env --env products/agentrix-env-contract/examples/matching.env
 ```
 
 ## Scope and limitations
@@ -67,6 +89,6 @@ Exit codes: `0` matching keys; `1` drift; `2` malformed input or missing file.
 
 MIT. Free for personal and commercial use. A microtool by [Agentrix](https://github.com/pauloflp/Agentrix).
 
-## Search terms
+## Related tools
 
-dotenv validation, missing environment variables, env example checker, Node.js CI, Next.js deployment environment variables, environment configuration drift, JavaScript, TypeScript.
+[JSONL Guard](../agentrix-jsonl-guard/) checks JSON Lines syntax. [JSON Diff](../agentrix-json-diff/) compares JSON configuration snapshots. [Browse all six tools](../../README.md#free-tools) or [ask a usage question](https://github.com/pauloflp/Agentrix/discussions).

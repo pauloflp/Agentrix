@@ -5,11 +5,13 @@ on:
     branches: [main]
     paths:
       - 'products/**'
+      - 'scripts/demo.mjs'
       - '.github/workflows/microproducts-ci.yml'
   pull_request:
     branches: [main]
     paths:
       - 'products/**'
+      - 'scripts/demo.mjs'
       - '.github/workflows/microproducts-ci.yml'
   workflow_dispatch:
 
@@ -45,3 +47,8 @@ jobs:
       - name: Run product tests
         working-directory: products/${{ matrix.product }}
         run: npm test
+      - name: Run bundled CLI examples
+        if: matrix.product != 'agentrix-data-import-studio'
+        env:
+          DEMO_PRODUCT: ${{ matrix.product }}
+        run: node scripts/demo.mjs "${DEMO_PRODUCT#agentrix-}"

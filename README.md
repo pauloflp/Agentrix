@@ -4,9 +4,9 @@
 
 **Tools for people who build.**
 
-Practical developer utilities, reusable agent instructions, and focused workflows for code, data, design, and marketing.
+Free developer tools for JSONL / NDJSON validation, `.env` key checks, CSV audits, JSON comparison, and UTM link checks. Plus reusable AI agent skills and editable SaaS templates.
 
-[**Free tools**](#free-tools) · [**Free templates**](#free-templates) · [**Free agent skills**](#free-agent-skills) · [**Premium templates**](#premium-templates) · [**Premium tools**](#premium-tools) · [**Instagram**](https://www.instagram.com/agentrix.tools/)
+[**Free tools**](#free-tools) · [**Run the demos**](#try-the-tools-with-bundled-data) · [**Free templates**](#free-templates) · [**Free agent skills**](#free-agent-skills) · [**Discussions**](https://github.com/pauloflp/Agentrix/discussions) · [**Instagram**](https://www.instagram.com/agentrix.tools/)
 
 ![Node.js 20+](https://img.shields.io/badge/Node.js-20%2B-153452?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Free tools](https://img.shields.io/badge/Free%20microtools-6-153452?style=flat-square)
@@ -27,14 +27,30 @@ Agentrix is a collection of deliberately focused tools. Start with a problem, ch
 
 All six microtools below are **free, MIT-licensed**, run locally with **Node.js 20+**, and require **no third-party runtime dependencies**.
 
-| Tool | What it helps you catch | Start here |
+| Your problem | Tool | Run a bundled example |
 | :--- | :--- | :--- |
-| **[Env Contract](products/agentrix-env-contract/)** | Missing or undocumented `.env` key names before deployment | [Documentation →](products/agentrix-env-contract/README.md) |
-| **[UTM Audit](products/agentrix-utm-audit/)** | Inconsistent UTM naming, missing campaign tags, malformed links | [Documentation →](products/agentrix-utm-audit/README.md) |
-| **[CSV Guard](products/agentrix-csv-guard/)** | Broken CSV structure, irregular columns, risky spreadsheet formulas | [Documentation →](products/agentrix-csv-guard/README.md) |
-| **[JSON Diff](products/agentrix-json-diff/)** | Added, removed, and changed JSON values at precise paths | [Documentation →](products/agentrix-json-diff/README.md) |
-| **[JSONL Guard](products/agentrix-jsonl-guard/)** | Invalid JSONL / NDJSON lines, blank records, non-object entries | [Documentation →](products/agentrix-jsonl-guard/README.md) |
-| **[Data Import Studio](products/agentrix-data-import-studio/)** | Visual CSV column mapping, typed validation, clean/error exports | [Documentation →](products/agentrix-data-import-studio/README.md) |
+| Check a JSONL / NDJSON file for malformed records | **[JSONL Guard](products/agentrix-jsonl-guard/)** | [JSON Lines validator quick start →](products/agentrix-jsonl-guard/README.md#quick-start) |
+| Catch missing or undocumented `.env` keys before deployment | **[Env Contract](products/agentrix-env-contract/)** | [Dotenv checker quick start →](products/agentrix-env-contract/README.md#quick-start) |
+| Audit CSV column counts, quoting and formula-like cells | **[CSV Guard](products/agentrix-csv-guard/)** | [CSV validator quick start →](products/agentrix-csv-guard/README.md#quick-start) |
+| Compare JSON configuration or API response snapshots | **[JSON Diff](products/agentrix-json-diff/)** | [JSON comparison quick start →](products/agentrix-json-diff/README.md#quick-start) |
+| Check UTM tags before publishing campaign links | **[UTM Audit](products/agentrix-utm-audit/)** | [Campaign link checker quick start →](products/agentrix-utm-audit/README.md#quick-start) |
+| Map CSV columns and export valid rows in a browser | **[Data Import Studio](products/agentrix-data-import-studio/)** | [Load the sample dataset →](products/agentrix-data-import-studio/README.md#get-started) |
+
+### Try the tools with bundled data
+
+With **Git and Node.js 20+**, run the five CLIs against small synthetic files already included in the repository:
+
+```bash
+git clone --depth 1 https://github.com/pauloflp/Agentrix.git
+cd Agentrix
+node scripts/demo.mjs
+```
+
+No `npm install`, API key, account or private input file is needed. The demos invoke the actual CLIs and show both successful checks and deliberately invalid inputs. A child command printing `FAIL` with exit `1` is an expected rejection; the demo runner exits `0` only when all 12 examples return their expected exit codes.
+
+Run just one tool with `node scripts/demo.mjs jsonl-guard`, `node scripts/demo.mjs env-contract`, or `node scripts/demo.mjs csv-guard`. The runner also accepts `utm-audit` and `json-diff`. For the browser-based CSV mapper, follow the [Data Import Studio quick start](products/agentrix-data-import-studio/README.md#get-started).
+
+**[Tutorial: validate JSONL, environment keys and CSV before CI →](docs/local-validation.md)**
 
 ### See the ideas behind the tools
 
@@ -59,19 +75,6 @@ These are **original Agentrix campaign illustrations**, not screenshots of the r
     </td>
   </tr>
 </table>
-
-### Try a tool in seconds
-
-Clone the repository, enter a product directory, and run its tests. For example:
-
-```bash
-git clone https://github.com/pauloflp/Agentrix.git
-cd Agentrix/products/agentrix-env-contract
-npm test
-node bin/env-contract.mjs --example .env.example --env .env
-```
-
-The last command requires the two named files to exist in the working directory. See the [Env Contract usage guide](products/agentrix-env-contract/README.md) for details and safe CI examples.
 
 <details>
 <summary><strong>Run all six test suites</strong></summary>
@@ -149,6 +152,7 @@ Campaign QA Pro is a local browser-based tool for bulk campaign-link checks, CSV
 Agentrix is built around practical problems, reproducible examples, and useful feedback, not follower farming.
 
 - **[Help choose the next developer tool →](https://github.com/pauloflp/Agentrix/issues/12)** — a public roadmap issue asking for concrete workflows and product suggestions.
+- **[Ask a usage question or share a workflow →](https://github.com/pauloflp/Agentrix/discussions)** — technical discussions about the tools and reproducible examples.
 - **[Report a reproducible bug →](https://github.com/pauloflp/Agentrix/issues/new/choose)** — include the affected tool, expected result and sanitized steps.
 - **[Suggest a feature →](https://github.com/pauloflp/Agentrix/issues/new/choose)** — explain your specific task and why existing solutions are insufficient.
 - **[Read the contribution guidelines →](CONTRIBUTING.md)** — scope, code quality, licensing, and respectful participation.

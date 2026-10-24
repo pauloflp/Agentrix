@@ -1,6 +1,34 @@
-# Agentrix UTM Audit
+# Agentrix UTM Audit: campaign URL and UTM checker
 
 **Find inconsistent campaign links before publishing ads, newsletters, or social posts.** A free, offline, zero-dependency Node.js CLI for checking UTM tagging across a plain-text list of URLs.
+
+## Quick start
+
+Requires **Git and Node.js 20+**. Run from source with bundled synthetic links; no `npm install` or analytics account is needed:
+
+```bash
+git clone --depth 1 https://github.com/pauloflp/Agentrix.git
+cd Agentrix/products/agentrix-utm-audit
+node bin/utm-audit.mjs --file examples/valid-urls.txt
+```
+
+```text
+PASS: 2 URLs, 2 tagged, 0 untagged, 0 issues
+```
+
+The [invalid example](examples/invalid-urls.txt) has an uppercase source value and no `utm_medium`:
+
+```bash
+node bin/utm-audit.mjs --file examples/invalid-urls.txt
+```
+
+```text
+FAIL: 1 URLs, 1 tagged, 0 untagged, 2 issues
+line 1: VALUE_CASE (utm_source): Mixed/uppercase value can fragment case-sensitive reporting
+line 1: MISSING_REQUIRED (utm_medium): Recommended core UTM parameter is missing
+```
+
+The rejection intentionally exits `1`. The tool only parses links; it does not visit them. From the repository root, `node scripts/demo.mjs utm-audit` demonstrates both outcomes.
 
 <div align="center">
 <img src="../../assets/agentrix-workflow.svg" alt="Agentrix workflow: discover, run locally, review and ship" width="900"/>
@@ -58,3 +86,7 @@ Exit codes: `0` no findings, `1` validation findings, `2` file or argument error
 ## License
 
 MIT. Free for personal and commercial use. [Agentrix](https://github.com/pauloflp/Agentrix).
+
+## Related tools
+
+If campaign data arrives as CSV, use [CSV Guard](../agentrix-csv-guard/) for structural checks or [Data Import Studio](../agentrix-data-import-studio/) for visual mapping and typed validation. [Browse all six tools](../../README.md#free-tools) or [ask a usage question](https://github.com/pauloflp/Agentrix/discussions).

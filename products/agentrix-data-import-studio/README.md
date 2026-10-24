@@ -1,4 +1,4 @@
-# Agentrix Data Import Studio · Free MIT
+# Agentrix Data Import Studio: local CSV mapping and validation
 
 **Visual CSV column mapping, typed validation and clean/error exports, all locally in your browser.**
 
@@ -49,4 +49,8 @@ The browser suite fetches the HTML from a **loopback-only** server and exercises
 
 ## License
 
-MIT. See [LICENSE](LICENSE). The four earlier free tools and 15 skills remain free. This application provides a convenience workspace and is not a replacement for a production CRM import, security scan or compliance review.
+MIT. See [LICENSE](LICENSE). All six Agentrix microtools and 15 skills remain free. This application provides a convenience workspace and is not a replacement for a production CRM import, security scan or compliance review.
+
+## Related tools
+
+Use [CSV Guard](../agentrix-csv-guard/) for a command-line CSV structure check before mapping columns. Use [JSONL Guard](../agentrix-jsonl-guard/) when records are stored as JSON Lines rather than CSV. [Browse all six tools](../../README.md#free-tools) or [ask a usage question](https://github.com/pauloflp/Agentrix/discussions).

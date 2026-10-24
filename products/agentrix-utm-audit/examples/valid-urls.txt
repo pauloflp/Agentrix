@@ -1,0 +1,2 @@
+https://example.com/?utm_source=google&utm_medium=cpc&utm_campaign=launch
+https://example.com/?utm_source=newsletter&utm_medium=email&utm_campaign=launch
