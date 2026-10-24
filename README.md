@@ -107,7 +107,13 @@ A curated library of reusable instructions for common technical and creative tas
 
 ## PREMIUM TEMPLATES
 
-No premium templates are publicly released yet. We will list templates here only when a real, tested deliverable is available. The existing free tools and skills are not part of a paid bundle.
+No premium templates are available for purchase yet. We list prototypes honestly and do not provide a checkout until customer-style tests and delivery verification pass. The five free tools and 15 free agent skills remain free.
+
+### Agentrix SaaS Landing Kit · private preview
+
+Two original responsive landing-page concepts for analytics SaaS and CRM products. Functioning interactive demonstrations exist in a **private technical MVP**, but deployment, browser support, licensing, and checkout are not approved.
+
+[**Explore the SaaS Landing Kit preview and limitations →**](premium/agentrix-saas-landing-kit/README.md)
 
 ## PREMIUM TOOLS
 
