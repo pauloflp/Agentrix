@@ -4,13 +4,13 @@
 <img src="../../assets/agentrix-hero.svg" alt="Agentrix brand — Intelligence, put to work" width="900"/>
 </div>
 
-**Audit UTM campaign links in bulk, catch tracking inconsistencies before launch, and export actionable QA reports.** Agentrix Campaign QA Pro is an offline, browser-based tool for marketers, paid media teams, performance agencies, and analytics professionals.
+**Audit UTM campaign links in bulk, catch tracking inconsistencies before launch, and export actionable QA reports.** Agentrix Campaign QA Pro is a local browser workspace for marketers, paid media teams, performance agencies, and analytics professionals.
 
 **Status: release on hold. Not available to purchase.** The checkout is disabled until product functionality, activation, and customer delivery are verified.
 
-[View a sample campaign CSV](sample-campaigns.csv) · [Read the proposed commercial license](LICENSE.md)
+[View a sample campaign CSV](sample-campaigns.csv) · [Read the proposed commercial license](LICENSE.md) · [Workspace guide](GUIDE.md)
 
-The intended distribution uses an encrypted offline HTML file with an unlock key presented on the Stripe confirmation page. This checkout and fulfillment journey has not passed end-to-end release verification, so purchases are disabled.
+Version 1.1 uses an [encrypted workspace served over HTTPS](https://agentrix-campaign-qa.toastybard6.chatgpt.site/). A purchase key is required. Opening and auditing in the workspace have been verified in desktop Chrome. The complete payment-to-delivery journey still requires release verification, so purchases remain disabled.
 
 ## What Campaign QA Pro checks
 
@@ -25,17 +25,19 @@ The intended distribution uses an encrypted offline HTML file with an unlock key
 ### Practical workflow
 
 1. Collect campaign destination URLs from your ad platform, email campaign plan, social scheduling tool, or spreadsheet.
-2. Paste up to **1,000 URLs** or import a CSV with a URL, Link, Destination, or Final URL column.
+2. Paste up to **1,000 URLs** or import a comma-delimited UTF-8 CSV with a URL, Link, Destination, or Final URL column. The input and file limit is **2 MiB**. Every nonempty CSV record must have the same number of columns as its header and a nonempty destination URL. Duplicate column names are rejected.
 3. Optionally configure approved UTM source, medium, and campaign names.
-4. Run the offline audit. Review issues by URL and severity, then export a CSV quality-control report.
+4. Run the audit. Review issues by URL and severity, then export a CSV quality-control report. Editing the input or naming rules invalidates the previous report, so exports always require a new audit.
 
 The app runs **locally in your browser**. It does not upload your URLs to a server, query Google Analytics, test live landing-page availability, or promise to repair attribution. Its quality score is an explicitly documented internal heuristic, **not** a Google Analytics metric.
 
 ## Download and activation
 
-The planned Pro edition is a self-contained **encrypted HTML tool** (no Node.js installation, account, or runtime subscription needed). Product use, offline unlocking, compatible browsers, and the complete payment-to-delivery experience must pass customer-style tests before the checkout will be re-enabled.
+The Pro edition is an **encrypted browser tool** with no Node.js installation or app account required. Use the HTTPS workspace in desktop Chrome. Internet access is required to open or reload the workspace; offline file opening and other browsers are not part of the verified supported workflow.
 
-**Important:** The future offline unlock key may be transferable if shared, so it is not a per-user online activation system. The public GitHub repository contains only a locked distribution file and public marketing materials, **not** the unencrypted paid source. Do not attempt purchases using a previously saved payment link while this release is on hold.
+The proposed purchase flow confirms successful payment on the server before providing a key. The paid invoice also retains the workspace address and key for recovery. This flow is under verification and is not currently offered for sale. See the [workspace guide](GUIDE.md) for limits and recovery details.
+
+**Important:** The purchase key is shared and transferable if disclosed; it is not a per-user account or individual DRM. Keep it private. The public GitHub repository contains only a locked distribution file and public product documentation, **not** the unencrypted paid source. Do not attempt purchases using a previously saved payment link while this release is on hold.
 
 ## Free UTM Audit vs. paid Campaign QA Pro
 
@@ -45,7 +47,7 @@ The planned Pro edition is a self-contained **encrypted HTML tool** (no Node.js 
 | Bulk URL checks | Yes | Yes |
 | CSV import and reports | Consult free tool documentation | Yes |
 | Custom naming allowlists | Consult free tool documentation | Yes |
-| Installation | Node.js | Open one HTML file |
+| Installation | Node.js | Open HTTPS workspace in desktop Chrome |
 | License | MIT | Proprietary, one-time purchase |
 
 Existing [15 free agent skills](../../skills/) and [free microproducts](../../README.md#free-tools) remain free.
@@ -58,9 +60,9 @@ Existing [15 free agent skills](../../skills/) and [free microproducts](../../RE
 
 **Does it handle Google Ads, Meta Ads, and email campaign links?** It works on complete HTTP(S) URLs exported from any source. It does not connect to ad platform accounts.
 
-**How private is my campaign data?** The offline file processes pasted/imported URLs in your browser and contains no network integration.
+**How private is my campaign data?** The audit processes pasted/imported URLs in your browser. It does not transmit campaign data or contact destination websites. Hosting and checkout involve normal network requests; payment information is handled by Stripe. The audit source contains no analytics or external dependencies.
 
-**Can I refund or transfer the product?** This is a proprietary [one-time-purchase offline license](LICENSE.md), not a subscription. Applicable statutory refund rights remain in force. For payment or key-recovery questions, contact the merchant via the details on the Stripe receipt. Do not post an order email or unlock key in a public GitHub issue.
+**Can I refund or transfer the product?** This is a proprietary [one-time-purchase license](LICENSE.md), not a subscription. Applicable statutory refund rights remain in force. For payment or key-recovery questions, contact the merchant via the details on the Stripe receipt. Do not post an order email, purchase reference, or unlock key in a public GitHub issue.
 
 ## Use cases: paid media QA, GA4 UTM validation, and bulk campaign link checking
 
@@ -68,6 +70,6 @@ Use this UTM parameter checker when reviewing tracking URLs for Google Ads, Meta
 
 **Purchases are currently disabled while release verification is completed.**
 
-*Testing and scope:* 20 automated engine tests passed locally on Node.js 22. The encrypted file was verified against the original generated build. A full customer-style activation and successful live payment fulfillment have not been validated, and checkout remains disabled. No sale is offered.
+*Testing and scope:* Version 1.1 passed 50 product tests on Node.js 24.22.1 and 21 delivery-handler tests. Desktop Chrome checks covered valid and invalid keys, CSV import/export, the 1,000-URL boundary, oversized and malformed CSV rejection, report invalidation, filtering, HTML input displayed as text, and spreadsheet-formula protection in downloaded CSV. The successful checkout, paid-invoice delivery, and recovery journey remain unverified end to end. Checkout remains disabled. No sale is offered.
 
 **Agentrix** — tools for people who build.
