@@ -6,11 +6,11 @@
 
 **Audit UTM campaign links in bulk, catch tracking inconsistencies before launch, and export actionable QA reports.** Agentrix Campaign QA Pro is a local browser workspace for marketers, paid media teams, performance agencies, and analytics professionals.
 
-**Status: release on hold. Not available to purchase.** The checkout is disabled until product functionality, activation, and customer delivery are verified.
+**[Buy Campaign QA Pro — US$29 one-time →](https://buy.stripe.com/9B69AT928eYX5264GfgjC01)** Proprietary license, no subscription. Desktop Chrome and internet access are required to open the workspace.
 
 [View a sample campaign CSV](sample-campaigns.csv) · [Read the proposed commercial license](LICENSE.md) · [Workspace guide](GUIDE.md)
 
-Version 1.1 uses an [encrypted workspace served over HTTPS](https://agentrix-campaign-qa.toastybard6.chatgpt.site/). A purchase key is required. Opening and auditing in the workspace have been verified in desktop Chrome. The complete payment-to-delivery journey still requires release verification, so purchases remain disabled.
+Version 1.1 uses an [encrypted workspace served over HTTPS](https://agentrix-campaign-qa.toastybard6.chatgpt.site/). A purchase key is required. Opening and auditing in the workspace have been verified in desktop Chrome. See the testing scope below for the remaining verification limit.
 
 ## What Campaign QA Pro checks
 
@@ -35,9 +35,9 @@ The app runs **locally in your browser**. It does not upload your URLs to a serv
 
 The Pro edition is an **encrypted browser tool** with no Node.js installation or app account required. Use the HTTPS workspace in desktop Chrome. Internet access is required to open or reload the workspace; offline file opening and other browsers are not part of the verified supported workflow.
 
-The proposed purchase flow confirms successful payment on the server before providing a key. The paid invoice also retains the workspace address and key for recovery. This flow is under verification and is not currently offered for sale. See the [workspace guide](GUIDE.md) for limits and recovery details.
+After payment, the delivery page waits for server confirmation before providing a key. Your paid invoice also retains the workspace address and key for recovery. See the [workspace guide](GUIDE.md) for limits and recovery details.
 
-**Important:** The purchase key is shared and transferable if disclosed; it is not a per-user account or individual DRM. Keep it private. The public GitHub repository contains only a locked distribution file and public product documentation, **not** the unencrypted paid source. Do not attempt purchases using a previously saved payment link while this release is on hold.
+**Important:** The purchase key is shared and transferable if disclosed; it is not a per-user account or individual DRM. Keep it private. The public GitHub repository contains only a locked distribution file and public product documentation, **not** the unencrypted paid source.
 
 ## Free UTM Audit vs. paid Campaign QA Pro
 
@@ -68,8 +68,8 @@ Existing [15 free agent skills](../../skills/) and [free microproducts](../../RE
 
 Use this UTM parameter checker when reviewing tracking URLs for Google Ads, Meta Ads, email newsletters, social media, affiliate links, or GA4 reporting. Audit links before distribution, compare marketing campaign naming across channels, and export a practical campaign URL quality checklist for teammates.
 
-**Purchases are currently disabled while release verification is completed.**
+**[Get Campaign QA Pro — US$29 one-time →](https://buy.stripe.com/9B69AT928eYX5264GfgjC01)**
 
-*Testing and scope:* Version 1.1 passed 50 product tests on Node.js 24.22.1 and 21 delivery-handler tests. Desktop Chrome checks covered valid and invalid keys, CSV import/export, the 1,000-URL boundary, oversized and malformed CSV rejection, report invalidation, filtering, HTML input displayed as text, and spreadsheet-formula protection in downloaded CSV. The successful checkout, paid-invoice delivery, and recovery journey remain unverified end to end. Checkout remains disabled. No sale is offered.
+*Testing and scope:* Version 1.1 passed 50 product tests on Node.js 24.22.1 and 21 delivery-handler tests. Desktop Chrome checks covered valid and invalid keys, CSV import/export, the 1,000-URL boundary, oversized and malformed CSV rejection, report invalidation, filtering, HTML input displayed as text, and spreadsheet-formula protection in downloaded CSV. A completed checkout, paid-invoice delivery, and recovery journey have not been verified end to end.
 
 **Agentrix** — tools for people who build.

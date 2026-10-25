@@ -130,11 +130,11 @@ No premium template is currently available to purchase. The SaaS Landing Kit has
 
 Premium products are separate, optional offers. Each product has its own scope, availability, and delivery details. **A product described as a preview is not available for purchase.**
 
-### Campaign QA Pro · release on hold
+### Campaign QA Pro · US$29 one-time
 
 Campaign QA Pro is a local browser-based tool for bulk campaign-link checks, CSV imports, configurable UTM naming allowlists, and downloadable QA reports. It does **not** replace or restrict the free UTM Audit CLI.
 
-**Not available to purchase.** The checkout is disabled while the full customer activation and delivery experience is validated. No purchase link is offered until the product passes its release checks.
+**[Buy Campaign QA Pro — US$29 one-time →](https://buy.stripe.com/9B69AT928eYX5264GfgjC01)** Open the encrypted HTTPS workspace in desktop Chrome and unlock it with your purchase key. See the product page for verified features, limits, and testing scope.
 
 [**View Campaign QA Pro scope and limitations →**](premium/agentrix-campaign-qa/README.md)
 

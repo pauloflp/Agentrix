@@ -1,6 +1,6 @@
 # Campaign QA Pro workspace guide
 
-**Release on hold. Purchases are unavailable while payment and delivery verification is completed.** These instructions describe the version 1.1 workspace and proposed buyer flow.
+**[Purchase Campaign QA Pro — US$29 one-time](https://buy.stripe.com/9B69AT928eYX5264GfgjC01).** These instructions describe the version 1.1 workspace. See the [testing scope](README.md#use-cases-paid-media-qa-ga4-utm-validation-and-bulk-campaign-link-checking) for verification limits.
 
 ## Opening the workspace
 
@@ -22,7 +22,7 @@ The score is an internal heuristic. The tool checks supplied URL syntax and nami
 
 ## Purchase access and recovery
 
-After sales are enabled and a payment succeeds, the proposed delivery page waits for server confirmation before providing the purchase key. Pending or failed payments do not grant access. Keep the key and paid invoice: the invoice contains the workspace address and key, so closing the confirmation page should not erase access instructions.
+After a payment succeeds, the delivery page waits for server confirmation before providing the purchase key. Pending or failed payments do not grant access. Keep the key and paid invoice: the invoice contains the workspace address and key, so closing the confirmation page does not erase those saved access instructions.
 
 If a Stripe receipt link expires, follow [Stripe's email-based recovery prompt](https://docs.stripe.com/receipts#expired-receipt-urls). A previously saved invoice PDF and purchase key do not depend on that receipt link. If you cannot recover them, use the merchant contact details on your receipt. Never post purchase references, order emails, or keys in public issues.
 
