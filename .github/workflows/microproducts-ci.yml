@@ -28,6 +28,7 @@ jobs:
       matrix:
         node: ['20', '22', '24']
         product:
+          - agentrix-staged-file-guard
           - agentrix-env-contract
           - agentrix-utm-audit
           - agentrix-csv-guard
