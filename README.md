@@ -147,7 +147,7 @@ Campaign QA Pro is a local browser-based tool for bulk campaign-link checks, CSV
 - **Useful over complicated.** Each tool targets a specific workflow.
 - **Honest by design.** Read the limitations and inspect results before making decisions.
 - **Local first where practical.** The free CLIs do not upload your files.
-- **Free stays free.** The six MIT microtools and 15 agent skills are not locked behind the premium checkout.
+- **Free stays free.** The seven MIT microtools and 15 agent skills are not locked behind the premium checkout.
 
 ### Revenue Tools · private development previews
 
