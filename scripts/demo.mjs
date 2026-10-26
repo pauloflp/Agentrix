@@ -4,6 +4,10 @@ import { spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 
 const demos = {
+  'staged-file-guard': [
+    ['Safe staged example path', 0, ['examples/demo.mjs', 'safe']],
+    ['Suspicious staged environment path', 1, ['examples/demo.mjs', 'flagged']],
+  ],
   'jsonl-guard': [
     ['Valid JSONL', 0, ['bin/jsonl-guard.mjs', '--file', 'examples/valid.jsonl']],
     ['Malformed JSON on line 2', 1, ['bin/jsonl-guard.mjs', '--file', 'examples/invalid.jsonl']],

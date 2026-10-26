@@ -1,0 +1,10 @@
+{
+  "name": "agentrix-staged-file-guard",
+  "version": "1.0.0",
+  "description": "Local path-only Git staging check for sensitive filenames",
+  "type": "module",
+  "bin": {"agentrix-staged-file-guard": "./src/cli.js"},
+  "engines": {"node": ">=20"},
+  "scripts": {"test": "node --test"},
+  "license": "MIT"
+}

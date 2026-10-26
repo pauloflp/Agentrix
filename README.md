@@ -4,12 +4,12 @@
 
 **Tools for people who build.**
 
-Free developer tools for JSONL / NDJSON validation, `.env` key checks, CSV audits, JSON comparison, and UTM link checks. Plus reusable AI agent skills and editable SaaS templates.
+Free developer tools for JSONL / NDJSON validation, `.env` key checks, CSV audits, JSON comparison, UTM link checks, and sensitive staged filenames. Plus reusable AI agent skills and editable SaaS templates.
 
 [**Free tools**](#free-tools) · [**Run the demos**](#try-the-tools-with-bundled-data) · [**Free templates**](#free-templates) · [**Free agent skills**](#free-agent-skills) · [**Discussions**](https://github.com/pauloflp/Agentrix/discussions) · [**Instagram**](https://www.instagram.com/agentrix.tools/)
 
 ![Node.js 20+](https://img.shields.io/badge/Node.js-20%2B-153452?style=flat-square&logo=nodedotjs&logoColor=white)
-![Free tools](https://img.shields.io/badge/Free%20microtools-6-153452?style=flat-square)
+![Free tools](https://img.shields.io/badge/Free%20microtools-7-153452?style=flat-square)
 ![Agent skills](https://img.shields.io/badge/Free%20agent%20skills-15-153452?style=flat-square)
 ![License](https://img.shields.io/badge/Free%20tools-MIT-153452?style=flat-square)
 
@@ -25,10 +25,11 @@ Agentrix is a collection of deliberately focused tools. Start with a problem, ch
 
 ## FREE TOOLS
 
-All six microtools below are **free, MIT-licensed**, run locally with **Node.js 20+**, and require **no third-party runtime dependencies**.
+All seven microtools below are **free, MIT-licensed**, run locally with **Node.js 20+**, and require **no third-party runtime dependencies**.
 
 | Your problem | Tool | Run a bundled example |
 | :--- | :--- | :--- |
+| Flag sensitive filenames before a Git commit | **[Staged File Guard](products/agentrix-staged-file-guard/)** | [Path-only staging check →](products/agentrix-staged-file-guard/README.md#try-it) |
 | Check a JSONL / NDJSON file for malformed records | **[JSONL Guard](products/agentrix-jsonl-guard/)** | [JSON Lines validator quick start →](products/agentrix-jsonl-guard/README.md#quick-start) |
 | Catch missing or undocumented `.env` keys before deployment | **[Env Contract](products/agentrix-env-contract/)** | [Dotenv checker quick start →](products/agentrix-env-contract/README.md#quick-start) |
 | Audit CSV column counts, quoting and formula-like cells | **[CSV Guard](products/agentrix-csv-guard/)** | [CSV validator quick start →](products/agentrix-csv-guard/README.md#quick-start) |
@@ -38,7 +39,7 @@ All six microtools below are **free, MIT-licensed**, run locally with **Node.js 
 
 ### Try the tools with bundled data
 
-With **Git and Node.js 20+**, run the five CLIs against small synthetic files already included in the repository:
+With **Git and Node.js 20+**, run the six CLIs against small synthetic files already included in the repository:
 
 ```bash
 git clone --depth 1 https://github.com/pauloflp/Agentrix.git
@@ -46,9 +47,9 @@ cd Agentrix
 node scripts/demo.mjs
 ```
 
-No `npm install`, API key, account or private input file is needed. The demos invoke the actual CLIs and show both successful checks and deliberately invalid inputs. A child command printing `FAIL` with exit `1` is an expected rejection; the demo runner exits `0` only when all 12 examples return their expected exit codes.
+No `npm install`, API key, account or private input file is needed. The demos invoke the actual CLIs and show both successful checks and deliberately invalid inputs. A child command printing `FAIL` with exit `1` is an expected rejection; the demo runner exits `0` only when all 14 examples return their expected exit codes.
 
-Run just one tool with `node scripts/demo.mjs jsonl-guard`, `node scripts/demo.mjs env-contract`, or `node scripts/demo.mjs csv-guard`. The runner also accepts `utm-audit` and `json-diff`. For the browser-based CSV mapper, follow the [Data Import Studio quick start](products/agentrix-data-import-studio/README.md#get-started).
+Run just one tool with `node scripts/demo.mjs jsonl-guard`, `node scripts/demo.mjs env-contract`, or `node scripts/demo.mjs csv-guard`. The runner also accepts `utm-audit`, `json-diff`, and `staged-file-guard` (using temporary synthetic Git repositories). For the browser-based CSV mapper, follow the [Data Import Studio quick start](products/agentrix-data-import-studio/README.md#get-started).
 
 **[Tutorial: validate JSONL, environment keys and CSV before CI →](docs/local-validation.md)**
 
@@ -77,11 +78,12 @@ These are **original Agentrix campaign illustrations**, not screenshots of the r
 </table>
 
 <details>
-<summary><strong>Run all six test suites</strong></summary>
+<summary><strong>Run all seven test suites</strong></summary>
 
 From the repository root:
 
 ```bash
+(cd products/agentrix-staged-file-guard && npm test)
 (cd products/agentrix-env-contract && npm test)
 (cd products/agentrix-utm-audit && npm test)
 (cd products/agentrix-csv-guard && npm test)
@@ -120,7 +122,7 @@ A curated library of reusable instructions for common technical and creative tas
 
 **[Download the ZIP (no password) →](premium/agentrix-saas-landing-kit/AGENTRIX_SaaS_Landing_Kit_FREE_v1.0.zip)** · [Explore the templates →](premium/agentrix-saas-landing-kit/README.md) · [Free-use license →](premium/agentrix-saas-landing-kit/LICENSE.txt)
 
-The kit is free to use for your own and client projects. Redistributing the unmodified pack as a competing template product is not permitted. This **source-available** license is separate from the MIT licenses of the six free microtools.
+The kit is free to use for your own and client projects. Redistributing the unmodified pack as a competing template product is not permitted. This **source-available** license is separate from the MIT licenses of the seven free microtools.
 
 ## PREMIUM TEMPLATES
 
@@ -146,6 +148,10 @@ Campaign QA Pro is a local browser-based tool for bulk campaign-link checks, CSV
 - **Honest by design.** Read the limitations and inspect results before making decisions.
 - **Local first where practical.** The free CLIs do not upload your files.
 - **Free stays free.** The six MIT microtools and 15 agent skills are not locked behind the premium checkout.
+
+### Revenue Tools · private development previews
+
+Revenue Reconcile compares expected receivables with settled receipts and flags missing payments, possible duplicates and amount/fee differences. Revenue Pulse audits recurring-revenue movements, churn and overdue invoice balances. Both are paid-first offline previews using fictional CSV datasets; they are **not available for purchase**. No bank connection or automated collection is included.
 
 ## Community & Roadmap
 
