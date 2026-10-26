@@ -119,4 +119,4 @@ Review upstream changes before updating the pinned tool commit. Each validation 
 
 - [JSON Diff](../products/agentrix-json-diff/): compare JSON snapshots by path. Text output shows paths; `--json` includes original values.
 - [UTM Audit](../products/agentrix-utm-audit/): check naming consistency in a text list of campaign URLs without fetching their destinations.
-- [Browse all six free tools](../README.md#free-tools), [ask a usage question](https://github.com/pauloflp/Agentrix/discussions), or [report a reproducible bug](https://github.com/pauloflp/Agentrix/issues/new/choose).
+- [Browse all seven free tools](../README.md#free-tools), [ask a usage question](https://github.com/pauloflp/Agentrix/discussions), or [report a reproducible bug](https://github.com/pauloflp/Agentrix/issues/new/choose).
