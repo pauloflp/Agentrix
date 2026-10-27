@@ -1,0 +1,20 @@
+[
+  {
+    "sku": "reconcile",
+    "archive": "Agentrix_Revenue_Reconcile_0.1.1_AES.zip",
+    "sha256": "aecddf276a6857061b53e4f4561bf8d8bcf7f25823326bdda86952a2e35c535f",
+    "tests": 29,
+    "encryption": "AES-256",
+    "demo": "PASS",
+    "missing_wrong_password": "REJECTED"
+  },
+  {
+    "sku": "pulse",
+    "archive": "Agentrix_Revenue_Pulse_0.1.1_AES.zip",
+    "sha256": "5da9d135dc5f65e805621c173d1c6ba4d292c72c5ece02636af9409c68555541",
+    "tests": 24,
+    "encryption": "AES-256",
+    "demo": "PASS",
+    "missing_wrong_password": "REJECTED"
+  }
+]
