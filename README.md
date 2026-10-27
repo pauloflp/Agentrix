@@ -149,9 +149,11 @@ Campaign QA Pro is a local browser-based tool for bulk campaign-link checks, CSV
 - **Local first where practical.** The free CLIs do not upload your files.
 - **Free stays free.** The seven MIT microtools and 15 agent skills are not locked behind the premium checkout.
 
-### Revenue Tools · private development previews
+### Revenue Tools · paid local Python tools
 
-Revenue Reconcile compares expected receivables with settled receipts and flags missing payments, possible duplicates and amount/fee differences. Revenue Pulse audits recurring-revenue movements, churn and overdue invoice balances. Both are paid-first offline previews using fictional CSV datasets; they are **not available for purchase**. No bank connection or automated collection is included.
+**[Revenue Reconcile: R$149 one-time](https://buy.stripe.com/14AdR91zG9EDamqc8HgjC02)** compares expected receivables with settled receipts. **[Revenue Pulse: R$99 one-time](https://buy.stripe.com/7sYaEX3HO9ED7aeegPgjC03)** reviews recurring revenue, churn and invoice arrears. Both require Python 3.10+, a terminal and CSV files in the documented formats. No bank connection or automated collection is included.
+
+**[Download encrypted ZIPs, view requirements and delivery instructions →](premium/revenue-tools/README.md)** The ZIPs are public; Stripe displays the password after purchase. Save it before closing the confirmation page.
 
 ## Community & Roadmap
 

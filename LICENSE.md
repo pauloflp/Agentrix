@@ -12,6 +12,7 @@
 | `products/agentrix-jsonl-guard/` | [MIT](products/agentrix-jsonl-guard/LICENSE) |
 | `premium/agentrix-saas-landing-kit/` | [Free-use source-available license](premium/agentrix-saas-landing-kit/LICENSE.txt); allows personal and commercial deployments, but restricts repackaging and redistribution |
 | `premium/agentrix-campaign-qa/` | [Commercial/proprietary terms](premium/agentrix-campaign-qa/LICENSE.md); product currently unavailable for purchase |
+| `premium/revenue-tools/` | [Paid proprietary license](premium/revenue-tools/LICENSE.txt); encrypted buyer archives, not MIT |
 | `skills/`, branding, site assets, and other root materials | Review any applicable file-specific license, attribution, and third-party rights before reuse. **Do not infer MIT permission** solely from their inclusion in this repository. |
 
 Third-party dependencies, trademarks, product names and assets remain subject to their respective rights and notices. When in doubt, request clarification through an issue **without distributing the uncertain material**.
