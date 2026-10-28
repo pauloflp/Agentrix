@@ -12,8 +12,8 @@ Two paid, local Python tools for reviewing financial CSVs. **Python 3.10+ and a 
 
 | Product | What it does | One-time price | Purchase |
 | --- | --- | --- | --- |
-| [Revenue Reconcile 0.1.1](reconcile.md) | Compares expected receivables and settled receipts; flags missing receipts, duplicates and amount/fee differences | R$149 BRL | [Buy Reconcile](https://buy.stripe.com/14AdR91zG9EDamqc8HgjC02) |
-| [Revenue Pulse 0.1.1](pulse.md) | Calculates recurring revenue movements, churn and invoice arrears from subscription events, invoices and payments | R$99 BRL | [Buy Pulse](https://buy.stripe.com/7sYaEX3HO9ED7aeegPgjC03) |
+| [Revenue Reconcile 0.1.1](reconcile.md) | Compares expected receivables and settled receipts; flags missing receipts, duplicates and amount/fee differences | US$149 USD | [Buy Reconcile](https://buy.stripe.com/28EbJ17Y4g31gKOgoXgjC04) |
+| [Revenue Pulse 0.1.1](pulse.md) | Calculates recurring revenue movements, churn and invoice arrears from subscription events, invoices and payments | US$99 USD | [Buy Pulse](https://buy.stripe.com/7sY7sLems3gf5260pZgjC05) |
 
 Each purchase includes that product's Python source, documentation, fictional CSV examples, sample HTML report and tests. The [paid license](LICENSE.txt) covers internal personal or commercial use by one person or organization, including reports prepared for clients. No subscription is needed for this version. Future upgrades and custom integration are not included.
 
@@ -45,6 +45,6 @@ Processing happens locally without telemetry or network calls. You remain respon
 
 Release validation: 70 source tests passed; extracted Reconcile passed 29 product tests and Pulse passed 24. Both extracted demo commands passed. Missing/incorrect passwords were rejected and extracted file hashes matched. Each archive contains only its purchased product. See [verification.json](verification.json).
 
-Verified on Linux with Python 3.12. Checkout configuration was read back from Stripe in live mode with quantity 1 and the stated BRL amounts. An end-to-end paid transaction has not been performed. Payment methods are limited to cards for this immediate confirmation delivery flow.
+Verified on Linux with Python 3.12. Checkout configuration was read back from Stripe in live mode with quantity 1 and the stated USD amounts. An end-to-end paid transaction has not been performed. Payment methods are limited to cards for this immediate confirmation delivery flow.
 
 Report reproducible software problems through [Agentrix issues](https://github.com/pauloflp/Agentrix/issues), using fictional/sanitized examples. For purchase or missing-password help, use the merchant contact available in Stripe checkout/your receipt. No support response time is promised. Do not post private financial data or payment credentials in public issues.

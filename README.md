@@ -144,7 +144,7 @@ Premium products are separate, optional offers. Each product has its own scope, 
 
 ### Revenue Reconcile and Revenue Pulse · financial checks
 
-**[Revenue Reconcile: R$149 one-time](https://buy.stripe.com/14AdR91zG9EDamqc8HgjC02)** helps you compare expected payments with received amounts and spot differences for review. **[Revenue Pulse: R$99 one-time](https://buy.stripe.com/7sYaEX3HO9ED7aeegPgjC03)** helps you understand subscription revenue, cancellations and overdue invoices. Both require Python 3.10+, a terminal and CSV files in the documented formats. No bank connection or automated collection is included.
+**[Revenue Reconcile: US$149 one-time](https://buy.stripe.com/28EbJ17Y4g31gKOgoXgjC04)** helps you compare expected payments with received amounts and spot differences for review. **[Revenue Pulse: US$99 one-time](https://buy.stripe.com/7sY7sLems3gf5260pZgjC05)** helps you understand subscription revenue, cancellations and overdue invoices. Both require Python 3.10+, a terminal and CSV files in the documented formats. No bank connection or automated collection is included.
 
 **Read the product pages:** [Revenue Reconcile: compare expected vs. received payments](premium/revenue-tools/reconcile.md) · [Revenue Pulse: review recurring revenue and overdue invoices](premium/revenue-tools/pulse.md)
 

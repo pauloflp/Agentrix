@@ -19,9 +19,9 @@ Small businesses, finance teams, consultants and operators who can export paymen
 
 ## Price and access
 
-**R$149 BRL, one-time purchase.** No subscription for this version.
+**US$149 USD, one-time purchase.** No subscription for this version.
 
-**[Buy Revenue Reconcile securely on Stripe](https://buy.stripe.com/14AdR91zG9EDamqc8HgjC02)**
+**[Buy Revenue Reconcile securely on Stripe](https://buy.stripe.com/28EbJ17Y4g31gKOgoXgjC04)**
 
 After purchase, the Stripe confirmation page is configured to show a password and download address. **Save that information before closing the page.** Email delivery of the password is not promised.
 

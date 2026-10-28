@@ -20,9 +20,9 @@ SaaS operators, subscription businesses, finance teams and consultants who alrea
 
 ## Price and access
 
-**R$99 BRL, one-time purchase.** No subscription for this version.
+**US$99 USD, one-time purchase.** No subscription for this version.
 
-**[Buy Revenue Pulse securely on Stripe](https://buy.stripe.com/7sYaEX3HO9ED7aeegPgjC03)**
+**[Buy Revenue Pulse securely on Stripe](https://buy.stripe.com/7sY7sLems3gf5260pZgjC05)**
 
 The Stripe confirmation page is configured to show a download address and the password needed to open the ZIP. **Save the password on that page.** Automatic email delivery of the password is not promised.
 
