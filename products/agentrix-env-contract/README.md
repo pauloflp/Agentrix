@@ -1,5 +1,9 @@
 # Agentrix Env Contract: dotenv key checker
 
+**In plain English:** Avoid deployment surprises caused by missing configuration settings. This tool compares the list of settings your project expects with the names listed in its environment file.
+
+**Example:** Your app needs `API_BASE_URL`, but that name is missing from the configured file. Env Contract reports the missing name without printing secret values.
+
 **Find missing or undocumented environment variables before deployment.** A tiny, zero-dependency `.env.example` drift checker for Node.js, JavaScript and TypeScript projects.
 
 If your Next.js deployment works locally but fails in CI because a required environment variable is missing, this tool helps check that your documented `.env.example` and the actual environment file have the **same key names**. It never prints secret values.
