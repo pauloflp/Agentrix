@@ -1,5 +1,9 @@
 # Agentrix Data Import Studio: local CSV mapping and validation
 
+**In plain English:** Map and check spreadsheet-exported data before importing it into another system.
+
+**Example:** Load contacts from a CSV, match columns to the fields you need and export valid rows separately from rows with errors.
+
 **Visual CSV column mapping, typed validation and clean/error exports, all locally in your browser.**
 
 **Free, open source, MIT-licensed. No payment, login, analytics or remote data upload.** This tool is a visual alternative to the free [CSV Guard](../agentrix-csv-guard/), not a replacement for it.
