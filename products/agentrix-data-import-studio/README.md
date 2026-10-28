@@ -4,6 +4,21 @@
 
 **Free, open source, MIT-licensed. No payment, login, analytics or remote data upload.** This tool is a visual alternative to the free [CSV Guard](../agentrix-csv-guard/), not a replacement for it.
 
+## Campaign artwork
+
+These are original Agentrix promotional illustrations for **Data Import Studio**, not screenshots of the running product. For real behavior and limitations, use the examples and documentation below.
+
+<p align="center"><img src="../../assets/campaigns/2026-10-26/AGX_20261026_DATA_IMPORT_FLOW_V01_S01OF01.jpg" alt="Agentrix Data Import Studio approved promotional illustration" width="440"/></p>
+
+<details>
+<summary>View 1 more campaign image</summary>
+
+<p align="center">
+<img src="../../assets/campaigns/2026-10-26/AGX_20261026_DATA_IMPORT_PRIVACY_V01_S01OF01.jpg" alt="Agentrix Data Import Studio campaign image 2 of 2" width="260"/>
+</p>
+
+</details>
+
 ## Get started
 
 **Option A · Standalone file:** Download this folder and try opening `index.html` in a recent desktop browser. Browser policies and file-URL restrictions differ. The app is designed for standalone use, but direct file opening was blocked by the test environment and is not part of the verified tests.

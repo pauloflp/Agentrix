@@ -2,6 +2,23 @@
 
 **Find inconsistent campaign links before publishing ads, newsletters, or social posts.** A free, offline, zero-dependency Node.js CLI for checking UTM tagging across a plain-text list of URLs.
 
+## Campaign artwork
+
+These are original Agentrix promotional illustrations for **UTM Audit**, not screenshots of the running product. For real behavior and limitations, use the examples and documentation below.
+
+<p align="center"><img src="../../assets/campaigns/2026-10-26/AGX_20261026_UTM_CASE_V01_S01OF01.jpg" alt="Agentrix UTM Audit approved promotional illustration" width="440"/></p>
+
+<details>
+<summary>View 3 more campaign images</summary>
+
+<p align="center">
+<img src="../../assets/campaigns/2026-10-26/AGX_20261026_UTM_CHECKLIST_V01_S01OF03.jpg" alt="Agentrix UTM Audit campaign image 2 of 4" width="260"/>
+<img src="../../assets/campaigns/2026-10-26/AGX_20261026_UTM_CHECKLIST_V01_S02OF03.jpg" alt="Agentrix UTM Audit campaign image 3 of 4" width="260"/>
+<img src="../../assets/campaigns/2026-10-26/AGX_20261026_UTM_CHECKLIST_V01_S03OF03.jpg" alt="Agentrix UTM Audit campaign image 4 of 4" width="260"/>
+</p>
+
+</details>
+
 ## Quick start
 
 Requires **Git and Node.js 20+**. Run from source with bundled synthetic links; no `npm install` or analytics account is needed:

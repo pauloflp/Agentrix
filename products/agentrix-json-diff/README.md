@@ -2,6 +2,12 @@
 
 Free, offline, zero-dependency Node.js 20+ CLI comparing JSON documents. Reports added, removed, and changed values with precise paths. Object property order is ignored; array elements are compared by index.
 
+## Campaign artwork
+
+These are original Agentrix promotional illustrations for **JSON Diff**, not screenshots of the running product. For real behavior and limitations, use the examples and documentation below.
+
+<p align="center"><img src="../../assets/campaigns/2026-10-26/AGX_20261026_JSON_DIFF_PATHS_V01_S01OF01.jpg" alt="Agentrix JSON Diff approved promotional illustration" width="440"/></p>
+
 ## Quick start
 
 Requires **Git and Node.js 20+**; no `npm install` is needed:
