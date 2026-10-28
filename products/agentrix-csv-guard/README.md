@@ -1,5 +1,9 @@
 # Agentrix CSV Guard: CSV structure validator
 
+**In plain English:** Catch formatting mistakes in CSV files before importing business data. It checks whether rows and columns are consistent, and can warn about potential spreadsheet formula risks.
+
+**Example:** A product export has a row with a missing column. CSV Guard tells you where to look before you import the file into another system.
+
 **Find inconsistent CSV columns, malformed quotes and formula-like cells before an import.** A free, offline CSV validator and structure checker for Node.js 20+, with zero runtime dependencies. Formula-risk detection is opt-in and does not sanitize the file.
 
 ## CSV Guard at a glance
