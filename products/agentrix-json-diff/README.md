@@ -1,5 +1,9 @@
 # Agentrix JSON Diff: compare JSON files by path
 
+**In plain English:** See what changed between two versions of a configuration file. It compares JSON files and points to settings that were added, removed or changed.
+
+**Example:** Something behaves differently after a configuration update. Compare the old and new files to locate the changes before investigating further.
+
 Free, offline, zero-dependency Node.js 20+ CLI comparing JSON documents. Reports added, removed, and changed values with precise paths. Object property order is ignored; array elements are compared by index.
 
 ## JSON Diff at a glance
