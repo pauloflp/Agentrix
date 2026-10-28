@@ -1,5 +1,9 @@
 # Agentrix SaaS Landing Kit | FREE v1.0
 
+**In plain English:** Start a software landing page with two ready-made designs instead of building the layout from scratch. Download the files, change the example text and visuals, and adapt the page to your own product.
+
+**Example:** You have a new SaaS idea and need a polished product page. Choose the dark Atlas design or the light Fieldnote design, then replace the fictional content before publishing. These are website templates, not functioning SaaS applications.
+
 **Two responsive, editable SaaS landing-page templates. Free download for personal and commercial use. No password, checkout, subscription or account required.**
 
 [**Download the complete free ZIP →**](AGENTRIX_SaaS_Landing_Kit_FREE_v1.0.zip) · [Read license →](LICENSE.txt) · [Verify checksums →](SHA256SUMS.txt)
