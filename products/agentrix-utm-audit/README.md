@@ -108,6 +108,10 @@ Exit codes: `0` no findings, `1` validation findings, `2` file or argument error
 
 MIT. Free for personal and commercial use. [Agentrix](https://github.com/pauloflp/Agentrix).
 
+## Want a visual campaign review?
+
+**UTM Audit is free and stays free.** If your team prefers a browser interface, [Campaign QA Pro](../../premium/agentrix-campaign-qa/README.md) lets you paste or import up to 1,000 campaign links, review tracking issues together and download a CSV report. It is an optional **US$29 one-time** product, not a requirement to use UTM Audit.
+
 ## Related tools
 
 If campaign data arrives as CSV, use [CSV Guard](../agentrix-csv-guard/) for structural checks or [Data Import Studio](../agentrix-data-import-studio/) for visual mapping and typed validation. [Browse all six tools](../../README.md#free-tools) or [ask a usage question](https://github.com/pauloflp/Agentrix/discussions).
