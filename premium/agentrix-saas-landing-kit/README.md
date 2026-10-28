@@ -15,6 +15,29 @@ The following image shows **real screenshots** of the templates, not a generated
 | Dark graphite with vivid green highlights, sample analytics panels, features and pricing. | Light editorial CRM layout with soft purple accents, sample pipeline, features and pricing. |
 | [**Open editable HTML source →**](templates/atlas/index.html) | [**Open editable HTML source →**](templates/fieldnote/index.html) |
 
+## Campaign artwork
+
+These are **approved Agentrix promotional images** featuring the two real frontend templates. They are marketing visuals, not additional features or evidence of a functional analytics service or CRM. For actual template screenshots, refer to the preview above.
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://www.instagram.com/p/De_zPvVCFlV/">
+        <img src="https://res.cloudinary.com/xqixzm02/image/upload/v1793043051/agentrix-instagram/1lhfB1n6WtHc0GYh6GbrCJCzCaKEHxRqC.jpg" alt="Agentrix promotional artwork featuring the free Atlas Analytics landing-page template" width="390"/>
+      </a>
+      <br/>
+      <strong>Atlas Analytics</strong> · <a href="https://www.instagram.com/p/De_zPvVCFlV/">Published campaign</a>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://www.instagram.com/p/DfAOzf6Dq-d/">
+        <img src="https://res.cloudinary.com/xqixzm02/image/upload/v1793043053/agentrix-instagram/1M7MwoApKNLyraQocuzDKRwhErsa5TPVo.jpg" alt="Agentrix promotional artwork featuring the free Fieldnote CRM landing-page template" width="390"/>
+      </a>
+      <br/>
+      <strong>Fieldnote CRM</strong> · <a href="https://www.instagram.com/p/DfAOzf6Dq-d/">Published campaign</a>
+    </td>
+  </tr>
+</table>
+
 ## What's included
 
 - Two **complete, standalone HTML files** containing their own CSS and JavaScript: no Node.js, build tools, external fonts or runtime libraries.
