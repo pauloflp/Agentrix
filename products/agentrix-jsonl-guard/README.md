@@ -1,5 +1,9 @@
 # Agentrix JSONL Guard: JSONL / NDJSON validator
 
+**In plain English:** Find broken records in a data file before they interrupt an import or AI workflow. This tool checks JSONL files, where every line contains one structured record, and shows which lines have problems.
+
+**Example:** One invalid line among thousands of log entries? JSONL Guard gives you its line number without showing the original record.
+
 **Validate newline-delimited JSON before shipping logs, data imports and AI datasets.** Find bad line numbers without exposing the records. A tiny, free, MIT-licensed Node.js 20+ CLI, with no dependencies, tracking or network calls.
 
 ## JSONL Guard at a glance
