@@ -1,5 +1,9 @@
 # Agentrix Campaign QA Pro — Bulk UTM Checker and Campaign URL Audit
 
+**In plain English:** Check a batch of campaign URLs before launch and find missing tracking labels or inconsistent names in one report.
+
+**Example:** Review your ad links together instead of checking them one by one.
+
 <div align="center">
 <img src="../../assets/agentrix-hero.svg" alt="Agentrix brand — Intelligence, put to work" width="900"/>
 </div>
