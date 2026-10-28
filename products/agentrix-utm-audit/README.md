@@ -1,5 +1,9 @@
 # Agentrix UTM Audit: campaign URL and UTM checker
 
+**In plain English:** Check advertising links for tracking mistakes before a campaign goes live. This tool highlights missing or inconsistent campaign labels.
+
+**Example:** A campaign link is missing `utm_medium`. UTM Audit points out the missing label so you can correct the URL before using it.
+
 **Find inconsistent campaign links before publishing ads, newsletters, or social posts.** A free, offline, zero-dependency Node.js CLI for checking UTM tagging across a plain-text list of URLs.
 
 ## UTM Audit at a glance
