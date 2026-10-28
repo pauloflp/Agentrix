@@ -132,7 +132,7 @@ No premium template is currently available to purchase. The SaaS Landing Kit has
 
 Premium products are separate, optional offers. Each product has its own scope, availability, and delivery details. **A product described as a preview is not available for purchase.**
 
-### Campaign QA Pro · US$29 one-time
+### [Campaign QA Pro](premium/agentrix-campaign-qa/README.md) · US$29 one-time
 
 **Before launching ads, check many campaign links at once and download a report of tracking mistakes.** Campaign QA Pro lets you import CSV files and review missing or inconsistent UTM labels. It does **not** replace or restrict the free UTM Audit CLI.
 
@@ -142,18 +142,20 @@ Premium products are separate, optional offers. Each product has its own scope, 
 
 ---
 
+### Revenue Reconcile and Revenue Pulse · financial checks
+
+**[Revenue Reconcile: R$149 one-time](https://buy.stripe.com/14AdR91zG9EDamqc8HgjC02)** helps you compare expected payments with received amounts and spot differences for review. **[Revenue Pulse: R$99 one-time](https://buy.stripe.com/7sYaEX3HO9ED7aeegPgjC03)** helps you understand subscription revenue, cancellations and overdue invoices. Both require Python 3.10+, a terminal and CSV files in the documented formats. No bank connection or automated collection is included.
+
+**Read the product pages:** [Revenue Reconcile: compare expected vs. received payments](premium/revenue-tools/reconcile.md) · [Revenue Pulse: review recurring revenue and overdue invoices](premium/revenue-tools/pulse.md)
+
+**[Download encrypted ZIPs, view requirements and delivery instructions →](premium/revenue-tools/README.md)** The ZIPs are public; Stripe displays the password after purchase. Save it before closing the confirmation page.
+
 ## Principles
 
 - **Useful over complicated.** Each tool targets a specific workflow.
 - **Honest by design.** Read the limitations and inspect results before making decisions.
 - **Local first where practical.** The free CLIs do not upload your files.
 - **Free stays free.** The seven MIT microtools and 15 agent skills are not locked behind the premium checkout.
-
-### Revenue Tools · paid local Python tools
-
-**[Revenue Reconcile: R$149 one-time](https://buy.stripe.com/14AdR91zG9EDamqc8HgjC02)** helps you compare expected payments with received amounts and spot differences for review. **[Revenue Pulse: R$99 one-time](https://buy.stripe.com/7sYaEX3HO9ED7aeegPgjC03)** helps you understand subscription revenue, cancellations and overdue invoices. Both require Python 3.10+, a terminal and CSV files in the documented formats. No bank connection or automated collection is included.
-
-**[Download encrypted ZIPs, view requirements and delivery instructions →](premium/revenue-tools/README.md)** The ZIPs are public; Stripe displays the password after purchase. Save it before closing the confirmation page.
 
 ## Community & Roadmap
 

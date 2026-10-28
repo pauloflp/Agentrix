@@ -6,12 +6,14 @@
 
 **Example:** Export the required CSV files from your existing systems, run the relevant tool locally and review its report. Neither product automatically connects to an ERP, bank or payment provider.
 
+**New to these tools? Start with the [Revenue Reconcile overview](reconcile.md) or the [Revenue Pulse overview](pulse.md).** Both pages explain the practical use before technical details.
+
 Two paid, local Python tools for reviewing financial CSVs. **Python 3.10+ and a terminal are required.** These are not hosted dashboards and do not connect automatically to banks, Stripe or an ERP. Runtime dependencies: Python standard library only.
 
 | Product | What it does | One-time price | Purchase |
 | --- | --- | --- | --- |
-| Revenue Reconcile 0.1.1 | Compares expected receivables and settled receipts; flags missing receipts, duplicates and amount/fee differences | R$149 BRL | [Buy Reconcile](https://buy.stripe.com/14AdR91zG9EDamqc8HgjC02) |
-| Revenue Pulse 0.1.1 | Calculates recurring revenue movements, churn and invoice arrears from subscription events, invoices and payments | R$99 BRL | [Buy Pulse](https://buy.stripe.com/7sYaEX3HO9ED7aeegPgjC03) |
+| [Revenue Reconcile 0.1.1](reconcile.md) | Compares expected receivables and settled receipts; flags missing receipts, duplicates and amount/fee differences | R$149 BRL | [Buy Reconcile](https://buy.stripe.com/14AdR91zG9EDamqc8HgjC02) |
+| [Revenue Pulse 0.1.1](pulse.md) | Calculates recurring revenue movements, churn and invoice arrears from subscription events, invoices and payments | R$99 BRL | [Buy Pulse](https://buy.stripe.com/7sYaEX3HO9ED7aeegPgjC03) |
 
 Each purchase includes that product's Python source, documentation, fictional CSV examples, sample HTML report and tests. The [paid license](LICENSE.txt) covers internal personal or commercial use by one person or organization, including reports prepared for clients. No subscription is needed for this version. Future upgrades and custom integration are not included.
 
