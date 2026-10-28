@@ -1,5 +1,9 @@
 # Agentrix Staged File Guard
 
+**In plain English:** Before publishing code, check whether the changes you prepared include files that may contain private settings or keys. The tool warns you based on filenames, not file contents.
+
+**Example:** You accidentally prepare a file named `.env.production` for a commit. Staged File Guard flags its name so you can review it before publishing.
+
 A dependency-free Node.js 20+ CLI that flags **potentially sensitive file paths in Git's staging area** before a commit. It inspects **file names only**, never file contents, credential values or network resources.
 
 ## Staged File Guard at a glance
