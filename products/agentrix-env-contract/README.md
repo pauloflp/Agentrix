@@ -34,7 +34,7 @@ The second command intentionally exits `1`. To get a JSON report, append `--json
 
 <div align="center">
 <img src="https://res.cloudinary.com/xqixzm02/image/upload/v1792708835/AGENTRIX_POST_02_ENV_CONTRACT_CARROSSEL_01_DE_06.jpg" width="360" alt="Env Contract promotional illustration: your env files aligned"/>
-<br/><sub>Original Agentrix campaign illustration. The example CLI output below shows the actual tool format.</sub>
+<br/><sub>Conceptual campaign illustration. The CLI examples below show the tool's real output format.</sub>
 </div>
 
 <details>

@@ -2,9 +2,9 @@
 
 **Find inconsistent campaign links before publishing ads, newsletters, or social posts.** A free, offline, zero-dependency Node.js CLI for checking UTM tagging across a plain-text list of URLs.
 
-## Campaign artwork
+## UTM Audit at a glance
 
-These are original Agentrix promotional illustrations for **UTM Audit**, not screenshots of the running product. For real behavior and limitations, use the examples and documentation below.
+These campaign illustrations highlight the kinds of problems **UTM Audit** helps address. They are conceptual visuals rather than product screenshots. Follow the examples and documentation below to see what the tool actually does.
 
 <p align="center"><img src="../../assets/campaigns/2026-10-26/AGX_20261026_UTM_CASE_V01_S01OF01.jpg" alt="Agentrix UTM Audit approved promotional illustration" width="440"/></p>
 

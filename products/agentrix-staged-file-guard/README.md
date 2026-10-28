@@ -2,9 +2,9 @@
 
 A dependency-free Node.js 20+ CLI that flags **potentially sensitive file paths in Git's staging area** before a commit. It inspects **file names only**, never file contents, credential values or network resources.
 
-## Campaign artwork
+## Staged File Guard at a glance
 
-These are original Agentrix promotional illustrations for **Staged File Guard**, not screenshots of the running product. For real behavior and limitations, use the examples and documentation below.
+These campaign illustrations highlight the kinds of problems **Staged File Guard** helps address. They are conceptual visuals rather than product screenshots. Follow the examples and documentation below to see what the tool actually does.
 
 <p align="center"><img src="../../assets/campaigns/2026-10-26/AGX_20261026_STAGED_PATHS_V01_S01OF01.jpg" alt="Agentrix Staged File Guard approved promotional illustration" width="440"/></p>
 

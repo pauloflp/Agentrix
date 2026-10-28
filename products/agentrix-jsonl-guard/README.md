@@ -2,9 +2,9 @@
 
 **Validate newline-delimited JSON before shipping logs, data imports and AI datasets.** Find bad line numbers without exposing the records. A tiny, free, MIT-licensed Node.js 20+ CLI, with no dependencies, tracking or network calls.
 
-## Campaign artwork
+## JSONL Guard at a glance
 
-These are original Agentrix promotional illustrations for **JSONL Guard**, not screenshots of the running product. For real behavior and limitations, use the examples and documentation below.
+These campaign illustrations highlight the kinds of problems **JSONL Guard** helps address. They are conceptual visuals rather than product screenshots. Follow the examples and documentation below to see what the tool actually does.
 
 <p align="center"><img src="../../assets/campaigns/2026-10-26/AGX_20261026_JSONL_BADLINE_V01_S01OF01.jpg" alt="Agentrix JSONL Guard approved promotional illustration" width="440"/></p>
 

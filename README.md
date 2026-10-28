@@ -53,9 +53,9 @@ Run just one tool with `node scripts/demo.mjs jsonl-guard`, `node scripts/demo.m
 
 **[Tutorial: validate JSONL, environment keys and CSV before CI →](docs/local-validation.md)**
 
-### See the ideas behind the tools
+### What the tools help you solve
 
-These are **original Agentrix campaign illustrations**, not screenshots of the running CLI. The actual commands and sample output are in each product's documentation.
+A visual introduction to the problems Agentrix tools are designed to solve. These are promotional illustrations. Explore each tool's documentation for real examples, commands and capabilities.
 
 <table>
   <tr>

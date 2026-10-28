@@ -4,9 +4,9 @@
 
 **Free, open source, MIT-licensed. No payment, login, analytics or remote data upload.** This tool is a visual alternative to the free [CSV Guard](../agentrix-csv-guard/), not a replacement for it.
 
-## Campaign artwork
+## Data Import Studio at a glance
 
-These are original Agentrix promotional illustrations for **Data Import Studio**, not screenshots of the running product. For real behavior and limitations, use the examples and documentation below.
+These campaign illustrations highlight the kinds of problems **Data Import Studio** helps address. They are conceptual visuals rather than product screenshots. Follow the examples and documentation below to see what the tool actually does.
 
 <p align="center"><img src="../../assets/campaigns/2026-10-26/AGX_20261026_DATA_IMPORT_FLOW_V01_S01OF01.jpg" alt="Agentrix Data Import Studio approved promotional illustration" width="440"/></p>
 

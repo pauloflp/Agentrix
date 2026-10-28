@@ -2,9 +2,9 @@
 
 **Find inconsistent CSV columns, malformed quotes and formula-like cells before an import.** A free, offline CSV validator and structure checker for Node.js 20+, with zero runtime dependencies. Formula-risk detection is opt-in and does not sanitize the file.
 
-## Campaign artwork
+## CSV Guard at a glance
 
-These are original Agentrix promotional illustrations for **CSV Guard**, not screenshots of the running product. For real behavior and limitations, use the examples and documentation below.
+These campaign illustrations highlight the kinds of problems **CSV Guard** helps address. They are conceptual visuals rather than product screenshots. Follow the examples and documentation below to see what the tool actually does.
 
 <p align="center"><img src="../../assets/campaigns/2026-10-26/AGX_20261026_CSV_BADROW_V01_S01OF01.jpg" alt="Agentrix CSV Guard approved promotional illustration" width="440"/></p>
 

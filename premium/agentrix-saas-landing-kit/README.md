@@ -17,7 +17,7 @@ The following image shows **real screenshots** of the templates, not a generated
 
 ## Campaign artwork
 
-These are **approved Agentrix promotional images** featuring the two real frontend templates. They are marketing visuals, not additional features or evidence of a functional analytics service or CRM. For actual template screenshots, refer to the preview above.
+Meet the two templates through our campaign illustrations. These visuals introduce the designs; the **actual screenshots and editable HTML** are available in the preview above. Atlas and Fieldnote are sample frontend templates, not operational analytics or CRM services.
 
 <table>
   <tr>
