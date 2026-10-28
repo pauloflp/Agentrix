@@ -1,5 +1,11 @@
 # Agentrix Revenue Tools
 
+**Revenue Reconcile:** Compare what a business expected to receive with the payments recorded as received. Spot missing receipts, duplicates and amount differences for review.
+
+**Revenue Pulse:** Understand how subscription revenue changes over time. Review monthly recurring revenue, cancellations and overdue invoices from exported records.
+
+**Example:** Export the required CSV files from your existing systems, run the relevant tool locally and review its report. Neither product automatically connects to an ERP, bank or payment provider.
+
 Two paid, local Python tools for reviewing financial CSVs. **Python 3.10+ and a terminal are required.** These are not hosted dashboards and do not connect automatically to banks, Stripe or an ERP. Runtime dependencies: Python standard library only.
 
 | Product | What it does | One-time price | Purchase |
