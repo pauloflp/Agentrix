@@ -4,7 +4,7 @@
 
 **Tools for people who build.**
 
-Free developer tools for JSONL / NDJSON validation, `.env` key checks, CSV audits, JSON comparison, UTM link checks, and sensitive staged filenames. Plus reusable AI agent skills and editable SaaS templates.
+Find data errors, catch risky project files before publishing, check campaign links and start SaaS websites faster. Explore free tools, reusable AI instructions and optional paid products.
 
 [**Free tools**](#free-tools) · [**Run the demos**](#try-the-tools-with-bundled-data) · [**Free templates**](#free-templates) · [**Free agent skills**](#free-agent-skills) · [**Discussions**](https://github.com/pauloflp/Agentrix/discussions) · [**Instagram**](https://www.instagram.com/agentrix.tools/)
 
@@ -19,7 +19,7 @@ Free developer tools for JSONL / NDJSON validation, `.env` key checks, CSV audit
 
 ## Built to solve small, expensive problems
 
-Agentrix is a collection of deliberately focused tools. Start with a problem, choose a tool, and inspect the result. No unnecessary dashboards or accounts for the free CLI utilities.
+Agentrix helps you catch practical problems before they become bigger ones. Pick the task you need to solve, see an example, and use the right tool. Technical details and limitations are in each product page.
 
 ![From discovery to shipping](assets/agentrix-workflow.svg)
 
@@ -29,13 +29,13 @@ All seven microtools below are **free, MIT-licensed**, run locally with **Node.j
 
 | Your problem | Tool | Run a bundled example |
 | :--- | :--- | :--- |
-| Flag sensitive filenames before a Git commit | **[Staged File Guard](products/agentrix-staged-file-guard/)** | [Path-only staging check →](products/agentrix-staged-file-guard/README.md#try-it) |
-| Check a JSONL / NDJSON file for malformed records | **[JSONL Guard](products/agentrix-jsonl-guard/)** | [JSON Lines validator quick start →](products/agentrix-jsonl-guard/README.md#quick-start) |
-| Catch missing or undocumented `.env` keys before deployment | **[Env Contract](products/agentrix-env-contract/)** | [Dotenv checker quick start →](products/agentrix-env-contract/README.md#quick-start) |
-| Audit CSV column counts, quoting and formula-like cells | **[CSV Guard](products/agentrix-csv-guard/)** | [CSV validator quick start →](products/agentrix-csv-guard/README.md#quick-start) |
-| Compare JSON configuration or API response snapshots | **[JSON Diff](products/agentrix-json-diff/)** | [JSON comparison quick start →](products/agentrix-json-diff/README.md#quick-start) |
-| Check UTM tags before publishing campaign links | **[UTM Audit](products/agentrix-utm-audit/)** | [Campaign link checker quick start →](products/agentrix-utm-audit/README.md#quick-start) |
-| Map CSV columns and export valid rows in a browser | **[Data Import Studio](products/agentrix-data-import-studio/)** | [Load the sample dataset →](products/agentrix-data-import-studio/README.md#get-started) |
+| Check for private-looking files before publishing code | **[Staged File Guard](products/agentrix-staged-file-guard/)** | [Path-only staging check →](products/agentrix-staged-file-guard/README.md#try-it) |
+| Find broken records in a data export or AI file | **[JSONL Guard](products/agentrix-jsonl-guard/)** | [JSON Lines validator quick start →](products/agentrix-jsonl-guard/README.md#quick-start) |
+| Spot missing app settings before launch | **[Env Contract](products/agentrix-env-contract/)** | [Dotenv checker quick start →](products/agentrix-env-contract/README.md#quick-start) |
+| Catch CSV formatting mistakes before importing data | **[CSV Guard](products/agentrix-csv-guard/)** | [CSV validator quick start →](products/agentrix-csv-guard/README.md#quick-start) |
+| See what changed between two configuration files | **[JSON Diff](products/agentrix-json-diff/)** | [JSON comparison quick start →](products/agentrix-json-diff/README.md#quick-start) |
+| Find tracking mistakes in your advertising links | **[UTM Audit](products/agentrix-utm-audit/)** | [Campaign link checker quick start →](products/agentrix-utm-audit/README.md#quick-start) |
+| Prepare spreadsheet exports for another system | **[Data Import Studio](products/agentrix-data-import-studio/)** | [Load the sample dataset →](products/agentrix-data-import-studio/README.md#get-started) |
 
 ### Try the tools with bundled data
 
@@ -134,7 +134,7 @@ Premium products are separate, optional offers. Each product has its own scope, 
 
 ### Campaign QA Pro · US$29 one-time
 
-Campaign QA Pro is a local browser-based tool for bulk campaign-link checks, CSV imports, configurable UTM naming allowlists, and downloadable QA reports. It does **not** replace or restrict the free UTM Audit CLI.
+**Before launching ads, check many campaign links at once and download a report of tracking mistakes.** Campaign QA Pro lets you import CSV files and review missing or inconsistent UTM labels. It does **not** replace or restrict the free UTM Audit CLI.
 
 **[Buy Campaign QA Pro — US$29 one-time →](https://buy.stripe.com/9B69AT928eYX5264GfgjC01)** Open the encrypted HTTPS workspace in desktop Chrome and unlock it with your purchase key. See the product page for verified features, limits, and testing scope.
 
@@ -151,7 +151,7 @@ Campaign QA Pro is a local browser-based tool for bulk campaign-link checks, CSV
 
 ### Revenue Tools · paid local Python tools
 
-**[Revenue Reconcile: R$149 one-time](https://buy.stripe.com/14AdR91zG9EDamqc8HgjC02)** compares expected receivables with settled receipts. **[Revenue Pulse: R$99 one-time](https://buy.stripe.com/7sYaEX3HO9ED7aeegPgjC03)** reviews recurring revenue, churn and invoice arrears. Both require Python 3.10+, a terminal and CSV files in the documented formats. No bank connection or automated collection is included.
+**[Revenue Reconcile: R$149 one-time](https://buy.stripe.com/14AdR91zG9EDamqc8HgjC02)** helps you compare expected payments with received amounts and spot differences for review. **[Revenue Pulse: R$99 one-time](https://buy.stripe.com/7sYaEX3HO9ED7aeegPgjC03)** helps you understand subscription revenue, cancellations and overdue invoices. Both require Python 3.10+, a terminal and CSV files in the documented formats. No bank connection or automated collection is included.
 
 **[Download encrypted ZIPs, view requirements and delivery instructions →](premium/revenue-tools/README.md)** The ZIPs are public; Stripe displays the password after purchase. Save it before closing the confirmation page.
 
