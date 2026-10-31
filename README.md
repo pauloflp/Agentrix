@@ -9,7 +9,7 @@ Find data errors, catch risky project files before publishing, check campaign li
 [**Free tools**](#free-tools) · [**Run the demos**](#try-the-tools-with-bundled-data) · [**Free templates**](#free-templates) · [**Free agent skills**](#free-agent-skills) · [**Discussions**](https://github.com/pauloflp/Agentrix/discussions) · [**Instagram**](https://www.instagram.com/agentrix.tools/)
 
 ![Node.js 20+](https://img.shields.io/badge/Node.js-20%2B-153452?style=flat-square&logo=nodedotjs&logoColor=white)
-![Free tools](https://img.shields.io/badge/Free%20microtools-7-153452?style=flat-square)
+![Free tools](https://img.shields.io/badge/Free%20microtools-8-153452?style=flat-square)
 ![Agent skills](https://img.shields.io/badge/Free%20agent%20skills-15-153452?style=flat-square)
 ![License](https://img.shields.io/badge/Free%20tools-MIT-153452?style=flat-square)
 
@@ -25,7 +25,7 @@ Agentrix helps you catch practical problems before they become bigger ones. Pick
 
 ## FREE TOOLS
 
-All seven microtools below are **free, MIT-licensed**, run locally with **Node.js 20+**, and require **no third-party runtime dependencies**.
+All eight microtools below are **free, MIT-licensed**, run locally with **Node.js 20+**, and require **no third-party runtime dependencies**.
 
 | Your problem | Tool | Run a bundled example |
 | :--- | :--- | :--- |
@@ -34,12 +34,13 @@ All seven microtools below are **free, MIT-licensed**, run locally with **Node.j
 | Spot missing app settings before launch | **[Env Contract](products/agentrix-env-contract/)** | [Dotenv checker quick start →](products/agentrix-env-contract/README.md#quick-start) |
 | Catch CSV formatting mistakes before importing data | **[CSV Guard](products/agentrix-csv-guard/)** | [CSV validator quick start →](products/agentrix-csv-guard/README.md#quick-start) |
 | See what changed between two configuration files | **[JSON Diff](products/agentrix-json-diff/)** | [JSON comparison quick start →](products/agentrix-json-diff/README.md#quick-start) |
+| Validate agent JSON outputs against a simple contract | **[Output Contract](products/agentrix-output-contract/)** | [Contract check quick start →](products/agentrix-output-contract/README.md#quick-start) |
 | Find tracking mistakes in your advertising links | **[UTM Audit](products/agentrix-utm-audit/)** | [Campaign link checker quick start →](products/agentrix-utm-audit/README.md#quick-start) |
 | Prepare spreadsheet exports for another system | **[Data Import Studio](products/agentrix-data-import-studio/)** | [Load the sample dataset →](products/agentrix-data-import-studio/README.md#get-started) |
 
 ### Try the tools with bundled data
 
-With **Git and Node.js 20+**, run the six CLIs against small synthetic files already included in the repository:
+With **Git and Node.js 20+**, run the seven CLIs against small synthetic files already included in the repository:
 
 ```bash
 git clone --depth 1 https://github.com/pauloflp/Agentrix.git
@@ -47,7 +48,7 @@ cd Agentrix
 node scripts/demo.mjs
 ```
 
-No `npm install`, API key, account or private input file is needed. The demos invoke the actual CLIs and show both successful checks and deliberately invalid inputs. A child command printing `FAIL` with exit `1` is an expected rejection; the demo runner exits `0` only when all 14 examples return their expected exit codes.
+No `npm install`, API key, account or private input file is needed. The demos invoke the actual CLIs and show both successful checks and deliberately invalid inputs. A child command printing `FAIL` with exit `1` is an expected rejection; the demo runner exits `0` only when all 16 examples return their expected exit codes.
 
 Run just one tool with `node scripts/demo.mjs jsonl-guard`, `node scripts/demo.mjs env-contract`, or `node scripts/demo.mjs csv-guard`. The runner also accepts `utm-audit`, `json-diff`, and `staged-file-guard` (using temporary synthetic Git repositories). For the browser-based CSV mapper, follow the [Data Import Studio quick start](products/agentrix-data-import-studio/README.md#get-started).
 
@@ -78,7 +79,7 @@ A visual introduction to the problems Agentrix tools are designed to solve. Thes
 </table>
 
 <details>
-<summary><strong>Run all seven test suites</strong></summary>
+<summary><strong>Run all eight test suites</strong></summary>
 
 From the repository root:
 
@@ -89,6 +90,7 @@ From the repository root:
 (cd products/agentrix-csv-guard && npm test)
 (cd products/agentrix-json-diff && npm test)
 (cd products/agentrix-jsonl-guard && npm test)
+(cd products/agentrix-output-contract && npm test)
 (cd products/agentrix-data-import-studio && npm test)
 ```
 
@@ -122,7 +124,7 @@ A curated library of reusable instructions for common technical and creative tas
 
 **[Download the ZIP (no password) →](premium/agentrix-saas-landing-kit/AGENTRIX_SaaS_Landing_Kit_FREE_v1.0.zip)** · [Explore the templates →](premium/agentrix-saas-landing-kit/README.md) · [Free-use license →](premium/agentrix-saas-landing-kit/LICENSE.txt)
 
-The kit is free to use for your own and client projects. Redistributing the unmodified pack as a competing template product is not permitted. This **source-available** license is separate from the MIT licenses of the seven free microtools.
+The kit is free to use for your own and client projects. Redistributing the unmodified pack as a competing template product is not permitted. This **source-available** license is separate from the MIT licenses of the eight free microtools.
 
 ## PREMIUM TEMPLATES
 
@@ -155,7 +157,7 @@ Premium products are separate, optional offers. Each product has its own scope, 
 - **Useful over complicated.** Each tool targets a specific workflow.
 - **Honest by design.** Read the limitations and inspect results before making decisions.
 - **Local first where practical.** The free CLIs do not upload your files.
-- **Free stays free.** The seven MIT microtools and 15 agent skills are not locked behind the premium checkout.
+- **Free stays free.** The eight MIT microtools and 15 agent skills are not locked behind the premium checkout.
 
 ## Community & Roadmap
 

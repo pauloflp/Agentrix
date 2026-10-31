@@ -30,6 +30,10 @@ const demos = {
     ['Equal JSON documents', 0, ['json-diff.mjs', 'examples/before.json', 'examples/before.json']],
     ['Changed, removed and added keys', 1, ['json-diff.mjs', 'examples/before.json', 'examples/after.json']],
   ],
+  'output-contract': [
+    ['Contract-valid JSON', 0, ['src/cli.js', '--schema', 'fixtures/contract.json', '--input', 'fixtures/valid.json']],
+    ['Contract violation with path-only diagnostics', 1, ['src/cli.js', '--schema', 'fixtures/contract.json', '--input', 'fixtures/invalid.json', '--format', 'json']],
+  ],
 };
 
 const args = process.argv.slice(2);

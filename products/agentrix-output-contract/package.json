@@ -1,0 +1,18 @@
+{
+  "name": "agentrix-output-contract",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline JSON output contract validator for agent pipelines",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "agentrix-output-contract": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node src/cli.js --schema fixtures/contract.json --input fixtures/valid.json"
+  },
+  "license": "MIT"
+}
