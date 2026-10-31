@@ -4,9 +4,9 @@
 
 **Tools for people who build.**
 
-Find data errors, catch risky project files before publishing, check campaign links and start SaaS websites faster. Explore free tools, reusable AI instructions and optional paid products.
+Check CSV files for missing columns, find broken JSON records, compare configuration files, check campaign tracking links, find repeated webhook failures and review payment discrepancies. Explore free tools, reusable AI instructions and optional paid products.
 
-[**Free tools**](#free-tools) · [**Run the demos**](#try-the-tools-with-bundled-data) · [**Free templates**](#free-templates) · [**Free agent skills**](#free-agent-skills) · [**Discussions**](https://github.com/pauloflp/Agentrix/discussions) · [**Instagram**](https://www.instagram.com/agentrix.tools/)
+[**Find a tool for your problem**](docs/find-a-tool.md) · [**Free tools**](#free-tools) · [**Run the demos**](#try-the-tools-with-bundled-data) · [**Free templates**](#free-templates) · [**Free agent skills**](#free-agent-skills) · [**Discussions**](https://github.com/pauloflp/Agentrix/discussions) · [**Instagram**](https://www.instagram.com/agentrix.tools/)
 
 ![Node.js 20+](https://img.shields.io/badge/Node.js-20%2B-153452?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Free tools](https://img.shields.io/badge/Free%20microtools-9-153452?style=flat-square)
@@ -19,7 +19,7 @@ Find data errors, catch risky project files before publishing, check campaign li
 
 ## Built to solve small, expensive problems
 
-Agentrix helps you catch practical problems before they become bigger ones. Pick the task you need to solve, see an example, and use the right tool. Technical details and limitations are in each product page.
+Agentrix helps you catch practical problems before they become bigger ones. **[Find the right tool by describing what you need to do](docs/find-a-tool.md)**, see an example, and use the right tool. Technical details and limitations are in each product page.
 
 ![From discovery to shipping](assets/agentrix-workflow.svg)
 
