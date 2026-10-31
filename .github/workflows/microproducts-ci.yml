@@ -36,6 +36,7 @@ jobs:
           - agentrix-jsonl-guard
           - agentrix-data-import-studio
           - agentrix-output-contract
+          - agentrix-webhook-delivery-inspector
     steps:
       - name: Check out public source
         uses: actions/checkout@v4

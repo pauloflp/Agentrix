@@ -1,0 +1,6 @@
+{"event_id":"evt-duplicate","endpoint_id":"endpoint-a","attempt":1,"timestamp":"2026-10-20T12:00:00Z","status_code":200}
+{"event_id":"evt-duplicate","endpoint_id":"endpoint-a","attempt":2,"timestamp":"2026-10-20T12:01:00Z","status_code":200}
+{"event_id":"evt-failure","endpoint_id":"endpoint-b","attempt":1,"timestamp":"2026-10-20T12:02:00Z","status_code":503}
+{"event_id":"evt-failure","endpoint_id":"endpoint-b","attempt":2,"timestamp":"2026-10-20T12:03:00Z","status_code":503}
+{"event_id":"evt-failure","endpoint_id":"endpoint-b","attempt":3,"timestamp":"2026-10-20T12:04:00Z","status_code":503}
+{"event_id":"evt-failure","endpoint_id":"endpoint-b","attempt":4,"timestamp":"2026-10-20T12:05:00Z","status_code":503}
