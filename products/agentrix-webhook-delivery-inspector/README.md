@@ -44,6 +44,8 @@ Alerts and endpoints are deterministically sorted. Event/endpoint references in 
 
 Maximum input file **5 MiB**, **10,000 lines**, **16 KiB per line**, **5,000 distinct event/endpoint groups**. Input is read only after checking file size; memory is bounded by these limits. Not a streaming collector, webhook receiver, retry scheduler, financial reconciliation tool, or replacement for generic JSONL validation. Does not contact endpoints, prove charges, or guarantee all deliveries are present. Source can be run directly from a clean extraction with Node >=20. No dependencies or install required.
 
-## Test environment and evidence
+## Testing and compatibility
 
-`npm test` uses Node's built-in test runner. All fixtures are synthetic. The local run environment and pass/fail totals are recorded in `EVIDENCE.md`; Node 20, Windows/macOS and remote CI must be marked NOT TESTED until actually run.
+Run `npm test` to check the included examples and error handling. The project also runs automated tests on Node.js 20, 22 and 24 in [GitHub Actions](../../.github/workflows/microproducts-ci.yml).
+
+The examples use fictional webhook records. The tool has not been verified against every webhook provider, operating system or real-world export format. Check that your exported metadata matches the documented input format before relying on a report.
