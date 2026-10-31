@@ -34,6 +34,10 @@ const demos = {
     ['Contract-valid JSON', 0, ['src/cli.js', '--schema', 'fixtures/contract.json', '--input', 'fixtures/valid.json']],
     ['Contract violation with path-only diagnostics', 1, ['src/cli.js', '--schema', 'fixtures/contract.json', '--input', 'fixtures/invalid.json', '--format', 'json']],
   ],
+  'webhook-delivery-inspector': [
+    ['Healthy delivery log', 0, ['src/cli.js', '--input', 'fixtures/healthy.jsonl', '--format', 'json']],
+    ['Retries and delivery alerts', 1, ['src/cli.js', '--input', 'fixtures/mixed.jsonl', '--format', 'json']],
+  ],
 };
 
 const args = process.argv.slice(2);

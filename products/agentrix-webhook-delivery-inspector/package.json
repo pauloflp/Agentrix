@@ -1,0 +1,17 @@
+{
+  "name": "agentrix-webhook-delivery-inspector",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "agentrix-webhook-inspect": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node src/cli.js --input fixtures/mixed.jsonl --format json"
+  },
+  "license": "MIT"
+}
