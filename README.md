@@ -79,7 +79,7 @@ A visual introduction to the problems Agentrix tools are designed to solve. Thes
 </table>
 
 <details>
-<summary><strong>Run all seven test suites</strong></summary>
+<summary><strong>Run all eight test suites</strong></summary>
 
 From the repository root:
 
