@@ -35,6 +35,7 @@ jobs:
           - agentrix-json-diff
           - agentrix-jsonl-guard
           - agentrix-data-import-studio
+          - agentrix-output-contract
     steps:
       - name: Check out public source
         uses: actions/checkout@v4
