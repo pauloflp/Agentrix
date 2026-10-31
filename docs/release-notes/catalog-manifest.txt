@@ -1,0 +1,12 @@
+csv-guard-v1.0.0|CSV Guard 1.0.0 | Check CSV files for missing columns and formatting errors|docs/release-notes/csv-guard-v1.0.0.md
+data-import-studio-v1.0.0|Data Import Studio 1.0.0 | Match CSV columns and separate invalid rows|docs/release-notes/data-import-studio-v1.0.0.md
+env-contract-v0.1.0|Env Contract 0.1.0 | Find missing environment variables before deployment|docs/release-notes/env-contract-v0.1.0.md
+json-diff-v0.1.0|JSON Diff 0.1.0 | Compare two JSON files and see what changed|docs/release-notes/json-diff-v0.1.0.md
+jsonl-guard-v1.0.0|JSONL Guard 1.0.0 | Find invalid lines in JSONL and NDJSON files|docs/release-notes/jsonl-guard-v1.0.0.md
+output-contract-v1.0.0|Output Contract 1.0.0 | Check AI agent JSON outputs for missing fields|docs/release-notes/output-contract-v1.0.0.md
+utm-audit-v0.1.0|UTM Audit 0.1.0 | Check campaign tracking links for missing UTM tags|docs/release-notes/utm-audit-v0.1.0.md
+webhook-delivery-inspector-v1.0.0|Webhook Delivery Inspector 1.0.0 | Find failed and repeated webhook deliveries|docs/release-notes/webhook-delivery-inspector-v1.0.0.md
+saas-landing-kit-v1.0.0|SaaS Landing Kit 1.0 | Two free editable software landing page templates|docs/release-notes/saas-landing-kit-v1.0.0.md
+campaign-qa-pro-v1.1.0|Campaign QA Pro 1.1 | Check advertising URLs and UTM tracking in bulk|docs/release-notes/campaign-qa-pro-v1.1.0.md
+revenue-reconcile-v0.1.1|Revenue Reconcile 0.1.1 | Find missing payments and payment mismatches|docs/release-notes/revenue-reconcile-v0.1.1.md
+revenue-pulse-v0.1.1|Revenue Pulse 0.1.1 | Track recurring revenue, cancellations and overdue invoices|docs/release-notes/revenue-pulse-v0.1.1.md
