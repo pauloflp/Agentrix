@@ -67,7 +67,7 @@ These are **frontend demonstrations, not real SaaS applications**. They do not i
 
 - The original templates passed prior Chromium UI checks, plus this free release's package integrity, encryption-free extraction, source equivalence and checksum verification.
 - This release's HTML was also rendered without JavaScript errors or horizontal overflow in **Chromium injection-based desktop (1440px), tablet (768px) and mobile (390px)** checks for both designs, six cases total.
-- **Limitations:** direct navigation to `file://`/localhost is blocked by the managed test environment, not verified there. Safari/Firefox and deployed HTTPS experiences have not been validated in this release. Test on your own devices before using it in production.
+- **Limitations:** The templates have been checked in Chromium and the downloadable package has been verified. Safari, Firefox and live deployments have not been fully tested. Check layout, accessibility, links and any new integrations on your own deployed website.
 - This release **does not require or use Stripe**. There is no commercial checkout associated with obtaining the free package.
 
 [**Explore other Agentrix products →**](../../README.md#free-tools)

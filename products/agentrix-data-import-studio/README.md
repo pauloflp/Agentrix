@@ -25,7 +25,7 @@ These campaign illustrations highlight the kinds of problems **Data Import Studi
 
 ## Get started
 
-**Option A · Standalone file:** Download this folder and try opening `index.html` in a recent desktop browser. Browser policies and file-URL restrictions differ. The app is designed for standalone use, but direct file opening was blocked by the test environment and is not part of the verified tests.
+**Option A · Standalone file:** Download this folder and try opening `index.html` in a recent desktop browser. Browser policies and file-URL restrictions differ. Browser security settings may prevent opening local files directly. If this happens, follow the local-server instructions below.
 
 **Option B · Local-server route (Node.js 20+):**
 
@@ -64,7 +64,7 @@ npm run build
 python tests/browser-smoke.py # optional, requires Playwright and Chromium installed
 ```
 
-The browser suite fetches the HTML from a **loopback-only** server and exercises the same built HTML through Chromium injection using `page.set_content`, verifying file upload, mapping, exports and rejected replacements. In this environment, browser navigation to `http://127.0.0.1/` and `file://` was blocked by administrative browser policy; the local server HTTP response is validated separately but direct navigation remains **NOT TESTED**. Browser availability may differ on your machine. Node unit tests have no dependencies.
+The optional browser test exercises file upload, column mapping and exports in Chromium. It does not establish compatibility with every browser or with pages opened directly from a local file. For a more reliable setup, use the local server described above. Node unit tests have no dependencies.
 
 ## License
 

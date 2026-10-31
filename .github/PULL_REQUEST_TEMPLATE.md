@@ -1,31 +1,21 @@
-## What problem does this PR solve?
+## What problem does this solve?
 
-<!-- Link to a related issue if one exists. Explain one concrete problem, not a broad list of enhancements. -->
+<!-- Explain the specific issue someone would encounter. Link an issue when useful. -->
 
-## Changes
+## What changed?
 
-<!-- Briefly describe only the files, behavior and documentation actually changed. -->
+<!-- Describe the user-visible improvement. Include important technical details only when necessary to review the change. -->
 
-## Validation
+## How can someone try it?
 
-- [ ] Affected product tests or checks passed (include exact command and results).
-- [ ] Examples and documentation reflect actual behavior.
-- [ ] Changes are scoped; existing interfaces and other products are preserved.
-- [ ] No credentials, private operational details or personal/customer data are included.
-- [ ] Any new dependencies, network calls, or telemetry are justified and disclosed.
+<!-- Give a short command, example, or screenshot when applicable. -->
 
-**Evidence (PASS / FAIL / NOT TESTED):**
+## Tests and limitations
 
-<!-- Name any checks you could not run. Do not mark as PASS without evidence. -->
+<!-- Which checks passed? Are there any important untested cases or limitations? -->
 
-## Compatibility and licensing
+## Compatibility
 
-<!-- Describe user-visible behavior or compatibility changes. Confirm the license that applies to each changed component. -->
+<!-- Mention relevant environment, behavior or licensing changes. -->
 
-## Screenshots (only if visual changes)
-
-<!-- Real screenshots preferred; distinguish working UI from mockups. -->
-
-## Additional context
-
-<!-- Optional. Disclose potential limitations or follow-up concerns. -->
+<!-- Before submitting, check that no access tokens, private data, or unnecessary unrelated files are included. -->
