@@ -6,7 +6,7 @@
 
 Check CSV files for missing columns, find broken JSON records, compare configuration files, check campaign tracking links, find repeated webhook failures and review payment discrepancies. Explore free tools, reusable AI instructions and optional paid products.
 
-[**Find a tool for your problem**](docs/find-a-tool.md) · [**Free tools**](#free-tools) · [**Run the demos**](#try-the-tools-with-bundled-data) · [**Free templates**](#free-templates) · [**Free agent skills**](#free-agent-skills) · [**Discussions**](https://github.com/pauloflp/Agentrix/discussions) · [**Instagram**](https://www.instagram.com/agentrix.tools/)
+[**Find a tool for your problem**](docs/find-a-tool.md) · [**Free tools**](#free-tools) · [**Paid tools**](#paid-tools) · [**Run the demos**](#try-the-tools-with-bundled-data) · [**Free templates**](#free-templates) · [**Free agent skills**](#free-agent-skills) · [**Discussions**](https://github.com/pauloflp/Agentrix/discussions) · [**Instagram**](https://www.instagram.com/agentrix.tools/)
 
 ![Node.js 20+](https://img.shields.io/badge/Node.js-20%2B-153452?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Free tools](https://img.shields.io/badge/Free%20microtools-9-153452?style=flat-square)
@@ -100,6 +100,18 @@ The [CI workflow](.github/workflows/microproducts-ci.yml) also runs product test
 
 </details>
 
+## PAID TOOLS
+
+Need to check campaign tracking at scale or review business payments? These tools are available as **separate one-time purchases**, with no subscription required for the listed versions.
+
+| Your problem | Tool | Price and access |
+| :--- | :--- | :--- |
+| Check many advertising links for missing UTM tags and inconsistent tracking names before launching a campaign | **[Campaign QA Pro](premium/agentrix-campaign-qa/README.md)** | **US$29 one-time** · [See how it works](premium/agentrix-campaign-qa/README.md) · [Buy](https://buy.stripe.com/9B69AT928eYX5264GfgjC01) |
+| Find payments that are missing, duplicated, or different from what your business expected to receive | **[Revenue Reconcile](premium/revenue-tools/reconcile.md)** | **US$149 one-time** · [See how it works](premium/revenue-tools/reconcile.md) · [Buy](https://buy.stripe.com/28EbJ17Y4g31gKOgoXgjC04) |
+| Understand recurring revenue, cancellations, and overdue invoices from your subscription records | **[Revenue Pulse](premium/revenue-tools/pulse.md)** | **US$99 one-time** · [See how it works](premium/revenue-tools/pulse.md) · [Buy](https://buy.stripe.com/7sY7sLems3gf5260pZgjC05) |
+
+Campaign QA Pro uses a browser workspace in desktop Chrome with a purchase key. Revenue Reconcile and Revenue Pulse run locally with Python and exported CSV files. **These are different products from the free tools**, and none automatically connects to your bank, payment provider, or ad account. Check each product page for requirements and delivery limitations before buying.
+
 ## FREE AGENT SKILLS
 
 A curated library of reusable instructions for common technical and creative tasks. **All 15 are free to read and adapt**, subject to applicable licenses and third-party terms.
@@ -127,32 +139,6 @@ A curated library of reusable instructions for common technical and creative tas
 **[Download the ZIP (no password) →](premium/agentrix-saas-landing-kit/AGENTRIX_SaaS_Landing_Kit_FREE_v1.0.zip)** · [Explore the templates →](premium/agentrix-saas-landing-kit/README.md) · [Free-use license →](premium/agentrix-saas-landing-kit/LICENSE.txt)
 
 The kit is free to use for your own and client projects. Redistributing the unmodified pack as a competing template product is not permitted. This **source-available** license is separate from the MIT licenses of the nine free microtools.
-
-## PREMIUM TEMPLATES
-
-No premium template is currently available to purchase. The SaaS Landing Kit has been released as a **free product** rather than a paid preview. This does not change the status of any other Agentrix product.
-
-## PREMIUM TOOLS
-
-Premium products are separate, optional offers. Each product has its own scope, availability, and delivery details. **A product described as a preview is not available for purchase.**
-
-### [Campaign QA Pro](premium/agentrix-campaign-qa/README.md) · US$29 one-time
-
-**Before launching ads, check many campaign links at once and download a report of tracking mistakes.** Campaign QA Pro lets you import CSV files and review missing or inconsistent UTM labels. It does **not** replace or restrict the free UTM Audit CLI.
-
-**[Buy Campaign QA Pro — US$29 one-time →](https://buy.stripe.com/9B69AT928eYX5264GfgjC01)** Open the encrypted HTTPS workspace in desktop Chrome and unlock it with your purchase key. See the product page for verified features, limits, and testing scope.
-
-[**View Campaign QA Pro scope and limitations →**](premium/agentrix-campaign-qa/README.md)
-
----
-
-### Revenue Reconcile and Revenue Pulse · financial checks
-
-**[Revenue Reconcile: US$149 one-time](https://buy.stripe.com/28EbJ17Y4g31gKOgoXgjC04)** helps you compare expected payments with received amounts and spot differences for review. **[Revenue Pulse: US$99 one-time](https://buy.stripe.com/7sY7sLems3gf5260pZgjC05)** helps you understand subscription revenue, cancellations and overdue invoices. Both require Python 3.10+, a terminal and CSV files in the documented formats. No bank connection or automated collection is included.
-
-**Read the product pages:** [Revenue Reconcile: compare expected vs. received payments](premium/revenue-tools/reconcile.md) · [Revenue Pulse: review recurring revenue and overdue invoices](premium/revenue-tools/pulse.md)
-
-**[Download encrypted ZIPs, view requirements and delivery instructions →](premium/revenue-tools/README.md)** The ZIPs are public; Stripe displays the password after purchase. Save it before closing the confirmation page.
 
 ## Principles
 
