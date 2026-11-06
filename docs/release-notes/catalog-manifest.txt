@@ -12,3 +12,4 @@ revenue-reconcile-v0.1.1	Revenue Reconcile 0.1.1 | Find missing payments and pay
 revenue-pulse-v0.1.1	Revenue Pulse 0.1.1 | Track recurring revenue, cancellations and overdue invoices	docs/release-notes/revenue-pulse-v0.1.1.md
 saas-margin-leak-v0.1.0	SaaS Margin Leak 0.1.0 | Find low-margin SaaS customers and plans	docs/release-notes/saas-margin-leak-v0.1.0.md
 refund-overpayment-audit-v0.1.0	Refund Overpayment Audit 0.1.0 | Find recorded refunds above the amount paid	docs/release-notes/refund-overpayment-audit-v0.1.0.md
+supplier-invoice-duplicate-check-v0.1.0	Supplier Invoice Duplicate Check 0.1.0 | Find repeated supplier invoices in CSV	docs/release-notes/supplier-invoice-duplicate-check-v0.1.0.md
