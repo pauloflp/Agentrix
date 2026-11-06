@@ -10,3 +10,4 @@ saas-landing-kit-v1.0.0	SaaS Landing Kit 1.0 | Two free editable software landin
 campaign-qa-pro-v1.1.0	Campaign QA Pro 1.1 | Check advertising URLs and UTM tracking in bulk	docs/release-notes/campaign-qa-pro-v1.1.0.md
 revenue-reconcile-v0.1.1	Revenue Reconcile 0.1.1 | Find missing payments and payment mismatches	docs/release-notes/revenue-reconcile-v0.1.1.md
 revenue-pulse-v0.1.1	Revenue Pulse 0.1.1 | Track recurring revenue, cancellations and overdue invoices	docs/release-notes/revenue-pulse-v0.1.1.md
+saas-margin-leak-v0.1.0	SaaS Margin Leak 0.1.0 | Find low-margin SaaS customers and plans	docs/release-notes/saas-margin-leak-v0.1.0.md
