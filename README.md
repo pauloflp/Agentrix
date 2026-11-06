@@ -109,8 +109,9 @@ Need to check campaign tracking at scale or review business payments? These tool
 | Check many advertising links for missing UTM tags and inconsistent tracking names before launching a campaign | **[Campaign QA Pro](premium/agentrix-campaign-qa/README.md)** | **US$29 one-time** · [See how it works](premium/agentrix-campaign-qa/README.md) · [Buy](https://buy.stripe.com/9B69AT928eYX5264GfgjC01) |
 | Find payments that are missing, duplicated, or different from what your business expected to receive | **[Revenue Reconcile](premium/revenue-tools/reconcile.md)** | **US$149 one-time** · [See how it works](premium/revenue-tools/reconcile.md) · [Buy](https://buy.stripe.com/28EbJ17Y4g31gKOgoXgjC04) |
 | Understand recurring revenue, cancellations, and overdue invoices from your subscription records | **[Revenue Pulse](premium/revenue-tools/pulse.md)** | **US$99 one-time** · [See how it works](premium/revenue-tools/pulse.md) · [Buy](https://buy.stripe.com/7sY7sLems3gf5260pZgjC05) |
+| Find customers or plans with low contribution margins | **[SaaS Margin Leak](premium/agentrix-saas-margin-leak/README.md)** | **US$49 one-time** · [See how it works](premium/agentrix-saas-margin-leak/README.md) · [Buy](https://buy.stripe.com/3cI28r6U01871PU7SrgjC06) |
 
-Campaign QA Pro uses a browser workspace in desktop Chrome with a purchase key. Revenue Reconcile and Revenue Pulse run locally with Python and exported CSV files. **These are different products from the free tools**, and none automatically connects to your bank, payment provider, or ad account. Check each product page for requirements and delivery limitations before buying.
+Campaign QA Pro uses a browser workspace in desktop Chrome with a purchase key. Revenue Reconcile and Revenue Pulse run locally with Python and exported CSV files. SaaS Margin Leak uses Node.js and a monthly cost allocation CSV. **These are different products from the free tools**, and none automatically connects to your bank, payment provider, or ad account. Check each product page for requirements and delivery limitations before buying.
 
 ## FREE AGENT SKILLS
 
