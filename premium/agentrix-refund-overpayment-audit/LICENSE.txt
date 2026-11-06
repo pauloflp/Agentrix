@@ -1,0 +1,11 @@
+Copyright (c) 2026 Agentrix. All rights reserved.
+Paid license for one purchasing person or organization. You may use and modify
+this version internally for personal and commercial work, including preparing
+reports for clients. You may share generated reports. Do not redistribute,
+resell, sublicense or share the software archive, source code or unlock password
+outside your organization. No subscription is required to use this version.
+Future updates, custom integration and consulting are not included.
+This is a local analytical tool, not financial, accounting, tax or legal advice.
+Verify inputs and review outputs. No financial result or recovery is guaranteed.
+Mandatory consumer rights are unaffected. Report reproducible software issues at
+https://github.com/pauloflp/Agentrix/issues without private data or purchase keys.
