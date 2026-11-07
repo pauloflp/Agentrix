@@ -14,3 +14,9 @@ saas-margin-leak-v0.1.0	SaaS Margin Leak 0.1.0 | Find low-margin SaaS customers 
 refund-overpayment-audit-v0.1.0	Refund Overpayment Audit 0.1.0 | Find recorded refunds above the amount paid	docs/release-notes/refund-overpayment-audit-v0.1.0.md
 supplier-invoice-duplicate-check-v0.1.0	Supplier Invoice Duplicate Check 0.1.0 | Find repeated supplier invoices in CSV	docs/release-notes/supplier-invoice-duplicate-check-v0.1.0.md
 retail-sku-price-floor-audit-v0.1.0	Retail SKU Price Floor Audit 0.1.0 | Find retail SKUs below a target gross margin	docs/release-notes/retail-sku-price-floor-audit-v0.1.0.md
+purchase-order-quantity-variance-audit-v0.1.0	Purchase Order Quantity Variance Audit 0.1.0 | Compare ordered and received quantities by order and SKU	docs/release-notes/purchase-order-quantity-variance-audit-v0.1.0.md
+supplier-bank-detail-change-check-v0.1.0	Supplier Bank Detail Change Check 0.1.0 | Review changes to supplier bank details between two exports	docs/release-notes/supplier-bank-detail-change-check-v0.1.0.md
+coupon-redemption-cap-check-v0.1.0	Coupon Redemption Cap Check 0.1.0 | Find coupons whose recorded redemptions exceed their cap	docs/release-notes/coupon-redemption-cap-check-v0.1.0.md
+invoice-date-order-check-v0.1.0	Invoice Date Order Check 0.1.0 | Find invoice due dates earlier than their issue dates	docs/release-notes/invoice-date-order-check-v0.1.0.md
+invoice-line-arithmetic-check-v0.1.0	Invoice Line Arithmetic Check 0.1.0 | Find invoice line totals that disagree with quantity and unit price	docs/release-notes/invoice-line-arithmetic-check-v0.1.0.md
+catalog-update-v2026.11.6	Agentrix catalog update | November 6, 2026	docs/release-notes/catalog-update-v2026.11.6.md
