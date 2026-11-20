@@ -8,6 +8,9 @@ cd "$(dirname "$0")/.."
 
 manifest="docs/release-notes/catalog-manifest.txt"
 if [[ ! -s "$manifest" ]]; then echo "Missing release manifest" >&2; exit 1; fi
+# Only the latest catalog post follows additions to its release batch.
+# Historical posts and individual product notes keep their published wording.
+current_roundup=$(awk -F '\t' '$1 ~ /^catalog-update-v/ { tag = $1 } END { print tag }' "$manifest")
 count=0
 while IFS=$'\t' read -r tag title note_file asset; do
   [[ -n "$tag" ]] || continue
@@ -23,7 +26,17 @@ while IFS=$'\t' read -r tag title note_file asset; do
     assets=("$asset")
   fi
 
-  if existing=$(gh release view "$tag" --repo "$GITHUB_REPOSITORY" --json assets,isDraft); then
+  fields=assets,isDraft
+  if [[ "$tag" == "$current_roundup" ]]; then fields+=,name,body; fi
+  if existing=$(gh release view "$tag" --repo "$GITHUB_REPOSITORY" --json "$fields"); then
+    if [[ "$tag" == "$current_roundup" ]]; then
+      published_title=$(jq -r '.name' <<<"$existing")
+      published_body=$(jq -r '.body // ""' <<<"$existing" | sed 's/\r$//')
+      expected_body=$(sed 's/\r$//' "$note_file")
+      if [[ "$published_title" != "$title" || "$published_body" != "$expected_body" ]]; then
+        gh release edit "$tag" --repo "$GITHUB_REPOSITORY" --title "$title" --notes-file "$note_file"
+      fi
+    fi
     if [[ -n "$asset" ]] && ! jq -e --arg name "${asset##*/}" 'any(.assets[]; .name == $name)' <<<"$existing" >/dev/null; then
       # Only backfill a missing attachment. Never overwrite a released file.
       gh release upload "$tag" "$asset" --repo "$GITHUB_REPOSITORY"
