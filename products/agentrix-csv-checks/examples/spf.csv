@@ -1,0 +1,4 @@
+domain,type,value
+example.org.,TXT,v=spf1 -all
+example.org,TXT,v=spf1 ~all
+example.net,TXT,v=spf1 -all
