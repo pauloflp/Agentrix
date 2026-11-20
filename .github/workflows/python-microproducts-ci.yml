@@ -1,0 +1,51 @@
+name: Python microproducts CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'products/**/*.py'
+      - '.github/workflows/python-microproducts-ci.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'products/**/*.py'
+      - '.github/workflows/python-microproducts-ci.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Python ${{ matrix.python }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ['3.10', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Run standalone product tests
+        shell: bash
+        run: |
+          shopt -s nullglob
+          declare -A tested
+          for test_file in products/*/tests/test_*.py; do
+            product=${test_file%/tests/*}
+            if [[ -n "${tested[$product]:-}" ]]; then
+              continue
+            fi
+            tested[$product]=1
+            echo "Testing $product"
+            (cd "$product" && python -m unittest discover -s tests -v)
+          done
+          if [[ ${#tested[@]} -eq 0 ]]; then
+            echo 'No standalone Python products found.'
+          fi
