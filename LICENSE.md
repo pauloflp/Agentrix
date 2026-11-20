@@ -4,6 +4,7 @@
 
 | Scope | Applicable terms |
 | --- | --- |
+| `products/agentrix-csv-checks/` | [MIT](products/agentrix-csv-checks/LICENSE) |
 | `products/agentrix-env-contract/` | [MIT](products/agentrix-env-contract/LICENSE) |
 | `products/agentrix-utm-audit/` | [MIT](products/agentrix-utm-audit/LICENSE) |
 | `products/agentrix-csv-guard/` | [MIT](products/agentrix-csv-guard/LICENSE) |

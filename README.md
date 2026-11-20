@@ -9,7 +9,7 @@ Validate data before import, find gaps in campaign tracking, and review business
 [**What's new**](#whats-new) · [**Free tools**](#free-tools) · [**Paid tools**](#paid-tools) · [**Free templates**](#free-templates) · [**Free agent skills**](#free-agent-skills) · [**Release history**](https://github.com/pauloflp/Agentrix/releases)
 
 ![Node.js 20+](https://img.shields.io/badge/Node.js-20%2B-153452?style=flat-square&logo=nodedotjs&logoColor=white)
-![Free tools](https://img.shields.io/badge/Free%20microtools-9-153452?style=flat-square)
+![Free tools](https://img.shields.io/badge/Free%20microtools-12-153452?style=flat-square)
 ![Paid tools](https://img.shields.io/badge/Paid%20tools-12-153452?style=flat-square)
 ![Agent skills](https://img.shields.io/badge/Free%20agent%20skills-15-153452?style=flat-square)
 ![License](https://img.shields.io/badge/Free%20tools-MIT-153452?style=flat-square)
@@ -19,6 +19,16 @@ Validate data before import, find gaps in campaign tracking, and review business
 ---
 
 ## What's new
+
+**November 20, 2026.** Three free checks are now available for SEO return links, timestamp offsets and duplicate SPF policies. Each release includes a small ZIP with runnable examples.
+
+| New free release | Use it to |
+| --- | --- |
+| [Hreflang Reciprocal CSV Check](https://github.com/pauloflp/Agentrix/releases/tag/hreflang-reciprocal-csv-check-v1.0.0) | Find localized pages with a missing return link |
+| [CSV Timestamp Timezone Check](https://github.com/pauloflp/Agentrix/releases/tag/csv-timestamp-timezone-check-v1.0.0) | Find timestamps with missing, unknown or invalid UTC offsets |
+| [SPF Policy Multiplicity Audit](https://github.com/pauloflp/Agentrix/releases/tag/spf-policy-multiplicity-audit-v1.0.0) | Find DNS owners with multiple distinct SPF records in a TXT export |
+
+[Read the November 20 release roundup](https://github.com/pauloflp/Agentrix/releases/tag/catalog-update-v2026.11.20)
 
 **November 6, 2026.** Nine paid tools joined the catalog, including five new CSV checks for purchasing, supplier changes, coupons, and invoices.
 
@@ -34,10 +44,13 @@ Validate data before import, find gaps in campaign tracking, and review business
 
 ## Free tools
 
-**Nine MIT-licensed tools.** Run them locally without a purchase. The free SaaS Landing Kit and agent skills are listed below.
+**12 MIT-licensed tools.** Run them locally without a purchase. The free SaaS Landing Kit and agent skills are listed below.
 
 | Tool | What it does | Get started |
 | --- | --- | --- |
+| **[Hreflang Reciprocal CSV Check](products/agentrix-csv-checks/README.md#hreflang-reciprocal-csv-check)** | Find localized pages with a missing return link | [Example](products/agentrix-csv-checks/README.md#hreflang-reciprocal-csv-check) · [Release](https://github.com/pauloflp/Agentrix/releases/tag/hreflang-reciprocal-csv-check-v1.0.0) |
+| **[CSV Timestamp Timezone Check](products/agentrix-csv-checks/README.md#csv-timestamp-timezone-check)** | Find timestamps with missing, unknown or invalid UTC offsets | [Example](products/agentrix-csv-checks/README.md#csv-timestamp-timezone-check) · [Release](https://github.com/pauloflp/Agentrix/releases/tag/csv-timestamp-timezone-check-v1.0.0) |
+| **[SPF Policy Multiplicity Audit](products/agentrix-csv-checks/README.md#spf-policy-multiplicity-audit)** | Find DNS owners with multiple distinct SPF records in a TXT export | [Example](products/agentrix-csv-checks/README.md#spf-policy-multiplicity-audit) · [Release](https://github.com/pauloflp/Agentrix/releases/tag/spf-policy-multiplicity-audit-v1.0.0) |
 | **[Staged File Guard](products/agentrix-staged-file-guard/)** | Check for private-looking files before publishing code | [Path-only staging check →](products/agentrix-staged-file-guard/README.md#try-it) · [Release](https://github.com/pauloflp/Agentrix/releases/tag/staged-file-guard-v1.0.0) |
 | **[JSONL Guard](products/agentrix-jsonl-guard/)** | Find broken records in a data export or AI file | [JSON Lines validator quick start →](products/agentrix-jsonl-guard/README.md#quick-start) · [Release](https://github.com/pauloflp/Agentrix/releases/tag/jsonl-guard-v1.0.0) |
 | **[Env Contract](products/agentrix-env-contract/)** | Spot missing app settings before launch | [Dotenv checker quick start →](products/agentrix-env-contract/README.md#quick-start) · [Release](https://github.com/pauloflp/Agentrix/releases/tag/env-contract-v0.1.0) |
@@ -95,7 +108,7 @@ A curated library of reusable instructions for common technical and creative tas
 
 **[Download the ZIP (no password) →](premium/agentrix-saas-landing-kit/AGENTRIX_SaaS_Landing_Kit_FREE_v1.0.zip)** · [Explore the templates →](premium/agentrix-saas-landing-kit/README.md) · [Free-use license →](premium/agentrix-saas-landing-kit/LICENSE.txt)
 
-The kit is free to use for your own and client projects. Redistributing the unmodified pack as a competing template product is not permitted. This **source-available** license is separate from the MIT licenses of the nine free microtools.
+The kit is free to use for your own and client projects. Redistributing the unmodified pack as a competing template product is not permitted. This **source-available** license is separate from the MIT licenses of the 12 free microtools.
 
 ## Demos and test suites
 
@@ -140,7 +153,7 @@ A visual introduction to the problems Agentrix tools are designed to solve. Thes
 </table>
 
 <details>
-<summary><strong>Run all nine test suites</strong></summary>
+<summary><strong>Run the tool test suites</strong></summary>
 
 From the repository root:
 
@@ -154,6 +167,7 @@ From the repository root:
 (cd products/agentrix-output-contract && npm test)
 (cd products/agentrix-webhook-delivery-inspector && npm test)
 (cd products/agentrix-data-import-studio && npm test)
+(cd products/agentrix-csv-checks && python3 -m unittest discover -s tests -v)
 ```
 
 The [CI workflow](.github/workflows/microproducts-ci.yml) also runs product tests on supported Node.js versions when relevant files change. Passing tests do not guarantee correctness for every possible input.
@@ -165,7 +179,7 @@ The [CI workflow](.github/workflows/microproducts-ci.yml) also runs product test
 - **Useful over complicated.** Each tool targets a specific workflow.
 - **Honest by design.** Read the limitations and inspect results before making decisions.
 - **Local first where practical.** The free CLIs do not upload your files.
-- **Free stays free.** The nine MIT microtools and 15 agent skills are not locked behind the premium checkout.
+- **Free stays free.** The 12 MIT microtools and 15 agent skills are not locked behind the premium checkout.
 
 ## Community & Roadmap
 

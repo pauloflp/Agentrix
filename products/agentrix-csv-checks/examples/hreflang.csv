@@ -1,0 +1,4 @@
+source_url,source_lang,target_url,target_lang
+https://example.org/en/,en,https://example.org/pt/,pt-BR
+https://example.org/pt/,pt-BR,https://example.org/en/,en
+https://example.org/en/,en,https://example.org/fr/,fr
