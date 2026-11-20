@@ -24,3 +24,4 @@ hreflang-reciprocal-csv-check-v1.0.0	Hreflang Reciprocal CSV Check 1.0.0 | Find 
 csv-timestamp-timezone-check-v1.0.0	CSV Timestamp Timezone Check 1.0.0 | Find timestamps with missing, unknown or invalid UTC offsets	docs/release-notes/csv-timestamp-timezone-check-v1.0.0.md	products/agentrix-csv-checks/downloads/agentrix-csv-checks-v1.0.0.zip
 spf-policy-multiplicity-audit-v1.0.0	SPF Policy Multiplicity Audit 1.0.0 | Find DNS owners with multiple distinct SPF records in a TXT export	docs/release-notes/spf-policy-multiplicity-audit-v1.0.0.md	products/agentrix-csv-checks/downloads/agentrix-csv-checks-v1.0.0.zip
 catalog-update-v2026.11.20	Agentrix catalog update | Three free CSV checks	docs/release-notes/catalog-update-v2026.11.20.md
+inventory-lot-expiration-check-v0.1.0	Inventory Lot Expiration Check 0.1.0 | Review expired and soon-to-expire stock	docs/release-notes/inventory-lot-expiration-check-v0.1.0.md

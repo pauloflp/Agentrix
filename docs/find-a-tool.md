@@ -29,6 +29,7 @@ Looking for a **free CSV file checker**, a way to **compare JSON files**, or hel
 - **Find orders where recorded refunds exceed the amount paid:** [Refund Overpayment Audit](../premium/agentrix-refund-overpayment-audit/README.md), a paid local tool for BRL CSVs.
 - **Find repeated supplier invoice references before import:** [Supplier Invoice Duplicate Check](../premium/agentrix-supplier-invoice-duplicate-check/README.md), a paid local tool.
 - **Find retail SKUs below a target gross margin after channel fees:** [Retail SKU Price Floor Audit](../premium/agentrix-retail-sku-price-floor-audit/README.md), a paid local tool.
+- **Check expiry dates by SKU and lot:** [Inventory Lot Expiration Check](../premium/agentrix-retail-sku-price-floor-audit/inventory-lot-expiration.md), included with the retail price-floor tool.
 - **Compare ordered and received quantities by order and SKU:** [Purchase Order Quantity Variance Audit](../premium/agentrix-purchase-order-quantity-variance-audit/README.md), a paid local tool.
 - **Review changes to supplier bank details between two exports:** [Supplier Bank Detail Change Check](../premium/agentrix-supplier-bank-detail-change-check/README.md), a paid local tool.
 - **Find coupons whose recorded redemptions exceed their cap:** [Coupon Redemption Cap Check](../premium/agentrix-coupon-redemption-cap-check/README.md), a paid local tool.

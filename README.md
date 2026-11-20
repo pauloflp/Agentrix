@@ -10,7 +10,7 @@ Validate data before import, find gaps in campaign tracking, and review business
 
 ![Node.js 20+](https://img.shields.io/badge/Node.js-20%2B-153452?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Free tools](https://img.shields.io/badge/Free%20microtools-12-153452?style=flat-square)
-![Paid tools](https://img.shields.io/badge/Paid%20tools-12-153452?style=flat-square)
+![Paid offers](https://img.shields.io/badge/Paid%20offers-12-153452?style=flat-square)
 ![Agent skills](https://img.shields.io/badge/Free%20agent%20skills-15-153452?style=flat-square)
 ![License](https://img.shields.io/badge/Free%20tools-MIT-153452?style=flat-square)
 
@@ -20,7 +20,9 @@ Validate data before import, find gaps in campaign tracking, and review business
 
 ## What's new
 
-**November 20, 2026.** Three free checks are now available for SEO return links, timestamp offsets and duplicate SPF policies. Each release includes a small ZIP with runnable examples.
+**November 20, 2026.** [Inventory Lot Expiration Check](premium/agentrix-retail-sku-price-floor-audit/inventory-lot-expiration.md) is now included in the R$79 retail purchase. Existing buyers can download it with their original password. [Read the inventory release](https://github.com/pauloflp/Agentrix/releases/tag/inventory-lot-expiration-check-v0.1.0).
+
+Three free checks are now available for SEO return links, timestamp offsets and duplicate SPF policies. Each release includes a small ZIP with runnable examples.
 
 | New free release | Use it to |
 | --- | --- |
@@ -63,7 +65,7 @@ Validate data before import, find gaps in campaign tracking, and review business
 
 ## Paid tools
 
-**12 tools available as one-time purchases.** Each product guide explains requirements, includes an example, and shows how to get access.
+**13 paid tools across 12 one-time offers.** The R$79 retail offer includes two tools. Each product guide explains requirements, includes an example, and shows how to get access.
 
 | Tool | What it does | Price and access |
 | --- | --- | --- |
@@ -74,6 +76,7 @@ Validate data before import, find gaps in campaign tracking, and review business
 | **[Refund Overpayment Audit](premium/agentrix-refund-overpayment-audit/README.md)** | Find orders where recorded refunds exceed the amount paid | **R$79** · [Buy](https://buy.stripe.com/5kQ28ra6c8Az1PU4GfgjC07) · [Release](https://github.com/pauloflp/Agentrix/releases/tag/refund-overpayment-audit-v0.1.0) |
 | **[Supplier Invoice Duplicate Check](premium/agentrix-supplier-invoice-duplicate-check/README.md)** | Find repeated supplier invoice references before import | **US$29** · [Buy](https://buy.stripe.com/6oU9AT7Y4aIHbqu5KjgjC08) · [Release](https://github.com/pauloflp/Agentrix/releases/tag/supplier-invoice-duplicate-check-v0.1.0) |
 | **[Retail SKU Price Floor Audit](premium/agentrix-retail-sku-price-floor-audit/README.md)** | Find retail SKUs below a target gross margin after channel fees | **R$79** · [Buy](https://buy.stripe.com/6oUfZhemsg3166a0pZgjC09) · [Release](https://github.com/pauloflp/Agentrix/releases/tag/retail-sku-price-floor-audit-v0.1.0) |
+| **[Inventory Lot Expiration Check](premium/agentrix-retail-sku-price-floor-audit/inventory-lot-expiration.md)** | Find expired or soon-to-expire lots in a stock CSV | Included with the **R$79 retail offer** · [Get both tools](https://buy.stripe.com/6oUfZhemsg3166a0pZgjC09) · [Release](https://github.com/pauloflp/Agentrix/releases/tag/inventory-lot-expiration-check-v0.1.0) |
 | **[Purchase Order Quantity Variance Audit](premium/agentrix-purchase-order-quantity-variance-audit/README.md)** | Compare ordered and received quantities by order and SKU | **US$29** · [Buy](https://buy.stripe.com/9B6aEX7Y40431PUgoXgjC0a) · [Release](https://github.com/pauloflp/Agentrix/releases/tag/purchase-order-quantity-variance-audit-v0.1.0) |
 | **[Supplier Bank Detail Change Check](premium/agentrix-supplier-bank-detail-change-check/README.md)** | Review changes to supplier bank details between two exports | **US$29** · [Buy](https://buy.stripe.com/cNi3cv5PW6srgKOfkTgjC0c) · [Release](https://github.com/pauloflp/Agentrix/releases/tag/supplier-bank-detail-change-check-v0.1.0) |
 | **[Coupon Redemption Cap Check](premium/agentrix-coupon-redemption-cap-check/README.md)** | Find coupons whose recorded redemptions exceed their cap | **R$79** · [Buy](https://buy.stripe.com/8x26oH7Y43gf9imdcLgjC0d) · [Release](https://github.com/pauloflp/Agentrix/releases/tag/coupon-redemption-cap-check-v0.1.0) |

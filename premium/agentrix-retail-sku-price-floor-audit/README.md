@@ -2,7 +2,11 @@
 
 Find SKUs whose selling prices leave less gross margin than your target after the channel fee. The tool audits an exported CSV locally and reports the SKUs that fall below your threshold.
 
-**R$79 BRL, one-time purchase.** [Buy on Stripe](https://buy.stripe.com/6oUfZhemsg3166a0pZgjC09).
+**R$79 BRL, one-time purchase for both retail tools.** [Buy on Stripe](https://buy.stripe.com/6oUfZhemsg3166a0pZgjC09).
+
+## Included inventory tool
+
+The same purchase includes [Inventory Lot Expiration Check](inventory-lot-expiration.md). It flags expired lots and lots approaching a date you choose. Existing buyers can use their original ZIP password. Extract each tool into its own folder.
 
 ## Requirements
 
