@@ -9,7 +9,7 @@ Validate data before import, find gaps in campaign tracking, and review business
 [**What's new**](#whats-new) · [**Free tools**](#free-tools) · [**Paid tools**](#paid-tools) · [**Free templates**](#free-templates) · [**Free agent skills**](#free-agent-skills) · [**Release history**](https://github.com/pauloflp/Agentrix/releases)
 
 ![Node.js 20+](https://img.shields.io/badge/Node.js-20%2B-153452?style=flat-square&logo=nodedotjs&logoColor=white)
-![Free tools](https://img.shields.io/badge/Free%20microtools-12-153452?style=flat-square)
+![Free tools](https://img.shields.io/badge/Free%20microtools-13-153452?style=flat-square)
 ![Paid offers](https://img.shields.io/badge/Paid%20offers-12-153452?style=flat-square)
 ![Agent skills](https://img.shields.io/badge/Free%20agent%20skills-15-153452?style=flat-square)
 ![License](https://img.shields.io/badge/Free%20tools-MIT-153452?style=flat-square)
@@ -19,6 +19,8 @@ Validate data before import, find gaps in campaign tracking, and review business
 ---
 
 ## What's new
+
+**November 27, 2026.** [Product Feed GTIN Duplicate Check](products/product-feed-gtin-duplicate-check/) finds GTINs assigned to multiple SKUs before importing a catalog. The free MIT release includes a Python CLI, a synthetic feed and 30 tests. [Download the ZIP](https://github.com/pauloflp/Agentrix/releases/download/product-feed-gtin-duplicate-check-v0.1.0/product-feed-gtin-duplicate-check-v0.1.0.zip) · [Release roundup](https://github.com/pauloflp/Agentrix/releases/tag/catalog-update-v2026.11.27).
 
 **November 20, 2026.** [Inventory Lot Expiration Check](premium/agentrix-retail-sku-price-floor-audit/inventory-lot-expiration.md) is now included in the R$79 retail purchase. Existing buyers can download it with their original password. [Read the inventory release](https://github.com/pauloflp/Agentrix/releases/tag/inventory-lot-expiration-check-v0.1.0).
 
@@ -46,10 +48,11 @@ Three free checks are now available for SEO return links, timestamp offsets and 
 
 ## Free tools
 
-**12 MIT-licensed tools.** Run them locally without a purchase. The free SaaS Landing Kit and agent skills are listed below.
+**13 MIT-licensed tools.** Run them locally without a purchase. The free SaaS Landing Kit and agent skills are listed below.
 
 | Tool | What it does | Get started |
 | --- | --- | --- |
+| **[Product Feed GTIN Duplicate Check](products/product-feed-gtin-duplicate-check/)** | Find GTINs shared by several SKUs in a product feed | [Example](products/product-feed-gtin-duplicate-check/README.md#download-and-run) · [Release](https://github.com/pauloflp/Agentrix/releases/tag/product-feed-gtin-duplicate-check-v0.1.0) |
 | **[Hreflang Reciprocal CSV Check](products/agentrix-csv-checks/README.md#hreflang-reciprocal-csv-check)** | Find localized pages with a missing return link | [Example](products/agentrix-csv-checks/README.md#hreflang-reciprocal-csv-check) · [Release](https://github.com/pauloflp/Agentrix/releases/tag/hreflang-reciprocal-csv-check-v1.0.0) |
 | **[CSV Timestamp Timezone Check](products/agentrix-csv-checks/README.md#csv-timestamp-timezone-check)** | Find timestamps with missing, unknown or invalid UTC offsets | [Example](products/agentrix-csv-checks/README.md#csv-timestamp-timezone-check) · [Release](https://github.com/pauloflp/Agentrix/releases/tag/csv-timestamp-timezone-check-v1.0.0) |
 | **[SPF Policy Multiplicity Audit](products/agentrix-csv-checks/README.md#spf-policy-multiplicity-audit)** | Find DNS owners with multiple distinct SPF records in a TXT export | [Example](products/agentrix-csv-checks/README.md#spf-policy-multiplicity-audit) · [Release](https://github.com/pauloflp/Agentrix/releases/tag/spf-policy-multiplicity-audit-v1.0.0) |
@@ -111,7 +114,7 @@ A curated library of reusable instructions for common technical and creative tas
 
 **[Download the ZIP (no password) →](premium/agentrix-saas-landing-kit/AGENTRIX_SaaS_Landing_Kit_FREE_v1.0.zip)** · [Explore the templates →](premium/agentrix-saas-landing-kit/README.md) · [Free-use license →](premium/agentrix-saas-landing-kit/LICENSE.txt)
 
-The kit is free to use for your own and client projects. Redistributing the unmodified pack as a competing template product is not permitted. This **source-available** license is separate from the MIT licenses of the 12 free microtools.
+The kit is free to use for your own and client projects. Redistributing the unmodified pack as a competing template product is not permitted. This **source-available** license is separate from the MIT licenses of the 13 free microtools.
 
 ## Demos and test suites
 
