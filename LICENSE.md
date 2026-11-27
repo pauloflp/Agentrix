@@ -4,6 +4,7 @@
 
 | Scope | Applicable terms |
 | --- | --- |
+| `products/product-feed-gtin-duplicate-check/` | [MIT](products/product-feed-gtin-duplicate-check/LICENSE) |
 | `products/agentrix-csv-checks/` | [MIT](products/agentrix-csv-checks/LICENSE) |
 | `products/agentrix-env-contract/` | [MIT](products/agentrix-env-contract/LICENSE) |
 | `products/agentrix-utm-audit/` | [MIT](products/agentrix-utm-audit/LICENSE) |
